@@ -1,0 +1,56 @@
+.gallery{
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color:  #f6f6f6;
+    color: #333;
+}
+
+
+.home-header {
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f6f6f6;
+}
+.gallery-grid a {
+    text-decoration: none;
+    color: inherit;
+}
+.artwork {
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.artwork:hover {
+    transform: scale(1.05);
+}
+
+.artwork-image {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.artwork-title {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.artwork-size {
+    font-size: 0.9rem;
+    color: #666;
+}
+

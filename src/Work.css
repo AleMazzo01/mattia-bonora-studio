@@ -1,0 +1,139 @@
+/* Layout generale */
+.opera-detail-page {
+    color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.home-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Container principale */
+.opera-detail-container {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------- CAROUSEL SLIDER --------- */
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 12px;
+    max-height: 500px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-image {
+    flex: 0 0 100%;
+    object-fit: cover;
+    max-height: 500px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* --------- NAVIGATION BUTTONS --------- */
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    padding: 7px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button.left {
+    left: 0.5rem;
+}
+
+.nav-button.right {
+    right: 0.5rem;
+}
+
+/* --------- OPERA INFO --------- */
+.opera-info {
+    padding: 0.5rem;
+}
+
+.opera-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.opera-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #444;
+    line-height: 1.6;
+    padding-bottom: 2rem;
+    border-bottom: solid 1px #d2d2d2;
+
+}
+
+.opera-detail {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --------- ERROR --------- */
+.opera-not-found {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: crimson;
+}
+
+/* --------- ANIMAZIONE ENTRATA PAGINA --------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-slide-in {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+/* --------- RESPONSIVE --------- */
+@media (max-width: 768px) {
+    .opera-detail-container > .opera-detail-container {
+        padding: 1rem;
+    }
+
+    .opera-title {
+        font-size: 1.8rem;
+    }
+
+    .opera-description,
+    .opera-detail {
+        font-size: 0.95rem;
+    }
+}

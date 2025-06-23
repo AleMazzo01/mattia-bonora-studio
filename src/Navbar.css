@@ -1,0 +1,204 @@
+.navbar {
+    background-color: white;
+    color: black;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.navbar-header {
+    position: relative; /* fondamentale per ancorare l’hamburger */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* allinea a sinistra */
+    height: 2rem;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.navbar-header .linkHome{
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: transparent; /* Rimuove il flash blu su Android */
+    margin-left: 4rem; /* sposta leggermente a destra */
+}
+
+.navbar-title {
+    font-size: 2.3rem;
+}
+.hamburger {
+    position: absolute;
+    left: 0.0rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8vw;
+    max-width: 50px;
+    min-width: 35px;
+
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-tap-highlight-color: transparent; /* Rimuove il flash blu su Android */
+
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background-color: #525252;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+
+}
+
+/* ANIMAZIONE: trasforma in "X" */
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, margin-top 0.3s ease;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar-menu.open {
+    /* NON serve height qui, è gestita via JS */
+}
+
+.navbar-menu li {
+    padding: 20px;
+    border: solid 0.05rem #f6f6f6;
+    border-radius: 10px;
+}
+
+
+.navbar-menu li:hover {
+    background-color: #f6f6f6;
+    border: solid 0.05rem #dcdcdc;
+
+}
+
+.navbar-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.about-section {
+    padding: 3rem 1.5rem;
+    color: #333;
+    overflow: hidden; /* evita problemi di scroll orizzontale */
+}
+
+/* Titolo e testo animati */
+.about-title, .about-text {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInLeft 0.8s forwards;
+}
+
+.about-title {
+    animation-delay: 0.2s;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    animation-delay: 0.4s;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.ciao{
+    border: solid 0.5rem black;
+}
+
+@keyframes slideInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .navbar-title {
+        font-size:  2.3rem;
+    }
+
+    .navbar-menu a {
+        font-size: 0.95rem;
+    }
+
+    .navbar-header .linkHome {
+        margin-left: 3rem;
+    }
+}
+
+/* Smartphone medi e piccoli tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar-title {
+        font-size:  2.3rem;
+    }
+
+    .navbar-menu a {
+        font-size: 1rem;
+    }
+
+    .navbar-header .linkHome {
+        margin-left: 3.5rem;
+    }
+}
+
+/* Tablet e schermi medi (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-title {
+        font-size:  2.3rem;
+    }
+
+    .navbar-menu a {
+        font-size: 1.05rem;
+    }
+
+    .navbar-header .linkHome {
+        margin-left: 4rem;
+    }
+}
+
+/* Desktop grandi (oltre 1024px) */
+@media (min-width: 1025px) {
+    .navbar-title {
+        font-size: 2.3rem;
+    }
+
+    .navbar-menu a {
+        font-size: 1.1rem;
+    }
+
+    .navbar-header .linkHome {
+        margin-left: 4rem;
+    }
+}
+
