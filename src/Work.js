@@ -11,7 +11,7 @@ function Work() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
-        window.scrollTo(0, 100);
+        window.scrollTo(0, 75);
     }, []);
 
     if (!opera) return <div className="opera-not-found">Opera non trovata</div>;

@@ -65,7 +65,7 @@ function Navbar() {
             pageTitle = "Galleria";
             break;
         case "/contatti":
-            pageTitle = "contatti";
+            pageTitle = "Contatti";
             break;
         default:
             pageTitle = "Mattia Bonora";
