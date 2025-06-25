@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mattia-bonora-studio/static/css/main.5343ab35.css",
-    "main.js": "/mattia-bonora-studio/static/js/main.5e3f0b02.js",
+    "main.js": "/mattia-bonora-studio/static/js/main.d7b2779f.js",
     "static/js/453.a9b58c95.chunk.js": "/mattia-bonora-studio/static/js/453.a9b58c95.chunk.js",
     "static/media/Caos.JPG": "/mattia-bonora-studio/static/media/Caos.5f2607f26e31a7cf5fec.JPG",
     "static/media/movimento_circolare_in_due_fasi.JPG": "/mattia-bonora-studio/static/media/movimento_circolare_in_due_fasi.f3c84675212b3beabc4d.JPG",
@@ -40,11 +40,11 @@
     "static/media/logo.svg": "/mattia-bonora-studio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mattia-bonora-studio/index.html",
     "main.5343ab35.css.map": "/mattia-bonora-studio/static/css/main.5343ab35.css.map",
-    "main.5e3f0b02.js.map": "/mattia-bonora-studio/static/js/main.5e3f0b02.js.map",
+    "main.d7b2779f.js.map": "/mattia-bonora-studio/static/js/main.d7b2779f.js.map",
     "453.a9b58c95.chunk.js.map": "/mattia-bonora-studio/static/js/453.a9b58c95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5343ab35.css",
-    "static/js/main.5e3f0b02.js"
+    "static/js/main.d7b2779f.js"
   ]
 }
