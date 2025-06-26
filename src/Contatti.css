@@ -50,11 +50,11 @@ html, body {
     align-items: center;
     gap: 0.75rem;
     font-size: 1.1rem;
-    color: #004080;
+    color: #003264;
 }
 
 .contact-info a {
-    color: #004080;
+    color: #003264;
     text-decoration: none;
     transition: color 0.2s ease;
 }

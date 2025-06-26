@@ -89,6 +89,12 @@
     transform: translateX(-50px);
 }
 
+.about-text-container img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+
 .about-title {
     font-size: 2rem;
     margin-bottom: 1rem;

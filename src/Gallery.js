@@ -4,14 +4,18 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import quattro_elementi from "./images/4_elementi.JPG";
 import caos from "./images/Caos.JPG";
-import colataBlu from "./images/colata_blu.JPG";
 import regaloPapa from "./images/papaBonny.JPG"
 import pastaVerde from "./images/pasta_verde.JPG"
 import quadroElena from "./images/Quadro elena.JPG"
 import movimentoCircolareInDueFasi from "./images/movimento_circolare_in_due_fasi.JPG"
 import occhio1 from "./images/occhio1.jpg"
 import cinque1 from "./images/528_1.jpg"
-
+import rio1 from "./images/rio1.jpg"
+import granada from "./images/granadajpg/granada (2).jpg"
+import babele from "./images/babeleverdejpg/babele1.jpg"
+import sous from "./images/sousbuavertjpg/sousbuavert1.jpg"
+import altrove from "./images/altrovejpg/altrove.jpg"
+import colatablu from "./images/abissoblujpg/abissoblu (3).jpg"
 
 function Gallery() {
 
@@ -23,13 +27,18 @@ function Gallery() {
         },
         {
             src: quattro_elementi,
-            title: '4 elementi',
+            title: 'ETERE',
             size: '80x60 cm',
         },
         {
-            src: caos,
-            title: 'caos',
-            size: '100x60 cm',
+            src: babele,
+            title: 'BABELE VERDE',
+            size: '78x58 cm',
+        },
+        {
+            src: granada,
+            title: 'I VICOLI DI UNA VECCHIA GRANADA',
+            size: '78x58 cm',
         },
         {
             src: cinque1,
@@ -37,9 +46,14 @@ function Gallery() {
             size: '80x60 cm',
         },
         {
-            src: colataBlu,
-            title: 'Colata blu',
-            size: '80x60 cm',
+            src: colatablu,
+            title: 'ABISSO BLU',
+            size: '30x24 cm',
+        },
+        {
+            src: rio1,
+            title: 'Rio Esperanza',
+            size: '78x58 cm',
         },
         {
             src: regaloPapa,
@@ -47,14 +61,19 @@ function Gallery() {
             size: '80x60 cm',
         },
         {
-            src: pastaVerde,
-            title: 'quadro verde in rilievo',
-            size: '80x60 cm',
+            src: sous,
+            title: 'SOUS-BOIS VERT',
+            size: '50x50 cm',
+        },
+        {
+            src: altrove,
+            title: 'ALTROVE',
+            size: '20x20 cm',
         },
         {
             src: quadroElena,
             title: 'quadro a cazzo di cane ',
-            size: '80x60 cm',
+            size: '50x50 cm',
         },
         {
             src: movimentoCircolareInDueFasi,

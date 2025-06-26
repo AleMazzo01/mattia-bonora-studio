@@ -47,12 +47,13 @@
 
 .hamburger span {
     display: block;
+    width: 100%; /* ⬅️ AGGIUNGI QUESTO */
     height: 3px;
     background-color: #525252;
     border-radius: 2px;
     transition: all 0.3s ease;
-
 }
+
 
 /* ANIMAZIONE: trasforma in "X" */
 .hamburger.open span:nth-child(1) {

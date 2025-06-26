@@ -1,6 +1,7 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar.js'
+import fotoBio from "./images/IMG_6277.jpg"
 function Home() {
     return (
         <div className="home">
@@ -23,21 +24,23 @@ function Home() {
                 <div className="about-container">
 
                     <div className="about-text-container">
-                        <h2 className="about-title">Chi sono</h2>
+                        <h2 className="about-title">Presentazione</h2>
 
                         <p className="about-text">
-                            Sono un artista visivo che lavora tra tradizione e sperimentazione. Questo spazio è un archivio digitale delle mie opere e del mio percorso.
+                            Mi chiamo Mattia e attraverso le mie opere astratte, testurizzate e contemporanee, punto a dare forma a emozioni, ricordi e visioni interiori.
+                            La mia passione per l’arte è nata da bambino, grazie a mio nonno, che mi ha trasmesso l’amore per la storia e la cultura.
                         </p>
 
 
                         <img
-                            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoHDdcekKSGl-5gzbOJNeVbtgpqdwhljlrkYDIw9I58UA2r81dnE_Pof4_E5IQhzLpM5PMKsKP5OIR4aAZwz8zpg" // metti il path corretto dell'immagine
+                            src={fotoBio} // metti il path corretto dell'immagine
                             alt="Mattia Bonora"
                             className="about-image"
                         />
 
                         <p className="about-text">
-                            Sono un artista visivo che lavora tra tradizione e sperimentazione. Questo spazio è un archivio digitale delle mie opere e del mio percorso.
+                            Ciascun quadro è un atto di connessione profonda con ciò che vivo, vedo e sento ogni giorno. È colore che respira, è il mio modo di sfogarmi.
+                            Scopri le mie tele e lasciati trasportare in un viaggio sensoriale ed emotivo.
                         </p>
                     </div>
                 </div>

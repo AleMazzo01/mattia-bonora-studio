@@ -1,7 +1,7 @@
 {
   "name": "mattia_bonora",
   "version": "0.1.0",
-  "homepage": "https://github.com/AleMazzo01/mattia-bonora-studio",
+  "homepage": "https://alemazzo01.github.io/mattia-bonora-studio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -12,6 +12,7 @@
     "lucide-react": "^0.515.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1",
     "react-social-media-embed": "^2.5.18",
@@ -24,7 +25,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
