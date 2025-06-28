@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mattia-bonora-studio/static/css/main.7247335f.css",
-    "main.js": "/mattia-bonora-studio/static/js/main.0b0a3940.js",
+    "main.js": "/mattia-bonora-studio/static/js/main.4a8a9f15.js",
     "static/js/453.a9b58c95.chunk.js": "/mattia-bonora-studio/static/js/453.a9b58c95.chunk.js",
     "static/media/Caos.JPG": "/mattia-bonora-studio/static/media/Caos.5f2607f26e31a7cf5fec.JPG",
     "static/media/babele1.jpg": "/mattia-bonora-studio/static/media/babele1.5f2607f26e31a7cf5fec.jpg",
@@ -123,11 +123,11 @@
     "static/media/logo.svg": "/mattia-bonora-studio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mattia-bonora-studio/index.html",
     "main.7247335f.css.map": "/mattia-bonora-studio/static/css/main.7247335f.css.map",
-    "main.0b0a3940.js.map": "/mattia-bonora-studio/static/js/main.0b0a3940.js.map",
+    "main.4a8a9f15.js.map": "/mattia-bonora-studio/static/js/main.4a8a9f15.js.map",
     "453.a9b58c95.chunk.js.map": "/mattia-bonora-studio/static/js/453.a9b58c95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7247335f.css",
-    "static/js/main.0b0a3940.js"
+    "static/js/main.4a8a9f15.js"
   ]
 }
