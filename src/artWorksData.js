@@ -70,6 +70,47 @@ import abisso4 from "./images/abissoblujpg/abissoblu (4).jpg"
 import abisso5 from "./images/abissoblujpg/abissoblu (5).jpg"
 import abisso6 from "./images/abissoblujpg/abissoblu (6).jpg"
 import abisso7 from "./images/abissoblujpg/abissoblu (7).jpg"
+import sahaara1 from "./images/nottteSahaara/notteSahaara (1).jpg"
+import sahaara2 from "./images/nottteSahaara/notteSahaara (2).jpg"
+import sahaara3 from "./images/nottteSahaara/notteSahaara (3).jpg"
+import sahaara4 from "./images/nottteSahaara/notteSahaara (4).jpg"
+import sahaara5 from "./images/nottteSahaara/notteSahaara (5).jpg"
+import sahaara6 from "./images/nottteSahaara/notteSahaara (6).jpg"
+import sahaara7 from "./images/nottteSahaara/notteSahaara (7).jpg"
+import antro1 from "./images/antropocenejpg/POST-ANTROPOCENE (1).jpg"
+import antro2 from "./images/antropocenejpg/POST-ANTROPOCENE (2).jpg"
+import antro3 from "./images/antropocenejpg/POST-ANTROPOCENE (3).jpg"
+import antro4 from "./images/antropocenejpg/POST-ANTROPOCENE (4).jpg"
+import antro5 from "./images/antropocenejpg/POST-ANTROPOCENE (5).jpg"
+import antro6 from "./images/antropocenejpg/POST-ANTROPOCENE (6).jpg"
+import antro7 from "./images/antropocenejpg/POST-ANTROPOCENE (7).jpg"
+import antro8 from "./images/antropocenejpg/POST-ANTROPOCENE (8).jpg"
+import pianoQuin1 from "./images/pianoQuin/pianoQuin (1).jpg"
+import pianoQuin2 from "./images/pianoQuin/pianoQuin (2).jpg"
+import pianoQuin3 from "./images/pianoQuin/pianoQuin (3).jpg"
+import pianoQuin4 from "./images/pianoQuin/pianoQuin (4).jpg"
+import pianoQuin5 from "./images/pianoQuin/pianoQuin (5).jpg"
+import pianoQuin6 from "./images/pianoQuin/pianoQuin (6).jpg"
+import pianoQuin7 from "./images/pianoQuin/pianoQuin (7).jpg"
+import interno1 from "./images/infernoRossoJpg/infernoRosso (1).jpg"
+import interno2 from "./images/infernoRossoJpg/infernoRosso (2).jpg"
+import interno3 from "./images/infernoRossoJpg/infernoRosso (3).jpg"
+import interno4 from "./images/infernoRossoJpg/infernoRosso (4).jpg"
+import interno5 from "./images/infernoRossoJpg/infernoRosso (5).jpg"
+import interno6 from "./images/infernoRossoJpg/infernoRosso (6).jpg"
+import interno7 from "./images/infernoRossoJpg/infernoRosso (7).jpg"
+import identita1 from "./images/identitaJpg/identita (1).jpg"
+import identita2 from "./images/identitaJpg/identita (2).jpg"
+import identita3 from "./images/identitaJpg/identita (3).jpg"
+import identita4 from "./images/identitaJpg/identita (4).jpg"
+import identita5 from "./images/identitaJpg/identita (5).jpg"
+import identita6 from "./images/identitaJpg/identita (6).jpg"
+import identita7 from "./images/identitaJpg/identita (7).jpg"
+import identita8 from "./images/identitaJpg/identita (8).jpg"
+import identita9 from "./images/identitaJpg/identita (9).jpg"
+import identita10 from "./images/identitaJpg/identita (10).jpg"
+import identita11 from "./images/identitaJpg/identita (11).jpg"
+
 
 export const artworks = [
 
@@ -165,17 +206,17 @@ export const artworks = [
             "Il quadro è dedicato a chi, nonostante le avversità, continua a sognare e sperare; invita ad un panta rei costante, a lasciarsi cullare dal fiume e non esserne solo più preda.\n",
     },
     {
-        src: [regaloPapa],
-        title: 'fascia blu su sfondo nero',
-        size: '80x60 cm',
+        src: [pianoQuin1, pianoQuin2, pianoQuin3, pianoQuin4, pianoQuin5, pianoQuin6, pianoQuin7],
+        title: 'PIANO QUINQUENNALE',
+        size: '78x58 cm',
 
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
-        disponibilita: "Venduto",
-        tecnica: " acrilico e effetto pouring su tela",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico e pasta testurizzata su tela",
 
+        descrizione: "Piano Quinquennale è una tela concettuale che riflette sul controllo sistemico e la pianificazione forzata dell’economia e della società durante l’epoca sovietica. Il titolo fa riferimento diretto ai cicli di pianificazione economica imposti dall’Unione Sovietica, simbolo di un’organizzazione rigida e centralizzata, spesso disumanizzante. La composizione è scandita da suddivisioni geometriche nette, che evocano compartimenti stagni, settori produttivi o territori suddivisi secondo logiche burocratiche. Al loro interno, texture concentriche circolari suggeriscono movimento ciclico, ripetizione, produzione seriale — ma anche un senso di “spirale ideologica”. Il colore predominante è un rosso scuro bruciato, che richiama direttamente il colore della propaganda e del potere sovietico. L’interazione tra ordine e caos, struttura e ripetizione, invita a riflettere su come i grandi progetti politici si traducono, spesso, in pressioni invisibili sulla vita individuale."
 
-        descrizione: "colata blu acceso con sfondo nero, quadro molto luminoso...",
     },
     {
         src: [sous1, sous2, sous3, sous4, sous5, sous6, sous7],
@@ -210,31 +251,66 @@ export const artworks = [
             "(rappresentata dalle colate bianche e nere).",
     },
     {
-        src: [quadroElena],
-        title: 'quadro a cazzo di cane ',
-        size: '80x60 cm',
+        src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
+        title: 'NOTTE CAPOVOLTA NEL SAHARA',
+        size: '60x30 cm',
 
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
-        disponibilita: "Venduto",
-        tecnica: " acrilico e effetto pouring su tela",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
 
 
-        descrizione: "quadro salvato da elena fatto a cazzo di cane",
+        descrizione: "In questo dipinto il deserto non si estende sotto un cielo stellato — lo sovrasta. Ho scelto di capovolgere l’ordine naturale delle cose qui, lasciando che le dune dorate si innalzino sopra un cielo blu scuro e profondo, come se la sabbia galleggiasse sospesa nel buio della notte africana.\n" +
+            "L’inversione non è solo visiva, ma simbolica: il deserto, solitamente luogo di silenzio e di vuoto, diventa presenza dominante; la notte, di solito avvolgente e sopra di noi, si ritira verso il basso, come un tappeto oscuro su cui si appoggia la realtà.\n" +
+            "Il risultato è uno scenario onirico e disorientante, che invita a riconsiderare la propria prospettiva sul mondo naturale.\n",
     },
     {
-        src: [movimentoCircolareInDueFasi],
-        title: 'Movimento circolare in due fasi',
+        src: [antro1, antro2, antro3, antro4, antro5, antro6, antro7, antro8],
+        title: 'POST-ANTROPOCENE',
         size: '80x60 cm',
 
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
-        disponibilita: "Venduto",
-        tecnica: " acrilico e effetto pouring su tela",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
 
 
-        descrizione: "quadro composto da pasta texturizzata diviso in due...",
+        descrizione: "In un mondo abbandonato dall'uomo, la natura riprende il controllo: invade, ingloba, riconquista. \"Post-Antropocene\" è una visione di rinascita selvaggia, dove le strutture umane cedono sotto il peso dell’organico, del liquido, del vivo. Le colature di colore si fanno radici, muschio, veleno e linfa: una foresta che cresce sul cemento della civiltà crollata. È la fine di un'epoca, ma anche l'inizio di un ordine nuovo, più antico di qualsiasi impero umano.",
     },
+    {
+        src: [interno1, interno2, interno3, interno4, interno5, interno6, interno7],
+        title: 'INTERNO ROSSO',
+        size: '58x78 cm',
 
-    // ...altre opere
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "Liberamente ispirato all’estetica di “Profondo Rosso” di Dario Argento, il quadro è un attraversamento visivo di un ambiente mentale, domestico e insieme inquietante. Non c’è figura, ma una presenza: il rosso profondo che scorre, si stratifica, si spezza in vene d’oro come tagli di luce improvvisa.\n" +
+            "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
+    },
+    {
+        src: [identita1, identita2, identita3, identita4, identita5, identita6, identita7, identita8, identita9, identita10, identita11],
+        title: 'IDENTITÀ RESISTENTI',
+        size: '80x60 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico su tela",
+
+
+        descrizione: "“Identità Resistenti” è un trittico che narra il silenzioso coraggio di questi popoli che, contro ogni avversità, continuano a lottare per la propria libertà: Palestina, Ucraina e Kurdistan.\n" +
+            "\n" +
+            "Ogni tela porta il nome di un bimbo – Aya, Zorya, Berfin – col fine di simboleggiare che continua ad esistere sempre una speranza, anche nelle macerie lasciate dai conflitti.\n" +
+            "\n" +
+            "Le forme geometriche create, sì spezzate ma comunque riconoscibili, richiamano quel tessuto sociale che resiste anche alla distruzione. I motivi “floreali” possono essere interpretati anche come macchie di sangue: a simboleggiare la bellezza e la violenza intrecciate nella sorte di questi popoli.\n" +
+            "\n" + "\n" + "Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
+            "Zorya (Ucraina): è la stella dell’alba, che attraversa il gelo della guerra e torna ogni giorno a splendere.\n" +
+            "Berfin (Kurdistan) è il fiore che sboccia dalla neve e come il suo popolo, si radica con forza alla terra.\n",
+},
+
 ];

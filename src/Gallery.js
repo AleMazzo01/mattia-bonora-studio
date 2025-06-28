@@ -16,6 +16,12 @@ import babele from "./images/babeleverdejpg/babele1.jpg"
 import sous from "./images/sousbuavertjpg/sousbuavert1.jpg"
 import altrove from "./images/altrovejpg/altrove.jpg"
 import colatablu from "./images/abissoblujpg/abissoblu (3).jpg"
+import sahaara from "./images/nottteSahaara/notteSahaara (1).jpg"
+import antro from "./images/antropocenejpg/POST-ANTROPOCENE (1).jpg"
+import pianoquin from "./images/pianoQuin/pianoQuin (1).jpg"
+import interno from "./images/infernoRossoJpg/infernoRosso (1).jpg";
+import identita from "./images/identitaJpg/identita (1).jpg"
+
 
 function Gallery() {
 
@@ -52,13 +58,13 @@ function Gallery() {
         },
         {
             src: rio1,
-            title: 'Rio Esperanza',
+            title: 'RIO ESPERANZA',
             size: '78x58 cm',
         },
         {
-            src: regaloPapa,
-            title: 'fascia blu su sfondo nero',
-            size: '80x60 cm',
+            src: pianoquin,
+            title: 'PIANO QUINQUENNALE',
+            size: '78x58 cm',
         },
         {
             src: sous,
@@ -71,13 +77,23 @@ function Gallery() {
             size: '20x20 cm',
         },
         {
-            src: quadroElena,
-            title: 'quadro a cazzo di cane ',
-            size: '50x50 cm',
+            src: sahaara,
+            title: 'NOTTE CAPOVOLTA NEL SAHARA',
+            size: '60x30 cm',
         },
         {
-            src: movimentoCircolareInDueFasi,
-            title: 'Movimento circolare in due fasi',
+            src: antro,
+            title: 'POST-ANTROPOCENE',
+            size: '80x60 cm',
+        },
+        {
+            src: interno,
+            title: 'INTERNO ROSSO',
+            size: '58x78 cm',
+        },
+        {
+            src: identita,
+            title: 'IDENTITÀ RESISTENTI',
             size: '80x60 cm',
         },
 
