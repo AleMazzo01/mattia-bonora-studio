@@ -1,10 +1,3 @@
-import quattro_elementi from './images/4_elementi.JPG';
-import caos from "./images/Caos.JPG";
-import colataBlu from "./images/colata_blu.JPG";
-import regaloPapa from "./images/papaBonny.JPG";
-import pastaVerde from "./images/pasta_verde.JPG";
-import quadroElena from "./images/Quadro elena.JPG";
-import movimentoCircolareInDueFasi from "./images/movimento_circolare_in_due_fasi.JPG";
 import occhio1 from "./images/occhio1.jpg"
 import occhio2 from "./images/occhio2.jpg"
 import occhio3 from "./images/occhio3.jpg"
@@ -110,6 +103,40 @@ import identita8 from "./images/identitaJpg/identita (8).jpg"
 import identita9 from "./images/identitaJpg/identita (9).jpg"
 import identita10 from "./images/identitaJpg/identita (10).jpg"
 import identita11 from "./images/identitaJpg/identita (11).jpg"
+import alba1 from "./images/albajpg/alba (1).jpg"
+import alba2 from "./images/albajpg/alba (2).jpg"
+import alba3 from "./images/albajpg/alba (3).jpg"
+import alba4 from "./images/albajpg/alba (4).jpg"
+import alba5 from "./images/albajpg/alba (5).jpg"
+import alba6 from "./images/albajpg/alba (6).jpg"
+import alba7 from "./images/albajpg/alba (7).jpg"
+import ctrl1 from "./images/CTRL/CTRL (1).jpg";
+import ctrl2 from "./images/CTRL/CTRL (2).jpg";
+import ctrl3 from "./images/CTRL/CTRL (3).jpg";
+import ctrl4 from "./images/CTRL/CTRL (4).jpg";
+import ctrl5 from "./images/CTRL/CTRL (5).jpg";
+import ctrl6 from "./images/CTRL/CTRL (6).jpg";
+import ctrl7 from "./images/CTRL/CTRL (7).jpg";
+import ctrl8 from "./images/CTRL/CTRL (8).jpg";
+import ctrl9 from "./images/CTRL/CTRL (9).jpg";
+import rosa1 from "./images/marearosaJPG/rosa (1).jpg";
+import rosa2 from "./images/marearosaJPG/rosa (2).jpg";
+import rosa3 from "./images/marearosaJPG/rosa (3).jpg";
+import rosa4 from "./images/marearosaJPG/rosa (4).jpg";
+import rosa5 from "./images/marearosaJPG/rosa (5).jpg";
+import rosa6 from "./images/marearosaJPG/rosa (6).jpg";
+import onirico1 from "./images/oniricojpg/onorico1.jpg";
+import onirico2 from "./images/oniricojpg/onirico (1).jpg";
+import onirico3 from "./images/oniricojpg/onirico (2).jpg";
+import onirico4 from "./images/oniricojpg/onirico (3).jpg";
+import onirico5 from "./images/oniricojpg/onirico (4).jpg";
+import onirico6 from "./images/oniricojpg/onirico (5).jpg";
+import onirico7 from "./images/oniricojpg/onirico (6).jpg";
+import onirico8 from "./images/oniricojpg/onirico (7).jpg";
+import onirico9 from "./images/oniricojpg/onirico (8).jpg";
+import onirico10 from "./images/oniricojpg/onirico (9).jpg";
+
+
 
 
 export const artworks = [
@@ -145,7 +172,7 @@ export const artworks = [
         size: '78x58 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Maggio 2025",
-        disponibilita: "Acquistabile",
+        disponibilita: "Venduto",
         tecnica: "Acrilico e pasta testurizzata su tela",
         descrizione: "Con “Babele verde” ho cercato di rappresentare la giungla, un organismo e un luogo vivo dove tutti i suoi componenti parlano la stessa lingua: quella del caos. Il fondo dell’opera, " +
             "ricco di stratificazioni cromatiche e movimento, vuole rappresentare l’energia vitale del mondo naturale e il suo linguaggio misterioso. A interrompere questo caos armonico vi sono tre forme " +
@@ -293,6 +320,66 @@ export const artworks = [
             "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
     },
     {
+        src: [alba1, alba2, alba3, alba4, alba5, alba6, alba7],
+        title: 'ALBA LISERGICA',
+        size: '50x40 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "Una cassa dritta che martella da ore. Corpi che non si distinguono più, fusi in un’unica massa che pulsa sotto le luci stroboscopiche e la polvere battuta. “Alba Lisergica” nasce lì, nel cuore di un rave che si rifiuta di morire con la notte.\n" +
+            "La techno continua a suonare, implacabile, mentre il confine tra realtà e allucinazione si dissolve. L’aria è pesante di sudore, fumo e sogni chimici. \n" +
+            "È l’ultimo atto di un rituale underground: una festa senza tempo, dove le sostanze amplificano i sensi e dissolvono i confini individuali.\n" +
+            "Un’apparizione quasi onirica – è il sole che sorge – frantumando la notte e svelando il delirio: volti stravolti, occhi lucidi, mani che si cercano senza parlare.\n" +
+            "Il quadro è il simbolo di un momento irripetibile: la fusione tra il battito della techno, la sostanza nel sangue e la luce che arriva, lenta, a ricordarti che sei ancora vivo. O forse no.\n",
+    },
+    {
+        src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
+        title: 'MAREA ROSA',
+        size: '',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+        descrizione: "",
+    },
+    {
+        src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],
+        title: 'CTRL+ALT+?',
+        size: '24x29 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico su tela",
+
+
+        descrizione: "A volte la vita va presa meno seriamente e più come un gioco; così ho fatto con queste tele caotiche e prive di un ordine apparente. Ho scelto di divertirmi con i colori: possono trasmettere sia calma che disordine e va bene così. I titoli sono ispirati alla Glitch Art e al " +
+            "movimento dadaista; è necessario anche un po’ di non-sense per evadere dalla vita di ogni giorno.",
+    },
+    {
+        src: [onirico1, onirico2, onirico3, onirico4, onirico5, onirico6, onirico7, onirico8, onirico9, onirico10],
+        title: 'TEATRO ONIRICO IN TRE FASI',
+        size: '80x60 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Maggio 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e pasta testurizzata su tela",
+
+
+        descrizione: "Teatro onirico in tre fasi” è una composizione che punta ad esplorare quanto più di ignoto e fantasioso si cela nella notte: il sogno.\n" +
+            "Ogni qual volta che sogno entro in un mondo parallelo senza barriere e confini, seppur scandito in atti precisi, come avviene nel teatro: un'esposizione (e azione crescente), un climax e un'azione decrescente (con la risoluzione).\n" +
+            "Qui la fluidità dei colori incontra la rigidità delle forme geometriche, come se l\n" +
+            "Atto I – Dimensione verde e gialla (il preludio teatrale): la porta del sogno si apre in tonalità vivide ma inquiete e – come luci di scena ancora soffuse – illuminano un palco ancora vuoto. Questo è un momento di equilibrio precario, poco prima che inizi il viaggio.\n" +
+            "Atto II – Dimensione rossa e rosa (la vertigine centrale): in questa tela il viaggio conosce il suo climax e lo attraversa, pervaso da emozioni e immagini distorte, in continuo mutamento. È l’atto della crisi, del cambiamento.\n" +
+            "Atto III – Dimensione blu e azzurra (la chiusura del sipario): arrivati alla fine, il sogno sfuma lentamente in colori freddi. Il sipario cala su un paesaggio che ha conosciuto il caos e ora ricerca la quiete. Il finale resta sospeso ma compiuto e così, il sogno lascia spazio al reale.\n",
+    },
+    {
         src: [identita1, identita2, identita3, identita4, identita5, identita6, identita7, identita8, identita9, identita10, identita11],
         title: 'IDENTITÀ RESISTENTI',
         size: '80x60 cm',
@@ -308,7 +395,7 @@ export const artworks = [
             "Ogni tela porta il nome di un bimbo – Aya, Zorya, Berfin – col fine di simboleggiare che continua ad esistere sempre una speranza, anche nelle macerie lasciate dai conflitti.\n" +
             "\n" +
             "Le forme geometriche create, sì spezzate ma comunque riconoscibili, richiamano quel tessuto sociale che resiste anche alla distruzione. I motivi “floreali” possono essere interpretati anche come macchie di sangue: a simboleggiare la bellezza e la violenza intrecciate nella sorte di questi popoli.\n" +
-            "\n" + "\n" + "Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
+             "\n Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
             "Zorya (Ucraina): è la stella dell’alba, che attraversa il gelo della guerra e torna ogni giorno a splendere.\n" +
             "Berfin (Kurdistan) è il fiore che sboccia dalla neve e come il suo popolo, si radica con forza alla terra.\n",
 },

@@ -64,8 +64,8 @@ function Navbar() {
         case "/galleria":
             pageTitle = "Galleria";
             break;
-        case "/chisono":
-            pageTitle = "Chi sono";
+        case "/ChiSono":
+            pageTitle = "Biografia";
             break;
         case "/contatti":
             pageTitle = "Contatti";
@@ -96,10 +96,10 @@ function Navbar() {
                 ref={menuRef}
                 className={`navbar-menu ${isOpen ? 'open' : ''}`}
             >
-                <Link to="/"><li>Home</li></Link>
+                <li onClick={() => handleNavigation("/")}>Home</li>
                 <li onClick={() => handleNavigation("/galleria")}>Galleria</li>
                 <li onClick={() => handleNavigation("/contatti")}>Contatti</li>
-                <li onClick={() => handleNavigation("/ChiSono")}>Chi sono</li>
+                <li onClick={() => handleNavigation("/ChiSono")}>Biografia</li>
 
             </ul>
         </nav>

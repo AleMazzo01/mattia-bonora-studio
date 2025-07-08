@@ -20,7 +20,7 @@ const ChiSono = () => {
                     una galleria digitale che racconta la mia arte, che vive tra il
                     contemporaneo, l’astratto e il testurizzato.
                 </p>
-                <img src={bio1}/>
+                <img alt={"immagine 1 bio"} src={bio1}/>
                 <p className="mb-6">
                     Ogni quadro è il risultato di un dialogo introspettivo e fluido, un
                     momento di connessione tra ciò che sento, ciò che vivo e ciò che vedo.
@@ -28,7 +28,7 @@ const ChiSono = () => {
                     profondo, necessario. È il mio modo di elaborare la realtà e
                     restituirla in una forma nuova, libera da vincoli e definizioni.
                 </p>
-                <img src={bio2}/>
+                <img alt={"immagine 2 bio"} src={bio2}/>
 
                 <p className="mb-6">
                     La mia passione per la pittura ha radici lontane e nasce quando ero solo
@@ -39,7 +39,7 @@ const ChiSono = () => {
                     sfogliati con attenzione, ho imparato che l’arte è un linguaggio
                     universale, capace di parlare a chiunque sappia ascoltare.
                 </p>
-                <img src={bio3}/>
+                <img alt={"immagine 3 bio"} src={bio3}/>
 
                 <p className="mb-6">
                     Nei miei lavori troverai superfici materiche, colori intensi, forme che
@@ -48,7 +48,7 @@ const ChiSono = () => {
                     dove l’astrazione incontra la realtà, dove le texture raccontano storie
                     quotidiane e al tempo stesso, immaginarie.
                 </p>
-                <img src={bio4}/>
+                <img alt={"immagine 4 bio"} src={bio4}/>
 
                 <p className="mb-6">
                     Ogni pezzo è unico, realizzato con cura e dedizione. Offro anche la

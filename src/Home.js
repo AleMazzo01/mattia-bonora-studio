@@ -18,9 +18,7 @@ function Home() {
                 </section>
             </Link>
 
-
             <section id="chi_sono" className="about-section-about">
-
                 <div className="about-container">
 
                     <div className="about-text-container">
@@ -31,9 +29,8 @@ function Home() {
                             La mia passione per l’arte è nata da bambino, grazie a mio nonno, che mi ha trasmesso l’amore per la storia e la cultura.
                         </p>
 
-
                         <img
-                            src={fotoBio} // metti il path corretto dell'immagine
+                            src={fotoBio}
                             alt="Mattia Bonora"
                             className="about-image"
                         />

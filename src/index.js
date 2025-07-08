@@ -4,7 +4,6 @@ import './index.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';  // <-- importa HashRouter
 import { AnimatePresence } from 'framer-motion';
 
-import App from './App';
 import Home from './Home';
 import Gallery from './Gallery';
 import Work from './Work';
