@@ -339,13 +339,15 @@ export const artworks = [
     {
         src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
         title: 'MAREA ROSA',
-        size: '',
+        size: '24x18',
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
+        disponibilita: "Venduto",
         tecnica: "Acrilico e effetto pouring su tela",
 
-        descrizione: "",
+        descrizione: "Ispirata ai paesaggi eterei delle saline rosa, questa composizione cattura il movimento fluido delle onde salmastre, sospinte dal vento e cristallizzate nella luce del sale.\n" +
+            "Le sfumature di rosa e bianco si intrecciano come spuma liquida sulla superficie dell’acqua, mentre il bordo violaceo vuole richiamare l’orizzonte al tramonto — quel momento in cui cielo, terra e mare si fondono in un’unica immagine.\n" +
+            "Realizzata con tecnica fluida su tela, \"Marea rosa\"  invita l’osservatore a perdersi nel ritmo lento e sensoriale di un paesaggio che non ha confini netti, ma solo vibrazioni.",
     },
     {
         src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],

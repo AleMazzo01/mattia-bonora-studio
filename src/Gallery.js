@@ -125,8 +125,8 @@ function Gallery() {
         {
             src: mareaRosa,
             title: 'MAREA ROSA',
-            size: '- cm',
-            status: 'Acquistabile',
+            size: '24x18 cm',
+            status: 'Venduto',
 
         },
         {
