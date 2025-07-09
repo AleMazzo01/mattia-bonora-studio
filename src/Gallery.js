@@ -12,7 +12,7 @@ import sous from "./images/sousbuavertjpg/sousbuavert1.jpg"
 import altrove from "./images/altrovejpg/altrove.jpg"
 import colatablu from "./images/abissoblujpg/abissoblu (3).jpg"
 import sahaara from "./images/nottteSahaara/notteSahaara (1).jpg"
-import antro from "./images/antropocenejpg/POST-ANTROPOCENE (1).jpg"
+import antro from "./images/antropocenejpg/POST-ANTROPOCENE (5).jpg"
 import pianoquin from "./images/pianoQuin/pianoQuin (1).jpg"
 import interno from "./images/infernoRossoJpg/infernoRosso (1).jpg";
 import identita from "./images/identitaJpg/identita (1).jpg"
@@ -39,9 +39,43 @@ function Gallery() {
 
         },
         {
-            src: babele,
-            title: 'BABELE VERDE',
+            src: colatablu,
+            title: 'ABISSO BLU',
+            size: '30x24 cm',
+            status: 'Acquistabile',
+
+        },
+
+        {
+            src: pianoquin,
+            title: 'PIANO QUINQUENNALE',
             size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: alba,
+            title: 'ALBA LISERGICA',
+            size: '50x40 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: rio1,
+            title: 'RIO ESPERANZA',
+            size: '78x58 cm',
+            status: 'Venduto',
+        },
+        {
+            src: antro,
+            title: 'POST-ANTROPOCENE',
+            size: '80x60 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: mareaRosa,
+            title: 'MAREA ROSA',
+            size: '24x18 cm',
             status: 'Venduto',
 
         },
@@ -53,6 +87,14 @@ function Gallery() {
 
         },
         {
+            src: sous,
+            title: 'SOUS-BOIS VERT',
+            size: '50x50 cm',
+            status: 'Acquistabile',
+
+        },
+
+        {
             src: cinque1,
             title: '528 HZ',
             size: '80x60 cm',
@@ -60,50 +102,14 @@ function Gallery() {
 
         },
         {
-            src: colatablu,
-            title: 'ABISSO BLU',
-            size: '30x24 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: rio1,
-            title: 'RIO ESPERANZA',
+            src: babele,
+            title: 'BABELE VERDE',
             size: '78x58 cm',
             status: 'Venduto',
-
         },
         {
-            src: pianoquin,
-            title: 'PIANO QUINQUENNALE',
-            size: '78x58 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: sous,
-            title: 'SOUS-BOIS VERT',
-            size: '50x50 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: altrove,
-            title: 'ALTROVE',
-            size: '20x20 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: sahaara,
-            title: 'NOTTE CAPOVOLTA NEL SAHARA',
-            size: '60x30 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: antro,
-            title: 'POST-ANTROPOCENE',
+            src: onirico1,
+            title: 'TEATRO ONIRICO IN TRE FASI',
             size: '80x60 cm',
             status: 'Acquistabile',
 
@@ -116,37 +122,29 @@ function Gallery() {
 
         },
         {
-            src: alba,
-            title: 'ALBA LISERGICA',
-            size: '50x40 cm',
+            src: sahaara,
+            title: 'NOTTE CAPOVOLTA NEL SAHARA',
+            size: '60x30 cm',
             status: 'Acquistabile',
 
         },
         {
-            src: mareaRosa,
-            title: 'MAREA ROSA',
-            size: '24x18 cm',
-            status: 'Venduto',
+            src: altrove,
+            title: 'ALTROVE',
+            size: '20x20 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: identita,
+            title: 'IDENTITÀ RESISTENTI',
+            size: '80x60 cm',
+            status: 'Acquistabile',
 
         },
         {
             src: ctrl1,
             title: 'CTRL+ALT+?',
             size: '24x29 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: onirico1,
-            title: 'TEATRO ONIRICO IN TRE FASI',
-            size: '80x60 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: identita,
-            title: 'IDENTITÀ RESISTENTI',
-            size: '80x60 cm',
             status: 'Acquistabile',
 
         },
