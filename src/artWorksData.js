@@ -293,7 +293,7 @@ export const artworks = [
             "Il risultato è uno scenario onirico e disorientante, che invita a riconsiderare la propria prospettiva sul mondo naturale.\n",
     },
     {
-        src: [antro1, antro2, antro3, antro4, antro5, antro6, antro7, antro8],
+        src: [antro5,antro1, antro2, antro3, antro6, antro7, antro8, antro4],
         title: 'POST-ANTROPOCENE',
         size: '80x60 cm',
 
