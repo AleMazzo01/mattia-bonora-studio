@@ -167,44 +167,6 @@ export const artworks = [
             "I filosofi dell’antichità credevano che l’etere (il quinto elemento) fosse la sostanza che permeasse l’intero universo; nella tela non è visibile, bensì presupposto: è lo spazio tra le forme, il vuoto che tiene tutto insieme.\n",
     },
     {
-        src: [babele1, babele2, babele3, babele4, babele5, babele6, babele7],
-        title: 'BABELE VERDE',
-        size: '78x58 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Maggio 2025",
-        disponibilita: "Venduto",
-        tecnica: "Acrilico e pasta testurizzata su tela",
-        descrizione: "Con “Babele verde” ho cercato di rappresentare la giungla, un organismo e un luogo vivo dove tutti i suoi componenti parlano la stessa lingua: quella del caos. Il fondo dell’opera, " +
-            "ricco di stratificazioni cromatiche e movimento, vuole rappresentare l’energia vitale del mondo naturale e il suo linguaggio misterioso. A interrompere questo caos armonico vi sono tre forme " +
-            "geometriche bianche e materiche, come barriere (questi elementi rappresentano l’intervento dell’uomo). Come nel mito della torre di Babele, anche qui l’azione umana nasce dal desiderio di dominio, " +
-            "ma finisce per generare disordine, incomunicabilità e frattura con il mondo naturale.",
-    },
-    {
-        src: [granada1, granada3, granada4, granada5, granada6, granada7, granada2],
-        title: 'I VICOLI DI UNA VECCHIA GRANADA',
-        size: '78x58 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "acrilico e effetto pouring su tela",
-        descrizione: "Questo dipinto nasce ascoltando \"Ratòn\" del Diplomatico e il Collettivo Ninco Nanco, una canzone che evoca immagini di strade strette, antiche e vissute. Ho immaginato questi vicoli — non come spazi rigidi, immobili, segnati solo dal tempo — ma come entità vive, che respirano, si piegano e danzano.\n" +
-            "I vicoli non sono più solo passaggi: diventano ricordi liquidi, emozioni che si intrecciano, memorie di vecchi balli folkloristici nati fra i muri caldi della città.\n" +
-            "Volevo donare alla tela la sensazione di una città che vive dentro chi la ama, che cambia forma ma non sostanza.\n",
-    },
-    {
-        src: [cinque1, cinque2, cinque3, cinque4, cinque5, cinque6, cinque7],
-        title: '528 HZ',
-        size: '80x60 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: " acrilico e effetto pouring su tela",
-
-        descrizione: "Il dipinto è un viaggio psichedelico dentro una nebulosa interiore, un'esplosione di luce liquida e silenzi vibrazionali." +
-            "I toni accesi del viola, del fucsia e del blu si fondono in un movimento verticale che ricorda le onde cerebrali in stato meditativo profondo. Questa frequenza, spesso chiamata “la frequenza dell’amore”, è qui trasformata in materia visiva: vibra, pulsa e scivola come un’eco visiva di ciò che non può essere detto, ma solo sentito." +
-            "Il quadro vuole invitare a lasciarsi attraversare, nei meandri della mente, dove il tempo si scioglie e tutto si riconnette.",
-    },
-    {
         src: [abisso1, abisso2, abisso3, abisso4, abisso5, abisso6, abisso7],
         title: 'ABISSO BLU',
         size: '30x24 cm',
@@ -220,19 +182,6 @@ export const artworks = [
             "Il dipinto è un invito concreto a guardare oltre, dove il reale e il tangibile si dissolvono, lasciando spazio all’immaginazione.\n",
     },
     {
-        src: [rio1, rio2, rio3, rio4, rio5, rio6, rio7],
-        title: 'Rio Esperanza',
-        size: '78x58 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Venduto",
-        tecnica: " acrilico e effetto pouring su tela",
-
-        descrizione: "La tela nasce dal bisogno di immaginare un luogo lontano e vivo, che scorre libero, nonostante tutto. Ispirato ai fiumi dell’America Latina – simboli di forza e rinascita – questo dipinto rappresenta un flusso che scorre, sia dentro che fuori, luminoso. \n" +
-            "In una terra dove spesso convivono meraviglie e difficoltà, il fiume è vita, è resistenza, è speranza che continua ad agitarsi anche quando tutto sembra fermo.\n" +
-            "Il quadro è dedicato a chi, nonostante le avversità, continua a sognare e sperare; invita ad un panta rei costante, a lasciarsi cullare dal fiume e non esserne solo più preda.\n",
-    },
-    {
         src: [pianoQuin1, pianoQuin2, pianoQuin3, pianoQuin4, pianoQuin5, pianoQuin6, pianoQuin7],
         title: 'PIANO QUINQUENNALE',
         size: '78x58 cm',
@@ -244,80 +193,6 @@ export const artworks = [
 
         descrizione: "Piano Quinquennale è una tela concettuale che riflette sul controllo sistemico e la pianificazione forzata dell’economia e della società durante l’epoca sovietica. Il titolo fa riferimento diretto ai cicli di pianificazione economica imposti dall’Unione Sovietica, simbolo di un’organizzazione rigida e centralizzata, spesso disumanizzante. La composizione è scandita da suddivisioni geometriche nette, che evocano compartimenti stagni, settori produttivi o territori suddivisi secondo logiche burocratiche. Al loro interno, texture concentriche circolari suggeriscono movimento ciclico, ripetizione, produzione seriale — ma anche un senso di “spirale ideologica”. Il colore predominante è un rosso scuro bruciato, che richiama direttamente il colore della propaganda e del potere sovietico. L’interazione tra ordine e caos, struttura e ripetizione, invita a riflettere su come i grandi progetti politici si traducono, spesso, in pressioni invisibili sulla vita individuale."
 
-    },
-    {
-        src: [sous1, sous2, sous3, sous4, sous5, sous6, sous7],
-        title: 'SOUS-BOIS VERT',
-        size: '50x50 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Maggio 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e pasta testurizzata su tela",
-
-
-        descrizione: "Sous-bois vert punta ad evocare la profondità e il silenzio che permea il sottobosco: " +
-            "il verde non è solo un colore, ma pure una presenza. La superficie materica richiama la corteccia, " +
-            "il muschio e il terreno umido. L’opera vuole invitare alla calma sollecitando l’attenzione, perché può " +
-            "sempre emergere qualcosa dalle ombre del verde.",
-    },
-    {
-        src: [altrove1, altrove3, altrove4, altrove5, altrove6, altrove7, altrove8, altrove2, altrove10,altrove9],
-        title: 'ALTROVE',
-        size: '20x20 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Maggio 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "acrilico su tela",
-
-
-        descrizione: "La realizzazione di questi quadri mi ha " +
-            "trasportato e fatto sentire bene, come se mi avessero trasportato " +
-            "in uno spazio più calmo, lontano dal frastuono della routine ordinaria " +
-            "(rappresentata dalle colate bianche e nere).",
-    },
-    {
-        src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
-        title: 'NOTTE CAPOVOLTA NEL SAHARA',
-        size: '60x30 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "In questo dipinto il deserto non si estende sotto un cielo stellato — lo sovrasta. Ho scelto di capovolgere l’ordine naturale delle cose qui, lasciando che le dune dorate si innalzino sopra un cielo blu scuro e profondo, come se la sabbia galleggiasse sospesa nel buio della notte africana.\n" +
-            "L’inversione non è solo visiva, ma simbolica: il deserto, solitamente luogo di silenzio e di vuoto, diventa presenza dominante; la notte, di solito avvolgente e sopra di noi, si ritira verso il basso, come un tappeto oscuro su cui si appoggia la realtà.\n" +
-            "Il risultato è uno scenario onirico e disorientante, che invita a riconsiderare la propria prospettiva sul mondo naturale.\n",
-    },
-    {
-        src: [antro5,antro1, antro2, antro3, antro6, antro7, antro8, antro4],
-        title: 'POST-ANTROPOCENE',
-        size: '80x60 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "In un mondo abbandonato dall'uomo, la natura riprende il controllo: invade, ingloba, riconquista. \"Post-Antropocene\" è una visione di rinascita selvaggia, dove le strutture umane cedono sotto il peso dell’organico, del liquido, del vivo. Le colature di colore si fanno radici, muschio, veleno e linfa: una foresta che cresce sul cemento della civiltà crollata. È la fine di un'epoca, ma anche l'inizio di un ordine nuovo, più antico di qualsiasi impero umano.",
-    },
-    {
-        src: [interno1, interno2, interno3, interno4, interno5, interno6, interno7],
-        title: 'INTERNO ROSSO',
-        size: '58x78 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "Liberamente ispirato all’estetica di “Profondo Rosso” di Dario Argento, il quadro è un attraversamento visivo di un ambiente mentale, domestico e insieme inquietante. Non c’è figura, ma una presenza: il rosso profondo che scorre, si stratifica, si spezza in vene d’oro come tagli di luce improvvisa.\n" +
-            "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
     },
     {
         src: [alba1, alba2, alba3, alba4, alba5, alba6, alba7],
@@ -337,6 +212,32 @@ export const artworks = [
             "Il quadro è il simbolo di un momento irripetibile: la fusione tra il battito della techno, la sostanza nel sangue e la luce che arriva, lenta, a ricordarti che sei ancora vivo. O forse no.\n",
     },
     {
+        src: [rio1, rio2, rio3, rio4, rio5, rio6, rio7],
+        title: 'Rio Esperanza',
+        size: '78x58 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Venduto",
+        tecnica: " acrilico e effetto pouring su tela",
+
+        descrizione: "La tela nasce dal bisogno di immaginare un luogo lontano e vivo, che scorre libero, nonostante tutto. Ispirato ai fiumi dell’America Latina – simboli di forza e rinascita – questo dipinto rappresenta un flusso che scorre, sia dentro che fuori, luminoso. \n" +
+            "In una terra dove spesso convivono meraviglie e difficoltà, il fiume è vita, è resistenza, è speranza che continua ad agitarsi anche quando tutto sembra fermo.\n" +
+            "Il quadro è dedicato a chi, nonostante le avversità, continua a sognare e sperare; invita ad un panta rei costante, a lasciarsi cullare dal fiume e non esserne solo più preda.\n",
+    },
+    {
+        src: [antro5,antro1, antro2, antro3, antro6, antro7, antro8, antro4],
+        title: 'POST-ANTROPOCENE',
+        size: '80x60 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "In un mondo abbandonato dall'uomo, la natura riprende il controllo: invade, ingloba, riconquista. \"Post-Antropocene\" è una visione di rinascita selvaggia, dove le strutture umane cedono sotto il peso dell’organico, del liquido, del vivo. Le colature di colore si fanno radici, muschio, veleno e linfa: una foresta che cresce sul cemento della civiltà crollata. È la fine di un'epoca, ma anche l'inizio di un ordine nuovo, più antico di qualsiasi impero umano.",
+    },
+    {
         src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
         title: 'MAREA ROSA',
         size: '24x18',
@@ -350,18 +251,59 @@ export const artworks = [
             "Realizzata con tecnica fluida su tela, \"Marea rosa\"  invita l’osservatore a perdersi nel ritmo lento e sensoriale di un paesaggio che non ha confini netti, ma solo vibrazioni.",
     },
     {
-        src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],
-        title: 'CTRL+ALT+?',
-        size: '24x29 cm',
+        src: [granada1, granada3, granada4, granada5, granada6, granada7, granada2],
+        title: 'I VICOLI DI UNA VECCHIA GRANADA',
+        size: '78x58 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico e effetto pouring su tela",
+        descrizione: "Questo dipinto nasce ascoltando \"Ratòn\" del Diplomatico e il Collettivo Ninco Nanco, una canzone che evoca immagini di strade strette, antiche e vissute. Ho immaginato questi vicoli — non come spazi rigidi, immobili, segnati solo dal tempo — ma come entità vive, che respirano, si piegano e danzano.\n" +
+            "I vicoli non sono più solo passaggi: diventano ricordi liquidi, emozioni che si intrecciano, memorie di vecchi balli folkloristici nati fra i muri caldi della città.\n" +
+            "Volevo donare alla tela la sensazione di una città che vive dentro chi la ama, che cambia forma ma non sostanza.\n",
+    },
+    {
+        src: [sous1, sous2, sous3, sous4, sous5, sous6, sous7],
+        title: 'SOUS-BOIS VERT',
+        size: '50x50 cm',
 
         supporto: "Tela su telaio in legno",
-        realizzazione: "Aprile 2025",
+        realizzazione: "Maggio 2025",
         disponibilita: "Acquistabile",
-        tecnica: "Acrilico su tela",
+        tecnica: "Acrilico e pasta testurizzata su tela",
 
 
-        descrizione: "A volte la vita va presa meno seriamente e più come un gioco; così ho fatto con queste tele caotiche e prive di un ordine apparente. Ho scelto di divertirmi con i colori: possono trasmettere sia calma che disordine e va bene così. I titoli sono ispirati alla Glitch Art e al " +
-            "movimento dadaista; è necessario anche un po’ di non-sense per evadere dalla vita di ogni giorno.",
+        descrizione: "Sous-bois vert punta ad evocare la profondità e il silenzio che permea il sottobosco: " +
+            "il verde non è solo un colore, ma pure una presenza. La superficie materica richiama la corteccia, " +
+            "il muschio e il terreno umido. L’opera vuole invitare alla calma sollecitando l’attenzione, perché può " +
+            "sempre emergere qualcosa dalle ombre del verde.",
+    },
+    {
+        src: [cinque1, cinque2, cinque3, cinque4, cinque5, cinque6, cinque7],
+        title: '528 HZ',
+        size: '80x60 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: " acrilico e effetto pouring su tela",
+
+        descrizione: "Il dipinto è un viaggio psichedelico dentro una nebulosa interiore, un'esplosione di luce liquida e silenzi vibrazionali." +
+            "I toni accesi del viola, del fucsia e del blu si fondono in un movimento verticale che ricorda le onde cerebrali in stato meditativo profondo. Questa frequenza, spesso chiamata “la frequenza dell’amore”, è qui trasformata in materia visiva: vibra, pulsa e scivola come un’eco visiva di ciò che non può essere detto, ma solo sentito." +
+            "Il quadro vuole invitare a lasciarsi attraversare, nei meandri della mente, dove il tempo si scioglie e tutto si riconnette.",
+    },
+
+    {
+        src: [babele1, babele2, babele3, babele4, babele5, babele6, babele7],
+        title: 'BABELE VERDE',
+        size: '78x58 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Maggio 2025",
+        disponibilita: "Venduto",
+        tecnica: "Acrilico e pasta testurizzata su tela",
+        descrizione: "Con “Babele verde” ho cercato di rappresentare la giungla, un organismo e un luogo vivo dove tutti i suoi componenti parlano la stessa lingua: quella del caos. Il fondo dell’opera, " +
+            "ricco di stratificazioni cromatiche e movimento, vuole rappresentare l’energia vitale del mondo naturale e il suo linguaggio misterioso. A interrompere questo caos armonico vi sono tre forme " +
+            "geometriche bianche e materiche, come barriere (questi elementi rappresentano l’intervento dell’uomo). Come nel mito della torre di Babele, anche qui l’azione umana nasce dal desiderio di dominio, " +
+            "ma finisce per generare disordine, incomunicabilità e frattura con il mondo naturale.",
     },
     {
         src: [onirico1, onirico2, onirico3, onirico4, onirico5, onirico6, onirico7, onirico8, onirico9, onirico10],
@@ -382,6 +324,51 @@ export const artworks = [
             "Atto III – Dimensione blu e azzurra (la chiusura del sipario): arrivati alla fine, il sogno sfuma lentamente in colori freddi. Il sipario cala su un paesaggio che ha conosciuto il caos e ora ricerca la quiete. Il finale resta sospeso ma compiuto e così, il sogno lascia spazio al reale.\n",
     },
     {
+        src: [interno1, interno2, interno3, interno4, interno5, interno6, interno7],
+        title: 'INTERNO ROSSO',
+        size: '58x78 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "Liberamente ispirato all’estetica di “Profondo Rosso” di Dario Argento, il quadro è un attraversamento visivo di un ambiente mentale, domestico e insieme inquietante. Non c’è figura, ma una presenza: il rosso profondo che scorre, si stratifica, si spezza in vene d’oro come tagli di luce improvvisa.\n" +
+            "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
+    },
+    {
+        src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
+        title: 'NOTTE CAPOVOLTA NEL SAHARA',
+        size: '60x30 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Giugno 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "In questo dipinto il deserto non si estende sotto un cielo stellato — lo sovrasta. Ho scelto di capovolgere l’ordine naturale delle cose qui, lasciando che le dune dorate si innalzino sopra un cielo blu scuro e profondo, come se la sabbia galleggiasse sospesa nel buio della notte africana.\n" +
+            "L’inversione non è solo visiva, ma simbolica: il deserto, solitamente luogo di silenzio e di vuoto, diventa presenza dominante; la notte, di solito avvolgente e sopra di noi, si ritira verso il basso, come un tappeto oscuro su cui si appoggia la realtà.\n" +
+            "Il risultato è uno scenario onirico e disorientante, che invita a riconsiderare la propria prospettiva sul mondo naturale.\n",
+    },
+    {
+        src: [altrove1, altrove3, altrove4, altrove5, altrove6, altrove7, altrove8, altrove2, altrove10,altrove9],
+        title: 'ALTROVE',
+        size: '20x20 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Maggio 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico su tela",
+
+
+        descrizione: "La realizzazione di questi quadri mi ha " +
+            "trasportato e fatto sentire bene, come se mi avessero trasportato " +
+            "in uno spazio più calmo, lontano dal frastuono della routine ordinaria " +
+            "(rappresentata dalle colate bianche e nere).",
+    },
+    {
         src: [identita1, identita2, identita3, identita4, identita5, identita6, identita7, identita8, identita9, identita10, identita11],
         title: 'IDENTITÀ RESISTENTI',
         size: '80x60 cm',
@@ -397,9 +384,24 @@ export const artworks = [
             "Ogni tela porta il nome di un bimbo – Aya, Zorya, Berfin – col fine di simboleggiare che continua ad esistere sempre una speranza, anche nelle macerie lasciate dai conflitti.\n" +
             "\n" +
             "Le forme geometriche create, sì spezzate ma comunque riconoscibili, richiamano quel tessuto sociale che resiste anche alla distruzione. I motivi “floreali” possono essere interpretati anche come macchie di sangue: a simboleggiare la bellezza e la violenza intrecciate nella sorte di questi popoli.\n" +
-             "\n Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
+            "\n Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
             "Zorya (Ucraina): è la stella dell’alba, che attraversa il gelo della guerra e torna ogni giorno a splendere.\n" +
             "Berfin (Kurdistan) è il fiore che sboccia dalla neve e come il suo popolo, si radica con forza alla terra.\n",
-},
+    },
+
+    {
+        src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],
+        title: 'CTRL+ALT+?',
+        size: '24x29 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico su tela",
+
+
+        descrizione: "A volte la vita va presa meno seriamente e più come un gioco; così ho fatto con queste tele caotiche e prive di un ordine apparente. Ho scelto di divertirmi con i colori: possono trasmettere sia calma che disordine e va bene così. I titoli sono ispirati alla Glitch Art e al " +
+            "movimento dadaista; è necessario anche un po’ di non-sense per evadere dalla vita di ogni giorno.",
+    },
 
 ];
