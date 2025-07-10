@@ -9,6 +9,7 @@ function Work() {
     const { id } = useParams();
     const opera = artworks[parseInt(id)];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const email = 'mattiabonora.studio@gmail.com';
 
     useEffect(() => {
         window.scrollTo(0, 75);
@@ -80,8 +81,19 @@ function Work() {
                         <strong>Realizzazione:</strong> {opera.realizzazione}
                     </p>
                     <p className="opera-detail">
-                        <strong>Disponibilita:</strong> {opera.disponibilita}
+                        <strong>Disponibilità:</strong> {opera.disponibilita}
                     </p>
+
+                    {opera.disponibilita === "Acquistabile" && (
+                        <a
+                            href={`mailto:${email}?subject=Richiesta%20opera%20${encodeURIComponent(opera.title)}`}
+                            className="pulsante-acquista"
+                            style={{ textDecoration: 'none' }}
+                        >
+                            Contattami per acquistare
+                        </a>
+                    )}
+
                 </div>
             </main>
         </main>
