@@ -38,7 +38,7 @@ function Contatti() {
                 </a>
 
                 <div className="instagram-container mb-6">
-                    <h3 className="text-xl font-semibold mb-2"></h3>
+                    <h3 className="text-xl font-semibold mb-2">Profilo instagram</h3>
                     <InstagramEmbed
                         url={lastPostUrl}
                         width={320}
