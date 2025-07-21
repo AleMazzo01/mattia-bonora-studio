@@ -20,6 +20,9 @@ import alba from "./images/albajpg/alba (1).jpg"
 import ctrl1 from "./images/CTRL/CTRL (1).jpg";
 import mareaRosa from "./images/marearosaJPG/rosa (1).jpg"
 import onirico1 from "./images/oniricojpg/onorico1.jpg";
+import naturaViva from "./images/naturaVivaJPG/naturaViva (1).jpg"
+import nevermind1 from "./images/nevermindJPG/nevermind (1).jpg";
+
 
 function Gallery() {
 
@@ -122,6 +125,13 @@ function Gallery() {
 
         },
         {
+            src: naturaViva,
+            title: 'NATURA VIVA',
+            size: '-',
+            status: 'Acquistabile',
+
+        },
+        {
             src: sahaara,
             title: 'NOTTE CAPOVOLTA NEL SAHARA',
             size: '60x30 cm',
@@ -132,6 +142,12 @@ function Gallery() {
             src: altrove,
             title: 'ALTROVE',
             size: '20x20 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: nevermind1,
+            title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
+            size: '50x70 cm',
             status: 'Acquistabile',
         },
         {

@@ -22,7 +22,7 @@ function Contatti() {
                     className="contact-info flex items-center gap-3 text-blue-600 hover:underline text-lg"
                     style={{ textDecoration: 'none' }}
                 >
-                    <Mail className="w-6 h-6" />
+                    <Mail className="w-5 h-5" />
                     {email}
                 </a>
 
@@ -38,7 +38,7 @@ function Contatti() {
                 </a>
 
                 <div className="instagram-container mb-6">
-                    <h3 className="text-xl font-semibold mb-2">Ultimo Post Instagram</h3>
+                    <h3 className="text-xl font-semibold mb-2"></h3>
                     <InstagramEmbed
                         url={lastPostUrl}
                         width={320}

@@ -136,8 +136,22 @@ import onirico8 from "./images/oniricojpg/onirico (7).jpg";
 import onirico9 from "./images/oniricojpg/onirico (8).jpg";
 import onirico10 from "./images/oniricojpg/onirico (9).jpg";
 
+import naturaViva1 from "./images/naturaVivaJPG/naturaViva (1).jpg";
+import naturaViva2 from "./images/naturaVivaJPG/naturaViva (2).jpg";
+import naturaViva3 from "./images/naturaVivaJPG/naturaViva (3).jpg";
+import naturaViva4 from "./images/naturaVivaJPG/naturaViva (4).jpg";
+import naturaViva5 from "./images/naturaVivaJPG/naturaViva (5).jpg";
+import naturaViva6 from "./images/naturaVivaJPG/naturaViva (6).jpg";
+import naturaViva7 from "./images/naturaVivaJPG/naturaViva (7).jpg";
 
 
+import nevermind1 from "./images/nevermindJPG/nevermind (1).jpg";
+import nevermind2 from "./images/nevermindJPG/nevermind (2).jpg";
+import nevermind3 from "./images/nevermindJPG/nevermind (3).jpg";
+import nevermind4 from "./images/nevermindJPG/nevermind (4).jpg";
+import nevermind5 from "./images/nevermindJPG/nevermind (5).jpg";
+import nevermind6 from "./images/nevermindJPG/nevermind (6).jpg";
+import nevermind7 from "./images/nevermindJPG/nevermind (7).jpg";
 
 export const artworks = [
 
@@ -338,6 +352,19 @@ export const artworks = [
             "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
     },
     {
+        src: [naturaViva1, naturaViva2, naturaViva3, naturaViva4, naturaViva6, naturaViva7, naturaViva5],
+        title: 'NATURA VIVA',
+        size: '-',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Luglio 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "-",
+
+
+        descrizione: "",
+    },
+    {
         src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
         title: 'NOTTE CAPOVOLTA NEL SAHARA',
         size: '60x30 cm',
@@ -367,6 +394,22 @@ export const artworks = [
             "trasportato e fatto sentire bene, come se mi avessero trasportato " +
             "in uno spazio più calmo, lontano dal frastuono della routine ordinaria " +
             "(rappresentata dalle colate bianche e nere).",
+    },
+    {
+        src: [nevermind1, nevermind2, nevermind3, nevermind4, nevermind5, nevermind6, nevermind7],
+        title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
+        size: '50x70 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Luglio 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico e effetto pouring su tela",
+
+
+        descrizione: "Un chiaro omaggio ai Sex Pistols e all’onda culturale che hanno scatenato nell’Inghilterra degli anni ’70. Questa tela nasce dall’urgenza di rappresentare lo spirito punk nella sua forma più vera: grezza, iconoclasta, instabile.\n" +
+            "Il background, realizzato in fluid art con tonalità oscure e acide, richiama il caos urbano e la psichedelia sporca dei sobborghi inglesi. Su questo sfondo agitato emergono le parole \"Never Mind the Bollocks\", riprese direttamente dalla copertina dell’album, ma rielaborate in chiave contemporanea — con colori contaminati, bordi imperfetti e stratificazioni che evocano manifesti strappati, abiti con borchie e rabbia giovanile.\n" +
+            "Questo dipinto non vuole essere superficiale e fine a sé stesso, ma vuole rappresentare un manifesto di rottura e identità: un richiamo alla ribellione visiva e sonora che ha riscritto le regole dell’arte, della musica e del costume.\n" +
+            "Un tributo alla nobile sporcizia della cultura punk, al diritto di urlare, disobbedire e reinventare un mondo in cui non ci si riconosce.\n",
     },
     {
         src: [identita1, identita2, identita3, identita4, identita5, identita6, identita7, identita8, identita9, identita10, identita11],
