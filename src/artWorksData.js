@@ -180,7 +180,7 @@ export const artworks = [
     {
         src: [pinkfloyd2, pinkfloyd1, pinkfloyd3, pinkfloyd4, pinkfloyd5, pinkfloyd6, pinkfloyd7],
         title: 'TH3 D4RK S1D3 0F TH3 M00N',
-        size: '50x50 cm',
+        size: '40x50 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Luglio 2025",
         disponibilita: "Venduto",
@@ -376,15 +376,16 @@ export const artworks = [
     {
         src: [naturaViva1, naturaViva2, naturaViva3, naturaViva4, naturaViva6, naturaViva7, naturaViva5],
         title: 'NATURA VIVA',
-        size: '-',
+        size: '29x24',
 
         supporto: "Tela su telaio in legno",
         realizzazione: "Luglio 2025",
         disponibilita: "Acquistabile",
-        tecnica: "-",
+        tecnica: "pasta testurizzata e effetto pouring su tela",
 
 
-        descrizione: "",
+        descrizione: "Nella tela volevo rendere omaggio alla forza pulsante della natura, catturandone l’essenza attraverso materia, luce e colore. La superficie della tela prende vita grazie a una lavorazione testurizzata, che dona tridimensionalità e movimento, evocando la complessità del mondo naturale: la corteccia degli alberi, la roccia erosa dal tempo, le foglie che si intrecciano.\n" +
+            "I toni del verde, miscelati con la tecnica del pouring, fluiscono liberamente sulla tela come vene di linfa, simboleggiando la vitalità silenziosa ma incessante degli ecosistemi. A illuminare la composizione, piccoli tocchi dorati emergono come riflessi di luce nella penombra del sottobosco — un richiamo diretto alle lucciole, agli insetti e a tutti quei dettagli minuscoli ma fondamentali che popolano e animano la natura.\n",
     },
     {
         src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
