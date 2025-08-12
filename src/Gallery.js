@@ -22,7 +22,7 @@ import mareaRosa from "./images/marearosaJPG/rosa (1).jpg"
 import onirico1 from "./images/oniricojpg/onorico1.jpg";
 import naturaViva from "./images/naturaVivaJPG/naturaViva (1).jpg"
 import nevermind1 from "./images/nevermindJPG/nevermind (1).jpg";
-
+import pinkfloyd from "./images/pinkfloyjpg/pinkfloyd (2).jpg";
 
 function Gallery() {
 
@@ -32,6 +32,13 @@ function Gallery() {
             title: 'L’OCCHIO DI ŚAKTI',
             size: '20x20 cm',
             status: 'Acquistabile',
+
+        },
+        {
+            src: pinkfloyd,
+            title: 'TH3 D4RK S1D3 0F TH3 M00N',
+            size: '40x50 cm',
+            status: 'Venduto',
 
         },
         {

@@ -153,6 +153,14 @@ import nevermind5 from "./images/nevermindJPG/nevermind (5).jpg";
 import nevermind6 from "./images/nevermindJPG/nevermind (6).jpg";
 import nevermind7 from "./images/nevermindJPG/nevermind (7).jpg";
 
+import pinkfloyd1 from "./images/pinkfloyjpg/pinkfloyd (1).jpg"
+import pinkfloyd2 from "./images/pinkfloyjpg/pinkfloyd (2).jpg"
+import pinkfloyd3 from "./images/pinkfloyjpg/pinkfloyd (3).jpg"
+import pinkfloyd4 from "./images/pinkfloyjpg/pinkfloyd (4).jpg"
+import pinkfloyd5 from "./images/pinkfloyjpg/pinkfloyd (5).jpg"
+import pinkfloyd6 from "./images/pinkfloyjpg/pinkfloyd (6).jpg"
+import pinkfloyd7 from "./images/pinkfloyjpg/pinkfloyd (7).jpg"
+
 export const artworks = [
 
     {
@@ -168,6 +176,20 @@ export const artworks = [
             "principio femminile e dinamico dell’universo." +
             "I cerchi concentrici che si irradiano dal centro non sono solo forme ornamentali: vogliono evocare una certa ciclicità " +
             "e continuità, il respiro dell’universo, la tensione tra ordine e caos.",
+    },
+    {
+        src: [pinkfloyd2, pinkfloyd1, pinkfloyd3, pinkfloyd4, pinkfloyd5, pinkfloyd6, pinkfloyd7],
+        title: 'TH3 D4RK S1D3 0F TH3 M00N',
+        size: '50x50 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Luglio 2025",
+        disponibilita: "Venduto",
+        tecnica: "pasta testurizzata e effetto puntinato su tela",
+        descrizione: "Questa tela nasce come personale omaggio all’impatto culturale e musicale che i Pink Floyd hanno avuto nel panorama mondiale. \"The Dark Side of the Moon\" più che un album, è un simbolo di rottura, di esplorazione interiore e di rivoluzione artistica: una nuova forma di interpretare la musica e la mente.\n" +
+            "In questo dipinto, la celebre copertina viene reinterpretata e distorta volutamente, assumendo nuova forma: il fascio di luce non è più generato da una sorgente esterna ma nasce dall’interno stesso della tela, come un'emanazione spontanea e organica, mentre ’arcobaleno si trasforma in un flusso viscerale, personale e intimo.\n" +
+            "Il triangolo bianco, geometrico e statico, non domina la composizione ma si nasconde per poi riaffiorare, come se emergesse dal caos per riportare equilibrio.\n" +
+            "Lo sfondo nero non è piatto: è stato realizzato tramite una pasta materica e testurizzata, per evocare fedelmente la superficie lunare, omaggiando il simbolismo spaziale e cosmico tanto caro alla band. Lo spazio diventa così terreno fertile per l’introspezione, per la rottura dei limiti, per il viaggio psichedelico.\n" +
+            "Questa tela vuole favorire un'intima riflessione sul dualismo tra struttura e caos, tra visibile e invisibile, tra luce e oscurità: un viaggio visivo, proprio come lo è stato quello sonoro creato dai Pink Floyd.\n",
     },
     {
         src: [etere1, etere2, etere3, etere4, etere5, etere6, etere7],
