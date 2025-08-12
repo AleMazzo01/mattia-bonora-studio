@@ -134,7 +134,7 @@ function Gallery() {
         {
             src: naturaViva,
             title: 'NATURA VIVA',
-            size: '-',
+            size: '29x24',
             status: 'Acquistabile',
 
         },
