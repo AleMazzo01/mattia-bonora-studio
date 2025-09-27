@@ -17,27 +17,29 @@ import paolo2 from "./images/persone/Paolo con Stati di ritorno.jpg";
 import raffo from "./images/persone/Raffo con Orizzonte arancio e Movimento circolare blu.jpg";
 import rugegro from "./images/persone/Ruggero con Rio Esperanza.jpg";
 import seba from "./images/persone/Seba con Mosaico Peruviano.JPG";
+import seba1 from "./images/persone/Seba con Splendere al tramonto.jpg";
+
 import silvio from "./images/persone/Silvio con Terra di Siena.jpg";
 
 function Persone() {
     const immagini = [
-        { src: etere, titolo: "Andrea con ETERE" },
-        { src: badbunny, titolo: "Carlotta con DEBI TIRAR MAS FOTOS" },
-        { src: elena, titolo: "Elena con Acqua dolce, acqua salata" },
-        { src: federica, titolo: "Federico con Il bombarolo" },
-        { src: federico, titolo: "Federico con Marea rosa" },
-        { src: fiore, titolo: "Fiore con Axis Mundi Argenteo" },
-        { src: giulia, titolo: "Giulia con Marea azzurra e Movimento circolare rosa" },
-        { src: matteo, titolo: "Giulia e Matteo con Frequenze vegetali" },
-        { src: marco, titolo: "Marco con TH3 D4RK S1D3 0F TH3 M00N" },
-        { src: mazzo, titolo: "Mazzo con Alba acida a Tehuantepec.jpg" },
-        { src: paolo, titolo: "Paolo con Babele verde" },
-        { src: paolo2, titolo: "Paolo con Stati di ritorno" },
-        { src: raffo, titolo: "Raffo con Orizzonte arancio e Movimento circolare blu" },
-        { src: rugegro, titolo: "Ruggero con Rio Esperanza" },
-        { src: seba, titolo: "Seba con Mosaico Peruviano" },
-        { src: silvio, titolo: "Silvio con Terra di Siena" },
-
+        { src: etere, titolo: "Andrea con \"ETERE\"" },
+        { src: badbunny, titolo: "Carlotta con \"DEBI TIRAR MAS FOTOS\"" },
+        { src: elena, titolo: "Elena con \"Acqua dolce, acqua salata\"" },
+        { src: federica, titolo: "Federico con \"Il bombarolo\"" },
+        { src: federico, titolo: "Federico con \"Marea rosa\"" },
+        { src: fiore, titolo: "Fiore con \"Axis Mundi Argenteo\"" },
+        { src: giulia, titolo: "Giulia con \"Marea azzurra e Movimento circolare rosa\"" },
+        { src: matteo, titolo: "Giulia e Matteo con \"Frequenze vegetali\"" },
+        { src: marco, titolo: "Marco con \"TH3 D4RK S1D3 0F TH3 M00N\"" },
+        { src: mazzo, titolo: "Mazzo con \"Alba acida a Tehuantepec\"" },
+        { src: paolo, titolo: "Paolo con \"Babele verde\"" },
+        { src: paolo2, titolo: "Paolo con \"Stati di ritorno\"" },
+        { src: raffo, titolo: "Raffo con \"Orizzonte arancio e Movimento circolare blu\"" },
+        { src: rugegro, titolo: "Ruggero con \"Rio Esperanza\"" },
+        { src: seba, titolo: "Seba con \"Mosaico Peruviano\"" },
+        { src: seba1, titolo: "Seba con \"Splendere al tramonto\"" },
+        { src: silvio, titolo: "Silvio con \"Terra di Siena\"" },
     ];
 
     return (
