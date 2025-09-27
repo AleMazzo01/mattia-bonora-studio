@@ -64,6 +64,9 @@ function Navbar() {
         case "/galleria":
             pageTitle = "Galleria";
             break;
+        case "/Persone":
+            pageTitle = "Persone";
+            break;
         case "/ChiSono":
             pageTitle = "Biografia";
             break;
@@ -99,6 +102,7 @@ function Navbar() {
                 <li onClick={() => handleNavigation("/")}>Home</li>
                 <li onClick={() => handleNavigation("/galleria")}>Galleria</li>
                 <li onClick={() => handleNavigation("/contatti")}>Contatti</li>
+                <li onClick={() => handleNavigation("/Persone")}>Persone</li>
                 <li onClick={() => handleNavigation("/ChiSono")}>Biografia</li>
 
             </ul>

@@ -1,0 +1,36 @@
+.persone-container {
+    display: flex;
+    flex-wrap: wrap;        /* permette più righe */
+    justify-content: center;
+    gap: 20px;              /* spazio tra le immagini */
+}
+.home-header {
+    text-align: center;
+    width: 100%;
+}
+.persone-item {
+    width: 70%;           /* larghezza immagine */
+    text-align: center;
+}
+
+.persone-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    transition: transform 0.3s;
+}
+
+.persone-item img:hover {
+    transform: scale(1.05); /* piccolo effetto hover */
+}
+
+.persone-titolo {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+
+}

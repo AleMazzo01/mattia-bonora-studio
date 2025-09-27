@@ -9,6 +9,8 @@ import Gallery from './Gallery';
 import Work from './Work';
 import Contatti from './Contatti';
 import ChiSono from './ChiSono';
+import Persone from './Persone';
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -22,6 +24,7 @@ root.render(
                     <Route path="/galleria" element={<Gallery />} />
                     <Route path="/opera/:id" element={<Work />} />
                     <Route path="/contatti" element={<Contatti />} />
+                    <Route path="/persone" element={<Persone />} />
                     <Route path="/chisono" element={<ChiSono />} />
 
                 </Routes>
