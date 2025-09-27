@@ -21,10 +21,6 @@
     transition: transform 0.3s;
 }
 
-.persone-item img:hover {
-    transform: scale(1.05); /* piccolo effetto hover */
-}
-
 .persone-titolo {
     margin-top: 5px;
     font-weight: bold;
