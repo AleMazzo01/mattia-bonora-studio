@@ -70,14 +70,6 @@ import sahaara4 from "./images/nottteSahaara/notteSahaara (4).jpg"
 import sahaara5 from "./images/nottteSahaara/notteSahaara (5).jpg"
 import sahaara6 from "./images/nottteSahaara/notteSahaara (6).jpg"
 import sahaara7 from "./images/nottteSahaara/notteSahaara (7).jpg"
-import antro1 from "./images/antropocenejpg/POST-ANTROPOCENE (1).jpg"
-import antro2 from "./images/antropocenejpg/POST-ANTROPOCENE (2).jpg"
-import antro3 from "./images/antropocenejpg/POST-ANTROPOCENE (3).jpg"
-import antro4 from "./images/antropocenejpg/POST-ANTROPOCENE (4).jpg"
-import antro5 from "./images/antropocenejpg/POST-ANTROPOCENE (5).jpg"
-import antro6 from "./images/antropocenejpg/POST-ANTROPOCENE (6).jpg"
-import antro7 from "./images/antropocenejpg/POST-ANTROPOCENE (7).jpg"
-import antro8 from "./images/antropocenejpg/POST-ANTROPOCENE (8).jpg"
 import pianoQuin1 from "./images/pianoQuin/pianoQuin (1).jpg"
 import pianoQuin2 from "./images/pianoQuin/pianoQuin (2).jpg"
 import pianoQuin3 from "./images/pianoQuin/pianoQuin (3).jpg"
@@ -92,17 +84,7 @@ import interno4 from "./images/infernoRossoJpg/infernoRosso (4).jpg"
 import interno5 from "./images/infernoRossoJpg/infernoRosso (5).jpg"
 import interno6 from "./images/infernoRossoJpg/infernoRosso (6).jpg"
 import interno7 from "./images/infernoRossoJpg/infernoRosso (7).jpg"
-import identita1 from "./images/identitaJpg/identita (1).jpg"
-import identita2 from "./images/identitaJpg/identita (2).jpg"
-import identita3 from "./images/identitaJpg/identita (3).jpg"
-import identita4 from "./images/identitaJpg/identita (4).jpg"
-import identita5 from "./images/identitaJpg/identita (5).jpg"
-import identita6 from "./images/identitaJpg/identita (6).jpg"
-import identita7 from "./images/identitaJpg/identita (7).jpg"
-import identita8 from "./images/identitaJpg/identita (8).jpg"
-import identita9 from "./images/identitaJpg/identita (9).jpg"
-import identita10 from "./images/identitaJpg/identita (10).jpg"
-import identita11 from "./images/identitaJpg/identita (11).jpg"
+
 import alba1 from "./images/albajpg/alba (1).jpg"
 import alba2 from "./images/albajpg/alba (2).jpg"
 import alba3 from "./images/albajpg/alba (3).jpg"
@@ -160,6 +142,57 @@ import pinkfloyd4 from "./images/pinkfloyjpg/pinkfloyd (4).jpg"
 import pinkfloyd5 from "./images/pinkfloyjpg/pinkfloyd (5).jpg"
 import pinkfloyd6 from "./images/pinkfloyjpg/pinkfloyd (6).jpg"
 import pinkfloyd7 from "./images/pinkfloyjpg/pinkfloyd (7).jpg"
+import splendere1 from "./images/splendereAlTramonto/splendere (5).jpg";
+import splendere2 from "./images/splendereAlTramonto/splendere (1).jpg";
+import splendere3 from "./images/splendereAlTramonto/splendere (2).jpg";
+import splendere4 from "./images/splendereAlTramonto/splendere (3).jpg";
+import splendere5 from "./images/splendereAlTramonto/splendere (4).jpg";
+import splendere6 from "./images/splendereAlTramonto/splendere (6).jpg";
+import splendere7 from "./images/splendereAlTramonto/splendere (7).jpg";
+
+import elena1 from "./images/elena_JPG/elena (1).jpg";
+import elena2 from "./images/elena_JPG/elena (2).jpg";
+import elena3 from "./images/elena_JPG/elena (3).jpg";
+import elena4 from "./images/elena_JPG/elena (4).jpg";
+import elena5 from "./images/elena_JPG/elena (5).jpg";
+import elena6 from "./images/elena_JPG/elena (6).jpg";
+import elena7 from "./images/elena_JPG/elena (7).jpg";
+
+
+
+import nebulosa1 from "./images/nebulosa/nebulosa (2).jpg";
+import nebulosa2 from "./images/nebulosa/nebulosa (3).jpg";
+import nebulosa3 from "./images/nebulosa/nebulosa (4).jpg";
+import nebulosa4 from "./images/nebulosa/nebulosa (5).jpg";
+import nebulosa5 from "./images/nebulosa/nebulosa (6).jpg";
+import nebulosa6 from "./images/nebulosa/nebulosa (7).jpg";
+import nebulosa7 from "./images/nebulosa/nebulosa (1).jpg";
+
+import rpm1 from "./images/33jpg/33rpm (1).jpg";
+import rpm2 from "./images/33jpg/33rpm (2).jpg";
+import rpm3 from "./images/33jpg/33rpm (3).jpg";
+import rpm4 from "./images/33jpg/33rpm (4).jpg";
+import rpm5 from "./images/33jpg/33rpm (5).jpg";
+import rpm6 from "./images/33jpg/33rpm (6).jpg";
+import rpm7 from "./images/33jpg/33rpm (6).jpg";
+
+import brutal1 from "./images/brutalismo3.0jpg/brutalismo3 (2).jpg";
+import brutal2 from "./images/brutalismo3.0jpg/brutalismo3 (3).jpg";
+import brutal3 from "./images/brutalismo3.0jpg/brutalismo3 (4).jpg";
+import brutal4 from "./images/brutalismo3.0jpg/brutalismo3 (5).jpg";
+import brutal5 from "./images/brutalismo3.0jpg/brutalismo3 (6).jpg";
+import brutal6 from "./images/brutalismo3.0jpg/brutalismo3 (7).jpg";
+import brutal7 from "./images/brutalismo3.0jpg/brutalismo3 (1).jpg";
+
+
+import palestina from "./images/SUMUD_jpg/palestina (1).jpg"
+import palestina2 from "./images/SUMUD_jpg/palestina (2).jpg"
+import palestina3 from "./images/SUMUD_jpg/palestina (3).jpg"
+import palestina4 from "./images/SUMUD_jpg/palestina (4).jpg"
+import palestina5 from "./images/SUMUD_jpg/palestina (5).jpg"
+import palestina6 from "./images/SUMUD_jpg/palestina (6).jpg"
+import palestina7 from "./images/SUMUD_jpg/palestina (7).jpg"
+
 
 export const artworks = [
 
@@ -190,6 +223,31 @@ export const artworks = [
             "Il triangolo bianco, geometrico e statico, non domina la composizione ma si nasconde per poi riaffiorare, come se emergesse dal caos per riportare equilibrio.\n" +
             "Lo sfondo nero non è piatto: è stato realizzato tramite una pasta materica e testurizzata, per evocare fedelmente la superficie lunare, omaggiando il simbolismo spaziale e cosmico tanto caro alla band. Lo spazio diventa così terreno fertile per l’introspezione, per la rottura dei limiti, per il viaggio psichedelico.\n" +
             "Questa tela vuole favorire un'intima riflessione sul dualismo tra struttura e caos, tra visibile e invisibile, tra luce e oscurità: un viaggio visivo, proprio come lo è stato quello sonoro creato dai Pink Floyd.\n",
+    },
+    {
+        src: [brutal1, brutal2, brutal3, brutal4, brutal5, brutal6, brutal7],
+        title: 'BRUTALISMO 3.0',
+        size: '58x78 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Agosto 2025",
+        disponibilita: "Venduto",
+        tecnica: "acrilico e effetto pouring su tela",
+        descrizione: "Il quadro trae diretta ispirazione dall’architettura brutalista sovietica, caratterizzata da colori cupi, masse compatte e logiche geometriche rigide. Qui però le forme vengono volutamente sovvertite: ciò che nel cemento è blocco e staticità, qui diventa flusso e materia liquida, come una metamorfosi continua.\n" +
+            "Il rosso (tipico sovietico) e il nero dominano la superficie, richiamando la durezza e l’austerità cromatica di questa corrente artistica, ma allo stesso tempo la colata dissolve ogni rigore, aprendo a un immaginario viscerale e instabile. È un brutalismo che non si erge, ma che vuole scorrere tra le “spaccature” createsi.\n" +
+            "La tela stessa porta con sé una memoria stratificata: questa è la sua terza vita. Come il brutalismo architettonico ha imposto la propria presenza sulle preesistenze urbane con decisione netta e concisa, così questa tela ha cancellato e inglobato le due opere precedenti, dando origine a una nuova identità.\n" +
+            "Ne emerge un lavoro che non celebra superficialmente il brutalismo in sé, ma la sua capacità di riscrittura: un’estetica nata dalla distruzione, rigida e solida nella memoria, ma divenuta con il quadro fluida, emotiva e inquieta.\n",
+    },
+    {
+        src: [splendere1, splendere2, splendere3, splendere4, splendere5, splendere6, splendere7],
+        title: 'SPLENDERE AL TRAMONTO',
+        size: '50x50 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Agosto 2025",
+        disponibilita: "Venduto",
+        tecnica: "acrilico, pasta testurizzata e spray su tela",
+        descrizione: "Questo quadro nasce da una commissione fattami molto personale, volta ad esprimere su tela quella che è stata la mia carriera calcistica. Per anni ho giocato tra i professionisti, non ero un fenomeno da Serie A, ma venivo considerato un prospetto interessante per il futuro: un percorso che dall’esterno poteva sembrare una promessa luminosa. Eppure, dietro quella luce, non c’era alcuna passione: non ho mai amato il calcio, non l’ho mai seguito, e viverlo dall’interno significava spesso confrontarmi con un senso di vuoto e di amarezza.\n" +
+            "I colori caldi del quadro rappresentano il piccolo “successo” che avevo ottenuto, quella parte che brillava e attirava lo sguardo, proprio come il sole al tramonto. Al contrario, i blu intensi e materici raccontano il peso nascosto, la fatica e i momenti più difficili che hanno segnato quella breve carriera. Tra questi poli opposti si muove la banda bianca (a forma di S, come il nome della persona che mi ha commissionato il quadro): fluida, in continua trasformazione, a sottolineare come queste esperienze non fossero mai separate, ma coesistessero nel medesimo momento.\n" +
+            "“Splendere al tramonto” vuole restituire questa fragile e intima ambivalenza: l’intensità di un bagliore che appare precoce e forte, ma che al tempo stesso, porta con sé la consapevolezza di quanto possa consumare rapidamente chi non lo sente davvero suo.\n",
     },
     {
         src: [etere1, etere2, etere3, etere4, etere5, etere6, etere7],
@@ -231,6 +289,38 @@ export const artworks = [
 
     },
     {
+        src: [elena1, elena2, elena3, elena4, elena5, elena6, elena7],
+        title: 'Ἑλένη',
+        size: '58x78 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Settembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, spray e pasta testurizzata su tela",
+
+        descrizione: "Il dipinto nasce da un ricordo personale: in un pomeriggio nuvoloso a Bruxelles all’interno di un museo, dove Elena sedeva in silenzio sulle poltroncine, intenta a contemplare un quadro imponente. In quell’immagine si è depositato il seme dell’opera: sostituire idealmente quel dipinto con questo, trasformando un momento privato in forma espressiva.\n" +
+            "La composizione gioca con piani cromatici netti e forme geometriche essenziali: il bronzo richiama l’antichità e la memoria, l’avorio porta luce e apertura, il blu petrolio e il nero introducono profondità e gravità. L’insieme rievoca il linguaggio solido e quasi architettonico delle sale museali, ma filtrato da una sensibilità più intima e personale.\n" +
+            "Il titolo “Ἑλένη” rafforza questo dialogo: in greco antico il nome rimanda alla torcia, allo splendore e alla luce che rischiara. È un significato che trova risonanza nei contrasti dell’opera: la luminosità dell’avorio che affiora dalle campiture più scure, il calore del bronzo che vibra accanto al rosso.\n" +
+            "Così il quadro diventa un atto di metamorfosi: un ricordo affettivo trasfigurato in spazio universale, un frammento privato che assume la monumentalità dell’icona. “Ἑλένη” vive nella soglia tra dedica intima e monumento privato, come se il gesto personale potesse farsi architettura di memoria e la memoria stessa trasformarsi in luce.\n"
+
+    },
+    {
+        src: [rpm1, rpm2, rpm3, rpm4, rpm5, rpm6, rpm7],
+        title: '33 RPM',
+        size: '50x20 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Settembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, spray e pasta testurizzata su tela",
+
+        descrizione: "La tela trae ispirazione e vuole direttamente evocare i vinili: icona di un’epoca in cui la musica non era soltanto suono, ma oggetto, gesto, rituale. I solchi concentrici incisi nei dischi diventavano tracce di memoria e movimento, capaci di custodire e restituire emozioni.\n" +
+            "Nel corso del tempo, con l’avvento della musica digitale il vinile è stato accantonato, relegato a simbolo del passato e del disuso. Eppure, come dimostrano i suoi cerchi concentrici, tutto torna. Ciò che sembrava destinato all’oblio ha saputo rinascere, riaffermando in modo deciso il proprio spazio e conferendo un nuovo valore proprio nell’epoca dominata dall’immateriale.\n" +
+            "Questo quadro, con le sue forme essenziali e ripetitive, diventa metafora di questo ciclo eterno: ciò che appartiene al passato non va dimenticato, ma riscoperto e riletto alla luce del presente.\n" +
+            "Non tutto ciò che è antico o superato merita di essere abbandonato: al contrario, molte volte ciò che abbiamo alle spalle è ciò che ci permette di riconnetterci con il senso più autentico della bellezza, del ritmo e della vita stessa.\n"
+
+    },
+    {
         src: [alba1, alba2, alba3, alba4, alba5, alba6, alba7],
         title: 'ALBA LISERGICA',
         size: '50x40 cm',
@@ -248,6 +338,22 @@ export const artworks = [
             "Il quadro è il simbolo di un momento irripetibile: la fusione tra il battito della techno, la sostanza nel sangue e la luce che arriva, lenta, a ricordarti che sei ancora vivo. O forse no.\n",
     },
     {
+        src: [nebulosa1, nebulosa2, nebulosa3, nebulosa4, nebulosa5, nebulosa6, nebulosa7],
+        title: 'NGC 4972 – NEBULOSA KAELIS',
+        size: '',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Agosto 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto pouring su tela",
+
+
+        descrizione: "\"Quest’opera nasce dal desiderio di creare e trasformare a modo mio una galassia lontana, interpretandone l’essenza senza seguire schemi canonici. Le sfumature blu, viola e verdi evocano la materia cosmica in trasformazione, mentre le linee nere – costellate di stelle – attraversano e spezzano l’armonia del fondo, come rotte interstellari che interrompono il silenzio dello spazio.\n" +
+            "        Triste realtà, la “Nebulosa Kaelis” non esiste: è frutto della mia immaginazione. Proprio come molte delle galassie che conosciamo solo attraverso raggi X, radiosegnali e immagini rielaborate artificialmente, anche questa nebulosa prende forma da una libertà interpretativa. I colori e le fattezze sono invenzione, ma non per questo meno reali: ciò che non vediamo può comunque esistere, e possiamo attribuirgli sembianze attraverso la nostra sensibilità.\n" +
+            "    Questo lavoro vuole così sottolineare una realtà bicefala: l’universo come territorio di mistero e, al tempo stesso, di creazione. Anche ciò che rimane invisibile può assumere una forma concreta, se abbiamo il coraggio di immaginarla.\n" +
+            "\"",
+    },
+    {
         src: [rio1, rio2, rio3, rio4, rio5, rio6, rio7],
         title: 'Rio Esperanza',
         size: '78x58 cm',
@@ -259,19 +365,6 @@ export const artworks = [
         descrizione: "La tela nasce dal bisogno di immaginare un luogo lontano e vivo, che scorre libero, nonostante tutto. Ispirato ai fiumi dell’America Latina – simboli di forza e rinascita – questo dipinto rappresenta un flusso che scorre, sia dentro che fuori, luminoso. \n" +
             "In una terra dove spesso convivono meraviglie e difficoltà, il fiume è vita, è resistenza, è speranza che continua ad agitarsi anche quando tutto sembra fermo.\n" +
             "Il quadro è dedicato a chi, nonostante le avversità, continua a sognare e sperare; invita ad un panta rei costante, a lasciarsi cullare dal fiume e non esserne solo più preda.\n",
-    },
-    {
-        src: [antro5,antro1, antro2, antro3, antro6, antro7, antro8, antro4],
-        title: 'POST-ANTROPOCENE',
-        size: '80x60 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "In un mondo abbandonato dall'uomo, la natura riprende il controllo: invade, ingloba, riconquista. \"Post-Antropocene\" è una visione di rinascita selvaggia, dove le strutture umane cedono sotto il peso dell’organico, del liquido, del vivo. Le colature di colore si fanno radici, muschio, veleno e linfa: una foresta che cresce sul cemento della civiltà crollata. È la fine di un'epoca, ma anche l'inizio di un ordine nuovo, più antico di qualsiasi impero umano.",
     },
     {
         src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
@@ -313,6 +406,19 @@ export const artworks = [
             "il verde non è solo un colore, ma pure una presenza. La superficie materica richiama la corteccia, " +
             "il muschio e il terreno umido. L’opera vuole invitare alla calma sollecitando l’attenzione, perché può " +
             "sempre emergere qualcosa dalle ombre del verde.",
+    },
+    {
+        src: [palestina, palestina2, palestina3, palestina4, palestina5, palestina6, palestina7],
+        title: 'SUMUD',
+        size: '80x60 cm',
+
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Settembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e pasta testurizzata su tela",
+
+
+        descrizione: "",
     },
     {
         src: [cinque1, cinque2, cinque3, cinque4, cinque5, cinque6, cinque7],
@@ -434,27 +540,6 @@ export const artworks = [
             "Questo dipinto non vuole essere superficiale e fine a sé stesso, ma vuole rappresentare un manifesto di rottura e identità: un richiamo alla ribellione visiva e sonora che ha riscritto le regole dell’arte, della musica e del costume.\n" +
             "Un tributo alla nobile sporcizia della cultura punk, al diritto di urlare, disobbedire e reinventare un mondo in cui non ci si riconosce.\n",
     },
-    {
-        src: [identita1, identita2, identita3, identita4, identita5, identita6, identita7, identita8, identita9, identita10, identita11],
-        title: 'IDENTITÀ RESISTENTI',
-        size: '80x60 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Aprile 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico su tela",
-
-
-        descrizione: "“Identità Resistenti” è un trittico che narra il silenzioso coraggio di questi popoli che, contro ogni avversità, continuano a lottare per la propria libertà: Palestina, Ucraina e Kurdistan.\n" +
-            "\n" +
-            "Ogni tela porta il nome di un bimbo – Aya, Zorya, Berfin – col fine di simboleggiare che continua ad esistere sempre una speranza, anche nelle macerie lasciate dai conflitti.\n" +
-            "\n" +
-            "Le forme geometriche create, sì spezzate ma comunque riconoscibili, richiamano quel tessuto sociale che resiste anche alla distruzione. I motivi “floreali” possono essere interpretati anche come macchie di sangue: a simboleggiare la bellezza e la violenza intrecciate nella sorte di questi popoli.\n" +
-            "\n Aya (Palestina): una voce leggera tra le macerie, che fiorisce anche sotto il peso dell’oppressione.\n" +
-            "Zorya (Ucraina): è la stella dell’alba, che attraversa il gelo della guerra e torna ogni giorno a splendere.\n" +
-            "Berfin (Kurdistan) è il fiore che sboccia dalla neve e come il suo popolo, si radica con forza alla terra.\n",
-    },
-
     {
         src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],
         title: 'CTRL+ALT+?',

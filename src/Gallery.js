@@ -12,10 +12,8 @@ import sous from "./images/sousbuavertjpg/sousbuavert1.jpg"
 import altrove from "./images/altrovejpg/altrove.jpg"
 import colatablu from "./images/abissoblujpg/abissoblu (3).jpg"
 import sahaara from "./images/nottteSahaara/notteSahaara (1).jpg"
-import antro from "./images/antropocenejpg/POST-ANTROPOCENE (5).jpg"
 import pianoquin from "./images/pianoQuin/pianoQuin (1).jpg"
 import interno from "./images/infernoRossoJpg/infernoRosso (1).jpg";
-import identita from "./images/identitaJpg/identita (1).jpg"
 import alba from "./images/albajpg/alba (1).jpg"
 import ctrl1 from "./images/CTRL/CTRL (1).jpg";
 import mareaRosa from "./images/marearosaJPG/rosa (1).jpg"
@@ -23,6 +21,13 @@ import onirico1 from "./images/oniricojpg/onorico1.jpg";
 import naturaViva from "./images/naturaVivaJPG/naturaViva (1).jpg"
 import nevermind1 from "./images/nevermindJPG/nevermind (1).jpg";
 import pinkfloyd from "./images/pinkfloyjpg/pinkfloyd (2).jpg";
+import splendere from "./images/splendereAlTramonto/splendere (5).jpg";
+import elena from "./images/elena_JPG/elena (1).jpg";
+import nebulosa from "./images/nebulosa/nebulosa (2).jpg";
+import rpm from "./images/33jpg/33rpm (1).jpg";
+import brut from "./images/brutalismo3.0jpg/brutalismo3 (2).jpg";
+import palestina from "./images/SUMUD_jpg/palestina (1).jpg";
+
 
 function Gallery() {
 
@@ -38,6 +43,20 @@ function Gallery() {
             src: pinkfloyd,
             title: 'TH3 D4RK S1D3 0F TH3 M00N',
             size: '40x50 cm',
+            status: 'Venduto',
+
+        },
+        {
+            src: brut,
+            title: 'BRUTALISMO 3.0',
+            size: '58x78 cm',
+            status: 'Venduto',
+
+        },
+        {
+            src: splendere,
+            title: 'SPLENDERE AL TRAMONTO',
+            size: '60x30 cm',
             status: 'Venduto',
 
         },
@@ -64,9 +83,30 @@ function Gallery() {
 
         },
         {
+            src: elena,
+            title: 'Ἑλένη',
+            size: '58x78 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: rpm,
+            title: '33 RPM',
+            size: '50x20 cm',
+            status: 'Acquistabile',
+
+        },
+        {
             src: alba,
             title: 'ALBA LISERGICA',
             size: '50x40 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: nebulosa,
+            title: 'NGC 4972 – NEBULOSA KAELIS',
+            size: '',
             status: 'Acquistabile',
 
         },
@@ -75,12 +115,6 @@ function Gallery() {
             title: 'RIO ESPERANZA',
             size: '78x58 cm',
             status: 'Venduto',
-        },
-        {
-            src: antro,
-            title: 'POST-ANTROPOCENE',
-            size: '80x60 cm',
-            status: 'Acquistabile',
         },
         {
             src: mareaRosa,
@@ -100,6 +134,13 @@ function Gallery() {
             src: sous,
             title: 'SOUS-BOIS VERT',
             size: '50x50 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: palestina,
+            title: 'SUMUD',
+            size: '80x60 cm',
             status: 'Acquistabile',
 
         },
@@ -156,13 +197,6 @@ function Gallery() {
             title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
             size: '50x70 cm',
             status: 'Acquistabile',
-        },
-        {
-            src: identita,
-            title: 'IDENTITÀ RESISTENTI',
-            size: '80x60 cm',
-            status: 'Acquistabile',
-
         },
         {
             src: ctrl1,
