@@ -174,7 +174,7 @@ import rpm3 from "./images/33jpg/33rpm (3).jpg";
 import rpm4 from "./images/33jpg/33rpm (4).jpg";
 import rpm5 from "./images/33jpg/33rpm (5).jpg";
 import rpm6 from "./images/33jpg/33rpm (6).jpg";
-import rpm7 from "./images/33jpg/33rpm (6).jpg";
+import rpm7 from "./images/33jpg/33rpm (7).jpg";
 
 import brutal1 from "./images/brutalismo3.0jpg/brutalismo3 (2).jpg";
 import brutal2 from "./images/brutalismo3.0jpg/brutalismo3 (3).jpg";
