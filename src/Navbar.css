@@ -188,7 +188,7 @@
 /* Desktop grandi (oltre 1024px) */
 @media (min-width: 1025px) {
     .navbar-title {
-        font-size: 2.3rem;
+        font-size: 4.3rem;
     }
 
     .navbar-menu a {
