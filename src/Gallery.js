@@ -26,6 +26,9 @@ import palestina from "./images/SUMUD_jpg/palestina (1).jpg";
 import mare from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (1).jpg";
 import ventiquattrok from "./images/24k/24k (1).jpg";
 import formazionelavica from "./images/fomrazionelavica/formazione (1).jpg"
+import mosaico from "./images/mosaicoliquido/mosaico (1).jpg"
+import donot from "./images/donotconform/donotconform (1).jpg"
+
 function Gallery() {
 
     const artworks = [
@@ -33,6 +36,13 @@ function Gallery() {
             src: mare,
             title: 'MARE D’INVERNO (L’EPILOGO)',
             size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: donot,
+            title: 'DO NOT CONFORM',
+            size: '75x55 cm',
             status: 'Acquistabile',
 
         },
@@ -47,6 +57,13 @@ function Gallery() {
             src: formazionelavica,
             title: 'Formazione lavica - 01',
             size: '50x50 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: mosaico,
+            title: 'Mosaico liquido',
+            size: '60x30 cm',
             status: 'Acquistabile',
 
         },

@@ -193,6 +193,21 @@ import formazionelavica5 from "./images/fomrazionelavica/formazione (5).jpg"
 import formazionelavica6 from "./images/fomrazionelavica/formazione (6).jpg"
 import formazionelavica7 from "./images/fomrazionelavica/formazione (7).jpg"
 
+import mosaico1 from "./images/mosaicoliquido/mosaico (1).jpg"
+import mosaico2 from "./images/mosaicoliquido/mosaico (2).jpg"
+import mosaico3 from "./images/mosaicoliquido/mosaico (3).jpg"
+import mosaico4 from "./images/mosaicoliquido/mosaico (4).jpg"
+import mosaico5 from "./images/mosaicoliquido/mosaico (5).jpg"
+import mosaico6 from "./images/mosaicoliquido/mosaico (6).jpg"
+import mosaico7 from "./images/mosaicoliquido/mosaico (7).jpg"
+
+import donot from "./images/donotconform/donotconform (1).jpg"
+import donot2 from "./images/donotconform/donotconform (2).jpg"
+import donot3 from "./images/donotconform/donotconform (3).jpg"
+import donot4 from "./images/donotconform/donotconform (4).jpg"
+import donot5 from "./images/donotconform/donotconform (5).jpg"
+import donot6 from "./images/donotconform/donotconform (6).jpg"
+import donot7 from "./images/donotconform/donotconform (7).jpg"
 
 
 
@@ -213,7 +228,21 @@ export const artworks = [
             "In alto ci sono due soli: uno nasce, l’altro muore. Non è un gesto drammatico, ma un passaggio necessario. Una parte va lasciata andare affinché l’altra possa prendere forma.\n" +
             "Questa tela quindi è il racconto di un cambiamento necessario e della scelta – delicata ma radicale – di seguire ciò che ci fa sentire davvero vivi.\n",
     },
-
+    {
+        src: [donot, donot2, donot3, donot4, donot5, donot6, donot7],
+        title: 'DO NOT CONFORM',
+        size: '75x55 cm',
+        supporto: "tela su telaio in legno",
+        realizzazione: "Novembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto puntinato su tela",
+        descrizione: "Questo quadro afferma un principio essenziale: non devi aderire alla forma “prevista”.\n" +
+            "La società tende a ripetere la stessa figura, meccanizzandola, fino a rendere ciò che è simile definitivamente uguale. Chi tenta di uscire da questo ritmo catatonico viene prima punito, poi corretto, per poi infine la cosa peggiore: viene standardizzato. Questa tela però si pone in netto contrasto con ciò, rifiutando quella pressione.\n" +
+            "Il colore che cambia nel pattern non è un errore: è la prova che la differenza può restare visibile, anche senza dover chiedere il permesso.\n" +
+            "Non conformarsi non significa opporsi a tutti. Significa non cancellarsi per essere accettati. Significa riconoscere la propria identità, rimanendo fedeli a sé stessi, anche quando il contesto spinge in un’unica direzione. Chi sceglie di distinguersi non rompe l’equilibrio: lo ridefinisce.\n" +
+            "Questo manifesto difende il diritto a quella scelta. Insegna che una deviazione minima è già un atto politico. Che la coerenza con se stessi vale più della somiglianza agli altri. Che l’uniformità non è un destino: è una resa.\n" +
+            "“DO NOT CONFORM” significa proprio questo: proteggi ciò che ti rende unico. Mantieni la tua forma. Resta vivo.\n",
+    },
     {
         src: [ventiquattrok, ventiquattrok2, ventiquattrok3, ventiquattrok4, ventiquattrok5, ventiquattrok6, ventiquattrok7],
         title: '24K',
@@ -238,6 +267,19 @@ export const artworks = [
             "Le variazioni di rosso, nero e bruno costruiscono una trama irregolare che richiama la solidificazione della lava e il momento in cui la materia si organizza in forma.\n" +
             "Il risultato è una pittura che indaga la fisicità del materiale e il suo comportamento, più che l’immagine in sé. La cornice bianca isola il nucleo scuro, creando un equilibrio visivo tra peso e ordine.\n" +
             "“Formazione lavica 01” rappresenta quindi la nascita della forma come fenomeno naturale e fisico, dove la pittura diventa strumento di osservazione del processo, non solo del risultato.",
+    },
+    {
+        src: [mosaico1, mosaico2, mosaico3, mosaico4, mosaico5, mosaico6, mosaico7],
+        title: 'Mosaico liquido',
+        size: '60x30 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Ottobre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, spray e effetto puntinato su tela",
+        descrizione: "Con questo quadro ho voluto rappresentare il dialogo tra l’acqua e la materia, tra ciò che scorre e ciò che resta. Nasce dall’immagine delle gocce di pioggia che scivolano su una parete, lasciando dietro di sé un movimento silenzioso, costante, quasi meditativo.\n" +
+            "Ogni goccia, trasformata in tessera, diventa parte di un mosaico che cattura la luce e ne riflette il respiro.\n" +
+            "Il blu avvolge lo sguardo come un mare calmo: denso, profondo, capace di fermare il tempo e di far emergere una sensazione di quiete interiore.\n" +
+            "Questo lavoro vuole essere un invito alla lentezza — a osservare ciò che accade quando l’acqua incontra la superficie e tutto si trasforma in armonia visiva, in silenzio che scivola.\n",
     },
     {
         src: [occhio1, occhio2, occhio3, occhio4, occhio5, occhio6],
