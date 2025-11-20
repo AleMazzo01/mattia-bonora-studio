@@ -4,13 +4,7 @@ import occhio3 from "./images/occhio3.jpg"
 import occhio4 from "./images/occhio4.jpg"
 import occhio5 from "./images/occhio5.jpg"
 import occhio6 from "./images/occhio6.jpg"
-import cinque1 from "./images/528_1.jpg"
-import cinque2 from "./images/528_2.jpg"
-import cinque3 from "./images/528_3.jpg"
-import cinque4 from "./images/528_4.jpg"
-import cinque5 from "./images/528_5.jpg"
-import cinque6 from "./images/528_6.jpg"
-import cinque7 from "./images/528_7.jpeg"
+
 import rio1 from "./images/rio1.jpg"
 import rio2 from "./images/rio2.jpg"
 import rio3 from "./images/rio3.jpg"
@@ -39,13 +33,7 @@ import babele4 from "./images/babeleverdejpg/babele4.jpg"
 import babele5 from "./images/babeleverdejpg/babele5.jpg"
 import babele6 from "./images/babeleverdejpg/babele6.jpg"
 import babele7 from "./images/babeleverdejpg/babele7.jpg"
-import sous1 from "./images/sousbuavertjpg/sousbuavert1.jpg"
-import sous2 from "./images/sousbuavertjpg/sousbuavert2.jpg"
-import sous3 from "./images/sousbuavertjpg/sousbuavert3.jpg"
-import sous4 from "./images/sousbuavertjpg/sousbuavert4.jpg"
-import sous5 from "./images/sousbuavertjpg/sousbuavert5.jpg"
-import sous6 from "./images/sousbuavertjpg/sousbuavert6.jpg"
-import sous7 from "./images/sousbuavertjpg/sousbuavert7.jpg"
+
 import altrove1 from "./images/altrovejpg/altrove.jpg"
 import altrove2 from "./images/altrovejpg/altrove (1).jpg"
 import altrove3 from "./images/altrovejpg/altrove (2).jpg"
@@ -63,13 +51,7 @@ import abisso4 from "./images/abissoblujpg/abissoblu (4).jpg"
 import abisso5 from "./images/abissoblujpg/abissoblu (5).jpg"
 import abisso6 from "./images/abissoblujpg/abissoblu (6).jpg"
 import abisso7 from "./images/abissoblujpg/abissoblu (7).jpg"
-import sahaara1 from "./images/nottteSahaara/notteSahaara (1).jpg"
-import sahaara2 from "./images/nottteSahaara/notteSahaara (2).jpg"
-import sahaara3 from "./images/nottteSahaara/notteSahaara (3).jpg"
-import sahaara4 from "./images/nottteSahaara/notteSahaara (4).jpg"
-import sahaara5 from "./images/nottteSahaara/notteSahaara (5).jpg"
-import sahaara6 from "./images/nottteSahaara/notteSahaara (6).jpg"
-import sahaara7 from "./images/nottteSahaara/notteSahaara (7).jpg"
+
 import pianoQuin1 from "./images/pianoQuin/pianoQuin (1).jpg"
 import pianoQuin2 from "./images/pianoQuin/pianoQuin (2).jpg"
 import pianoQuin3 from "./images/pianoQuin/pianoQuin (3).jpg"
@@ -77,13 +59,6 @@ import pianoQuin4 from "./images/pianoQuin/pianoQuin (4).jpg"
 import pianoQuin5 from "./images/pianoQuin/pianoQuin (5).jpg"
 import pianoQuin6 from "./images/pianoQuin/pianoQuin (6).jpg"
 import pianoQuin7 from "./images/pianoQuin/pianoQuin (7).jpg"
-import interno1 from "./images/infernoRossoJpg/infernoRosso (1).jpg"
-import interno2 from "./images/infernoRossoJpg/infernoRosso (2).jpg"
-import interno3 from "./images/infernoRossoJpg/infernoRosso (3).jpg"
-import interno4 from "./images/infernoRossoJpg/infernoRosso (4).jpg"
-import interno5 from "./images/infernoRossoJpg/infernoRosso (5).jpg"
-import interno6 from "./images/infernoRossoJpg/infernoRosso (6).jpg"
-import interno7 from "./images/infernoRossoJpg/infernoRosso (7).jpg"
 
 import alba1 from "./images/albajpg/alba (1).jpg"
 import alba2 from "./images/albajpg/alba (2).jpg"
@@ -92,15 +67,14 @@ import alba4 from "./images/albajpg/alba (4).jpg"
 import alba5 from "./images/albajpg/alba (5).jpg"
 import alba6 from "./images/albajpg/alba (6).jpg"
 import alba7 from "./images/albajpg/alba (7).jpg"
-import ctrl1 from "./images/CTRL/CTRL (1).jpg";
+import ctrl7 from "./images/CTRL/CTRL (1).jpg";
 import ctrl2 from "./images/CTRL/CTRL (2).jpg";
 import ctrl3 from "./images/CTRL/CTRL (3).jpg";
 import ctrl4 from "./images/CTRL/CTRL (4).jpg";
 import ctrl5 from "./images/CTRL/CTRL (5).jpg";
 import ctrl6 from "./images/CTRL/CTRL (6).jpg";
-import ctrl7 from "./images/CTRL/CTRL (7).jpg";
-import ctrl8 from "./images/CTRL/CTRL (8).jpg";
-import ctrl9 from "./images/CTRL/CTRL (9).jpg";
+import ctrl1 from "./images/CTRL/CTRL (7).jpg";
+
 import rosa1 from "./images/marearosaJPG/rosa (1).jpg";
 import rosa2 from "./images/marearosaJPG/rosa (2).jpg";
 import rosa3 from "./images/marearosaJPG/rosa (3).jpg";
@@ -194,8 +168,77 @@ import palestina6 from "./images/SUMUD_jpg/palestina (6).jpg"
 import palestina7 from "./images/SUMUD_jpg/palestina (7).jpg"
 
 
+import mare from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (1).jpg";
+import mare2 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (2).jpg";
+import mare3 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (3).jpg";
+import mare4 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (4).jpg";
+import mare5 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (5).jpg";
+import mare6 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (6).jpg";
+import mare7 from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (7).jpg";
+
+
+import ventiquattrok from "./images/24k/24k (1).jpg";
+import ventiquattrok2 from "./images/24k/24k (2).jpg";
+import ventiquattrok3 from "./images/24k/24k (3).jpg";
+import ventiquattrok4 from "./images/24k/24k (4).jpg";
+import ventiquattrok5 from "./images/24k/24k (5).jpg";
+import ventiquattrok6 from "./images/24k/24k (6).jpg";
+import ventiquattrok7 from "./images/24k/24k (7).jpg";
+
+import formazionelavica1 from "./images/fomrazionelavica/formazione (1).jpg"
+import formazionelavica2 from "./images/fomrazionelavica/formazione (2).jpg"
+import formazionelavica3 from "./images/fomrazionelavica/formazione (3).jpg"
+import formazionelavica4 from "./images/fomrazionelavica/formazione (4).jpg"
+import formazionelavica5 from "./images/fomrazionelavica/formazione (5).jpg"
+import formazionelavica6 from "./images/fomrazionelavica/formazione (6).jpg"
+import formazionelavica7 from "./images/fomrazionelavica/formazione (7).jpg"
+
+
+
+
 export const artworks = [
 
+    {
+        src: [mare, mare2, mare3, mare4, mare5, mare6, mare7],
+        title: 'Mare d’inverno (l’epilogo)',
+        size: '78x58 cm',
+        supporto: "acrilico, spray e foglia d’oro tela",
+        realizzazione: "Novembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto puntinato su tela",
+        descrizione: "Questo quadro nasce da un periodo complesso che ho vissuto, in cui tutto sembrava immobile.\n" +
+            "L’edificio sulla destra rappresenta quella fase: una struttura rigida e catatonica, fatta di scelte che non erano più davvero mie. Un’esistenza che continuava per abitudine, più che per convinzione. Tra le finestre spente, una sola brilla d’oro: è l’io; quella parte di me che provava a farsi spazio, anche quando intorno era fermo.\n" +
+            "Sulla sinistra è presente il mare d’inverno. Qui le onde non seguono un ordine preciso: si intrecciano e cambiano direzione. Per me sono state l’immagine più onesta di come ci si sente quando qualcosa dentro scalpita, anche se non sai ancora dove ti condurrà.\n" +
+            "La piccola barca d’oro è il primo passo verso un altrove. Un gesto minimo, fragile, ma che indica un cambiamento reale. Una decisione che non fa particolare rumore, ma che cambia tutto\n" +
+            "In alto ci sono due soli: uno nasce, l’altro muore. Non è un gesto drammatico, ma un passaggio necessario. Una parte va lasciata andare affinché l’altra possa prendere forma.\n" +
+            "Questa tela quindi è il racconto di un cambiamento necessario e della scelta – delicata ma radicale – di seguire ciò che ci fa sentire davvero vivi.\n",
+    },
+
+    {
+        src: [ventiquattrok, ventiquattrok2, ventiquattrok3, ventiquattrok4, ventiquattrok5, ventiquattrok6, ventiquattrok7],
+        title: '24K',
+        size: '30x24 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Settembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, spray e pasta testurizzata su tela",
+        descrizione: "Quest’opera prende vita da una tela apparentemente compromessa, segnata da difetti che la rendevano perfettamente candidata al cestino. È proprio da quella condizione di rifiuto che è nato il desiderio di trasformazione: invece di abbandonarla, ho scelto di darle una seconda possibilità, correggendola e arricchendola con un pattern concentrico che si espande sulla superficie in una trama regolare e luminosa.\n" +
+            "Il colore oro, con la sua forza simbolica, non è stato scelto a caso: rappresenta la rinascita e la preziosità che può emergere anche da ciò che inizialmente appare fragile, imperfetto o non adatto. “24K” diventa così una memoria visiva di resilienza e di riscatto. L’opera vuole sottolineare come nessuno sia “sbagliato” a priori, ma che ciascuno di noi possa splendere quando incontra il contesto giusto in cui esprimersi e la cornice capace di esaltarne il valore.\n" +
+            "Quindi, anche dalle situazioni più scomode o dalle esperienze che ci mettono più alla prova può nascere qualcosa di inaspettatamente bello e potente. È il luogo, il tempo e la veste in cui veniamo accolti a permettere alla nostra luce interiore di manifestarsi.\n",
+    },
+    {
+        src: [formazionelavica1, formazionelavica2, formazionelavica3, formazionelavica4, formazionelavica5, formazionelavica6, formazionelavica7],
+        title: 'Formazione lavica - 01',
+        size: '50x50 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Ottobre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, pasta testurizzata e spray su tela",
+        descrizione: "Questo quadro nasce da un processo di stratificazione di materia e colore, dove la pasta strutturale e gli spray acrilici generano una superficie densa e compatta.\n" +
+            "Le variazioni di rosso, nero e bruno costruiscono una trama irregolare che richiama la solidificazione della lava e il momento in cui la materia si organizza in forma.\n" +
+            "Il risultato è una pittura che indaga la fisicità del materiale e il suo comportamento, più che l’immagine in sé. La cornice bianca isola il nucleo scuro, creando un equilibrio visivo tra peso e ordine.\n" +
+            "“Formazione lavica 01” rappresenta quindi la nascita della forma come fenomeno naturale e fisico, dove la pittura diventa strumento di osservazione del processo, non solo del risultato.",
+    },
     {
         src: [occhio1, occhio2, occhio3, occhio4, occhio5, occhio6],
         title: 'L’occhio di Śakti',
@@ -380,33 +423,18 @@ export const artworks = [
             "Realizzata con tecnica fluida su tela, \"Marea rosa\"  invita l’osservatore a perdersi nel ritmo lento e sensoriale di un paesaggio che non ha confini netti, ma solo vibrazioni.",
     },
     {
-        src: [granada1, granada3, granada4, granada5, granada6, granada7, granada2],
+        src: [granada2, granada1, granada3, granada4, granada5, granada6, granada7],
         title: 'I VICOLI DI UNA VECCHIA GRANADA',
         size: '78x58 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
         disponibilita: "Acquistabile",
         tecnica: "acrilico e effetto pouring su tela",
-        descrizione: "Questo dipinto nasce ascoltando \"Ratòn\" del Diplomatico e il Collettivo Ninco Nanco, una canzone che evoca immagini di strade strette, antiche e vissute. Ho immaginato questi vicoli — non come spazi rigidi, immobili, segnati solo dal tempo — ma come entità vive, che respirano, si piegano e danzano.\n" +
-            "I vicoli non sono più solo passaggi: diventano ricordi liquidi, emozioni che si intrecciano, memorie di vecchi balli folkloristici nati fra i muri caldi della città.\n" +
-            "Volevo donare alla tela la sensazione di una città che vive dentro chi la ama, che cambia forma ma non sostanza.\n",
+        descrizione: "Ispirato alla canzone “Ratón” del Diplomatico e il Collettivo Ninco Nanco, il quadro nasce dal desiderio di reinterpretare l’immagine dei vicoli di una vecchia Granada. Nella realtà, quei vicoli sono stretti, bui, segnati dal tempo; ma qui si trasformano in una mappa viva e luminosa, un organismo pulsante in cui ogni frammento contribuisce alla luce comune.\n" +
+            "Ogni segno dorato rappresenta una persona: un corpo che danza, respira, vive. Insieme formano i percorsi della città, le sue connessioni invisibili. Nessun vicolo prevale sull’altro, così come nessun individuo brilla da solo: è solo attraverso l’armonia collettiva che la città prende vita, che la notte si accende.\n" +
+            "Le linee che attraversano la tela non dividono, ma uniscono. Sono vene di luce che scorrono su un fondo granata profondo — la memoria della terra, del sangue, della storia — e lo trasformano in energia. La tela è dunque un invito alla coralità, alla danza condivisa, alla consapevolezza che la bellezza risiede nell’insieme, nel movimento comune che genera splendore.\n",
     },
-    {
-        src: [sous1, sous2, sous3, sous4, sous5, sous6, sous7],
-        title: 'SOUS-BOIS VERT',
-        size: '50x50 cm',
 
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Maggio 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e pasta testurizzata su tela",
-
-
-        descrizione: "Sous-bois vert punta ad evocare la profondità e il silenzio che permea il sottobosco: " +
-            "il verde non è solo un colore, ma pure una presenza. La superficie materica richiama la corteccia, " +
-            "il muschio e il terreno umido. L’opera vuole invitare alla calma sollecitando l’attenzione, perché può " +
-            "sempre emergere qualcosa dalle ombre del verde.",
-    },
     {
         src: [palestina, palestina2, palestina3, palestina4, palestina5, palestina6, palestina7],
         title: 'SUMUD',
@@ -419,19 +447,6 @@ export const artworks = [
 
 
         descrizione: "",
-    },
-    {
-        src: [cinque1, cinque2, cinque3, cinque4, cinque5, cinque6, cinque7],
-        title: '528 HZ',
-        size: '80x60 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: " acrilico e effetto pouring su tela",
-
-        descrizione: "Il dipinto è un viaggio psichedelico dentro una nebulosa interiore, un'esplosione di luce liquida e silenzi vibrazionali." +
-            "I toni accesi del viola, del fucsia e del blu si fondono in un movimento verticale che ricorda le onde cerebrali in stato meditativo profondo. Questa frequenza, spesso chiamata “la frequenza dell’amore”, è qui trasformata in materia visiva: vibra, pulsa e scivola come un’eco visiva di ciò che non può essere detto, ma solo sentito." +
-            "Il quadro vuole invitare a lasciarsi attraversare, nei meandri della mente, dove il tempo si scioglie e tutto si riconnette.",
     },
 
     {
@@ -466,20 +481,6 @@ export const artworks = [
             "Atto III – Dimensione blu e azzurra (la chiusura del sipario): arrivati alla fine, il sogno sfuma lentamente in colori freddi. Il sipario cala su un paesaggio che ha conosciuto il caos e ora ricerca la quiete. Il finale resta sospeso ma compiuto e così, il sogno lascia spazio al reale.\n",
     },
     {
-        src: [interno1, interno2, interno3, interno4, interno5, interno6, interno7],
-        title: 'INTERNO ROSSO',
-        size: '58x78 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "Liberamente ispirato all’estetica di “Profondo Rosso” di Dario Argento, il quadro è un attraversamento visivo di un ambiente mentale, domestico e insieme inquietante. Non c’è figura, ma una presenza: il rosso profondo che scorre, si stratifica, si spezza in vene d’oro come tagli di luce improvvisa.\n" +
-            "Il titolo richiama un “interno” cinematografico, ma anche uno spazio interiore. È una stanza senza pareti, dove l’occhio si perde tra il fluire del colore e il silenzio del sospetto. La tela vuole giocare sull’ambiguità: è sangue o è passione? È calore o pericolo?\n",
-    },
-    {
         src: [naturaViva1, naturaViva2, naturaViva3, naturaViva4, naturaViva6, naturaViva7, naturaViva5],
         title: 'NATURA VIVA',
         size: '29x24',
@@ -493,21 +494,7 @@ export const artworks = [
         descrizione: "Nella tela volevo rendere omaggio alla forza pulsante della natura, catturandone l’essenza attraverso materia, luce e colore. La superficie della tela prende vita grazie a una lavorazione testurizzata, che dona tridimensionalità e movimento, evocando la complessità del mondo naturale: la corteccia degli alberi, la roccia erosa dal tempo, le foglie che si intrecciano.\n" +
             "I toni del verde, miscelati con la tecnica del pouring, fluiscono liberamente sulla tela come vene di linfa, simboleggiando la vitalità silenziosa ma incessante degli ecosistemi. A illuminare la composizione, piccoli tocchi dorati emergono come riflessi di luce nella penombra del sottobosco — un richiamo diretto alle lucciole, agli insetti e a tutti quei dettagli minuscoli ma fondamentali che popolano e animano la natura.\n",
     },
-    {
-        src: [sahaara1, sahaara2, sahaara3, sahaara4, sahaara5, sahaara6, sahaara7],
-        title: 'NOTTE CAPOVOLTA NEL SAHARA',
-        size: '60x30 cm',
 
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Giugno 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e effetto pouring su tela",
-
-
-        descrizione: "In questo dipinto il deserto non si estende sotto un cielo stellato — lo sovrasta. Ho scelto di capovolgere l’ordine naturale delle cose qui, lasciando che le dune dorate si innalzino sopra un cielo blu scuro e profondo, come se la sabbia galleggiasse sospesa nel buio della notte africana.\n" +
-            "L’inversione non è solo visiva, ma simbolica: il deserto, solitamente luogo di silenzio e di vuoto, diventa presenza dominante; la notte, di solito avvolgente e sopra di noi, si ritira verso il basso, come un tappeto oscuro su cui si appoggia la realtà.\n" +
-            "Il risultato è uno scenario onirico e disorientante, che invita a riconsiderare la propria prospettiva sul mondo naturale.\n",
-    },
     {
         src: [altrove1, altrove3, altrove4, altrove5, altrove6, altrove7, altrove8, altrove2, altrove10,altrove9],
         title: 'ALTROVE',
@@ -541,7 +528,7 @@ export const artworks = [
             "Un tributo alla nobile sporcizia della cultura punk, al diritto di urlare, disobbedire e reinventare un mondo in cui non ci si riconosce.\n",
     },
     {
-        src: [ctrl1, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6, ctrl7, ctrl8, ctrl9],
+        src: [ctrl1, ctrl7, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6],
         title: 'CTRL+ALT+?',
         size: '24x29 cm',
 
@@ -551,8 +538,14 @@ export const artworks = [
         tecnica: "Acrilico su tela",
 
 
-        descrizione: "A volte la vita va presa meno seriamente e più come un gioco; così ho fatto con queste tele caotiche e prive di un ordine apparente. Ho scelto di divertirmi con i colori: possono trasmettere sia calma che disordine e va bene così. I titoli sono ispirati alla Glitch Art e al " +
-            "movimento dadaista; è necessario anche un po’ di non-sense per evadere dalla vita di ogni giorno.",
+        descrizione: "In questo trittico un segnale attraversa tre dimensioni del colore, rompendo l’armonia solo per crearne una nuova.\n" +
+            "Nel verde tutto ha origine: è la parte organica e vitale da cui nasce ogni impulso.\n" +
+            "Nel rosso l’energia esplode e si espande, pulsante e disordinata, come un cuore che batte al ritmo dell’interferenza.\n" +
+            "Nel blu arriva il raffreddamento, la fase finale del viaggio: la forma che si dissolve in quiete.\n" +
+            "La linea bianco-nera che attraversa i tre quadri è un glitch vitale, un disturbo che diventa connessione.\n" +
+            "Non separa, ma fonde; non distrugge, ma traduce.\n" +
+            "È la traccia di un passaggio, la scia di un riavvio, come se l’immagine stessa cercasse di riconfigurarsi dopo un errore.\n" +
+            "Questo trittico si pone come un viaggio nella percezione instabile, un tentativo di sincronizzarsi con il caos. Nel disturbo, il colore trova la sua voce; nella frattura, nasce l’unità.\n",
     },
 
 ];

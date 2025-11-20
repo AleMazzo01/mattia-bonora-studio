@@ -4,18 +4,15 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import quattro_elementi from "./images/4_elementi.JPG";
 import occhio1 from "./images/occhio1.jpg"
-import cinque1 from "./images/528_1.jpg"
 import rio1 from "./images/rio1.jpg"
-import granada from "./images/granadajpg/granada (2).jpg"
+import granada from "./images/granadajpg/granada (1).jpg"
 import babele from "./images/babeleverdejpg/babele1.jpg"
 import sous from "./images/sousbuavertjpg/sousbuavert1.jpg"
 import altrove from "./images/altrovejpg/altrove.jpg"
 import colatablu from "./images/abissoblujpg/abissoblu (3).jpg"
-import sahaara from "./images/nottteSahaara/notteSahaara (1).jpg"
 import pianoquin from "./images/pianoQuin/pianoQuin (1).jpg"
-import interno from "./images/infernoRossoJpg/infernoRosso (1).jpg";
 import alba from "./images/albajpg/alba (1).jpg"
-import ctrl1 from "./images/CTRL/CTRL (1).jpg";
+import ctrl1 from "./images/CTRL/CTRL (7).jpg";
 import mareaRosa from "./images/marearosaJPG/rosa (1).jpg"
 import onirico1 from "./images/oniricojpg/onorico1.jpg";
 import naturaViva from "./images/naturaVivaJPG/naturaViva (1).jpg"
@@ -27,11 +24,33 @@ import nebulosa from "./images/nebulosa/nebulosa (2).jpg";
 import rpm from "./images/33jpg/33rpm (1).jpg";
 import brut from "./images/brutalismo3.0jpg/brutalismo3 (2).jpg";
 import palestina from "./images/SUMUD_jpg/palestina (1).jpg";
-
-
+import mare from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (1).jpg";
+import ventiquattrok from "./images/24k/24k (1).jpg";
+import formazionelavica from "./images/fomrazionelavica/formazione (1).jpg"
 function Gallery() {
 
     const artworks = [
+        {
+            src: mare,
+            title: 'MARE D’INVERNO (L’EPILOGO)',
+            size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: ventiquattrok,
+            title: '24K',
+            size: '30x24 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: formazionelavica,
+            title: 'Formazione lavica - 01',
+            size: '50x50 cm',
+            status: 'Acquistabile',
+
+        },
         {
             src: occhio1,
             title: 'L’OCCHIO DI ŚAKTI',
@@ -130,24 +149,10 @@ function Gallery() {
             status: 'Acquistabile',
 
         },
-        {
-            src: sous,
-            title: 'SOUS-BOIS VERT',
-            size: '50x50 cm',
-            status: 'Acquistabile',
 
-        },
         {
             src: palestina,
             title: 'SUMUD',
-            size: '80x60 cm',
-            status: 'Acquistabile',
-
-        },
-
-        {
-            src: cinque1,
-            title: '528 HZ',
             size: '80x60 cm',
             status: 'Acquistabile',
 
@@ -165,24 +170,11 @@ function Gallery() {
             status: 'Acquistabile',
 
         },
-        {
-            src: interno,
-            title: 'INTERNO ROSSO',
-            size: '58x78 cm',
-            status: 'Acquistabile',
 
-        },
         {
             src: naturaViva,
             title: 'NATURA VIVA',
             size: '29x24',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: sahaara,
-            title: 'NOTTE CAPOVOLTA NEL SAHARA',
-            size: '60x30 cm',
             status: 'Acquistabile',
 
         },
