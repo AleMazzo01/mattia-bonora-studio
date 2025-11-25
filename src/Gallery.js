@@ -153,7 +153,7 @@ function Gallery() {
         },
         {
             src: formazionelavica,
-            title: 'Formazione lavica - 01',
+            title: 'FORMAZIONE LAVICA - 01',
             size: '50x50 cm',
             status: 'Acquistabile',
 
@@ -181,7 +181,7 @@ function Gallery() {
         },
         {
             src: origine,
-            title: 'Origine',
+            title: 'ORIGINE',
             size: '40x30 cm',
             status: 'Acquistabile',
 
@@ -196,7 +196,7 @@ function Gallery() {
         },
         {
             src: steelandsoul,
-            title: 'Steel and Soul',
+            title: 'STEEL AND SOUL',
             size: '58x78 cm',
             status: 'Venduto',
 
@@ -217,9 +217,6 @@ function Gallery() {
 
         },
 
-
-
-
         {
             src: babele,
             title: 'BABELE VERDE',
@@ -229,7 +226,7 @@ function Gallery() {
 
         {
             src: axismundi,
-            title: 'Axis Mundi Argenteo',
+            title: 'AXIS MUNDI ARGENTEO',
             size: '30x24 cm',
             status: 'Venduto',
 
@@ -244,14 +241,14 @@ function Gallery() {
 
         {
             src: monster,
-            title: 'Monster Core',
+            title: 'MONSTER CORE',
             size: '78x58 cm',
             status: 'Venduto',
 
         },
         {
             src: mosaico,
-            title: 'Mosaico liquido',
+            title: 'MOSAICO LIQUIDO',
             size: '60x30 cm',
             status: 'Acquistabile',
 
