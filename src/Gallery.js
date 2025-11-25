@@ -28,45 +28,14 @@ import ventiquattrok from "./images/24k/24k (1).jpg";
 import formazionelavica from "./images/fomrazionelavica/formazione (1).jpg"
 import mosaico from "./images/mosaicoliquido/mosaico (1).jpg"
 import donot from "./images/donotconform/donotconform (1).jpg"
-
+import origine from "./images/Origine/origine (1).jpg"
+import california from "./images/californiavibes/california (1).jpg"
+import steelandsoul from "./images/steelandsoul/steelandsoul (1).jpg"
+import monster from "./images/monster/monster (1).jpg"
+import axismundi from "./images/axismundi/axismundi (1).jpg"
 function Gallery() {
 
     const artworks = [
-        {
-            src: mare,
-            title: 'MARE D’INVERNO (L’EPILOGO)',
-            size: '78x58 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: donot,
-            title: 'DO NOT CONFORM',
-            size: '75x55 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: ventiquattrok,
-            title: '24K',
-            size: '30x24 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: formazionelavica,
-            title: 'Formazione lavica - 01',
-            size: '50x50 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: mosaico,
-            title: 'Mosaico liquido',
-            size: '60x30 cm',
-            status: 'Acquistabile',
-
-        },
         {
             src: occhio1,
             title: 'L’OCCHIO DI ŚAKTI',
@@ -82,9 +51,30 @@ function Gallery() {
 
         },
         {
+            src: donot,
+            title: 'DO NOT CONFORM',
+            size: '75x55 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: elena,
+            title: 'Ἑλένη',
+            size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+        {
             src: brut,
             title: 'BRUTALISMO 3.0',
             size: '58x78 cm',
+            status: 'Venduto',
+
+        },
+        {
+            src: mare,
+            title: 'MARE D’INVERNO (L’EPILOGO)',
+            size: '78x58 cm',
             status: 'Venduto',
 
         },
@@ -93,43 +83,6 @@ function Gallery() {
             title: 'SPLENDERE AL TRAMONTO',
             size: '60x30 cm',
             status: 'Venduto',
-
-        },
-        {
-            src: quattro_elementi,
-            title: 'ETERE',
-            size: '80x60 cm',
-            status: 'Venduto',
-
-        },
-        {
-            src: colatablu,
-            title: 'ABISSO BLU',
-            size: '30x24 cm',
-            status: 'Acquistabile',
-
-        },
-
-        {
-            src: pianoquin,
-            title: 'PIANO QUINQUENNALE',
-            size: '78x58 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: elena,
-            title: 'Ἑλένη',
-            size: '58x78 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: rpm,
-            title: '33 RPM',
-            size: '50x20 cm',
-            status: 'Acquistabile',
-
         },
         {
             src: alba,
@@ -139,9 +92,56 @@ function Gallery() {
 
         },
         {
-            src: nebulosa,
-            title: 'NGC 4972 – NEBULOSA KAELIS',
-            size: '',
+            src: granada,
+            title: 'I VICOLI DI UNA VECCHIA GRANADA',
+            size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: mareaRosa,
+            title: 'MAREA ROSA',
+            size: '24x18 cm',
+            status: 'Venduto',
+
+        },
+        {
+            src: palestina,
+            title: 'SUMUD',
+            size: '80x60 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: nevermind1,
+            title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
+            size: '50x70 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: quattro_elementi,
+            title: 'ETERE',
+            size: '50x50 cm',
+            status: 'Venduto',
+        },
+        {
+            src: pianoquin,
+            title: 'PIANO QUINQUENNALE',
+            size: '78x58 cm',
+            status: 'Acquistabile',
+
+        },
+
+        {
+            src: colatablu,
+            title: 'ABISSO BLU',
+            size: '30x24 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: rpm,
+            title: '33 RPM',
+            size: '50x20 cm',
             status: 'Acquistabile',
 
         },
@@ -152,38 +152,53 @@ function Gallery() {
             status: 'Venduto',
         },
         {
-            src: mareaRosa,
-            title: 'MAREA ROSA',
-            size: '24x18 cm',
+            src: formazionelavica,
+            title: 'Formazione lavica - 01',
+            size: '50x50 cm',
+            status: 'Acquistabile',
+
+        },
+
+        {
+            src: nebulosa,
+            title: 'NGC 4972 – NEBULOSA KAELIS',
+            size: '30x30',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: ctrl1,
+            title: 'CTRL+ALT+?',
+            size: '29x24 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: altrove,
+            title: 'ALTROVE',
+            size: '20x20 cm',
+            status: 'Acquistabile',
+        },
+        {
+            src: origine,
+            title: 'Origine',
+            size: '40x30 cm',
+            status: 'Acquistabile',
+
+        },
+
+        {
+            src: california,
+            title: 'C4L1F0RN14 V1B3S',
+            size: '40x30 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: steelandsoul,
+            title: 'Steel and Soul',
+            size: '58x78 cm',
             status: 'Venduto',
-
-        },
-        {
-            src: granada,
-            title: 'I VICOLI DI UNA VECCHIA GRANADA',
-            size: '78x58 cm',
-            status: 'Acquistabile',
-
-        },
-
-        {
-            src: palestina,
-            title: 'SUMUD',
-            size: '80x60 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: babele,
-            title: 'BABELE VERDE',
-            size: '78x58 cm',
-            status: 'Venduto',
-        },
-        {
-            src: onirico1,
-            title: 'TEATRO ONIRICO IN TRE FASI',
-            size: '80x60 cm',
-            status: 'Acquistabile',
 
         },
 
@@ -195,21 +210,49 @@ function Gallery() {
 
         },
         {
-            src: altrove,
-            title: 'ALTROVE',
-            size: '20x20 cm',
+            src: ventiquattrok,
+            title: '24K',
+            size: '30x24 cm',
             status: 'Acquistabile',
+
+        },
+
+
+
+
+        {
+            src: babele,
+            title: 'BABELE VERDE',
+            size: '78x58 cm',
+            status: 'Venduto',
+        },
+
+        {
+            src: axismundi,
+            title: 'Axis Mundi Argenteo',
+            size: '30x24 cm',
+            status: 'Venduto',
+
         },
         {
-            src: nevermind1,
-            title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
-            size: '50x70 cm',
+            src: onirico1,
+            title: 'TEATRO ONIRICO IN TRE FASI',
+            size: '80x60 cm',
             status: 'Acquistabile',
+
+        },
+
+        {
+            src: monster,
+            title: 'Monster Core',
+            size: '78x58 cm',
+            status: 'Venduto',
+
         },
         {
-            src: ctrl1,
-            title: 'CTRL+ALT+?',
-            size: '24x29 cm',
+            src: mosaico,
+            title: 'Mosaico liquido',
+            size: '60x30 cm',
             status: 'Acquistabile',
 
         },
