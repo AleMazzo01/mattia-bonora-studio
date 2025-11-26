@@ -314,7 +314,7 @@ export const artworks = [
 
     {
         src: [brutal1, brutal2, brutal3, brutal4, brutal5, brutal6, brutal7],
-        title: 'BRUTALISMO 3.0',
+        title: 'Brutalismo 3.0',
         size: '58x78 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Agosto 2025",
@@ -342,7 +342,7 @@ export const artworks = [
     },
     {
         src: [splendere1, splendere2, splendere3, splendere4, splendere5, splendere6, splendere7],
-        title: 'SPLENDERE AL TRAMONTO',
+        title: 'Splendere al tramonto',
         size: '50x50 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Agosto 2025",
@@ -354,7 +354,7 @@ export const artworks = [
     },
     {
         src: [alba1, alba2, alba3, alba4, alba5, alba6, alba7],
-        title: 'ALBA LISERGICA',
+        title: 'Alba Lisergica',
         size: '50x40 cm',
 
         supporto: "Tela su telaio in legno",
@@ -371,7 +371,7 @@ export const artworks = [
     },
     {
         src: [granada2, granada1, granada3, granada4, granada5, granada6, granada7],
-        title: 'I VICOLI DI UNA VECCHIA GRANADA',
+        title: 'I vicoli di una vecchia Granada',
         size: '78x58 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
@@ -383,7 +383,7 @@ export const artworks = [
     },
     {
         src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
-        title: 'MAREA ROSA',
+        title: 'Marea rosa',
         size: '24x18',
         supporto: "Tela su telaio in legno",
         realizzazione: "Giugno 2025",
@@ -439,7 +439,7 @@ export const artworks = [
     },
     {
         src: [pianoQuin1, pianoQuin2, pianoQuin3, pianoQuin4, pianoQuin5, pianoQuin6, pianoQuin7],
-        title: 'PIANO QUINQUENNALE',
+        title: 'Piano Quinquennale',
         size: '78x58 cm',
 
         supporto: "Tela su telaio in legno",
@@ -452,7 +452,7 @@ export const artworks = [
     },
     {
         src: [abisso1, abisso2, abisso3, abisso4, abisso5, abisso6, abisso7],
-        title: 'ABISSO BLU',
+        title: 'Abisso blu',
         size: '30x24 cm',
 
         supporto: "Tela su telaio in legno",
@@ -509,7 +509,7 @@ export const artworks = [
     },
     {
         src: [nebulosa1, nebulosa2, nebulosa3, nebulosa4, nebulosa5, nebulosa6, nebulosa7],
-        title: 'NGC 4972 – NEBULOSA KAELIS',
+        title: 'NGC 4972 – Nebulosa Kaelis',
         size: '',
 
         supporto: "Tela su telaio in legno",
@@ -545,7 +545,7 @@ export const artworks = [
     },
     {
         src: [altrove1, altrove3, altrove4, altrove5, altrove6, altrove7, altrove8, altrove2, altrove10,altrove9],
-        title: 'ALTROVE',
+        title: 'Altrove',
         size: '20x20 cm',
 
         supporto: "Tela su telaio in legno",
@@ -601,7 +601,7 @@ export const artworks = [
     },
     {
         src: [naturaViva1, naturaViva2, naturaViva3, naturaViva4, naturaViva6, naturaViva7, naturaViva5],
-        title: 'NATURA VIVA',
+        title: 'Natura viva',
         size: '29x24',
 
         supporto: "Tela su telaio in legno",
@@ -630,7 +630,7 @@ export const artworks = [
 
     {
         src: [babele1, babele2, babele3, babele4, babele5, babele6, babele7],
-        title: 'BABELE VERDE',
+        title: 'Babele verde',
         size: '78x58 cm',
         supporto: "Tela su telaio in legno",
         realizzazione: "Maggio 2025",
@@ -656,7 +656,7 @@ export const artworks = [
 
     {
         src: [onirico1, onirico2, onirico3, onirico4, onirico5, onirico6, onirico7, onirico8, onirico9, onirico10],
-        title: 'TEATRO ONIRICO IN TRE FASI',
+        title: 'Teatro onirico in tre fasi',
         size: '80x60 cm',
 
         supporto: "Tela su telaio in legno",
