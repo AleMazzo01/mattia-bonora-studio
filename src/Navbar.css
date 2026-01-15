@@ -189,6 +189,7 @@
 @media (min-width: 1025px) {
     .navbar-title {
         font-size: 4.3rem;
+        margin-bottom: 50px;
     }
 
     .navbar-menu a {

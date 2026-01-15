@@ -33,6 +33,15 @@ import california from "./images/californiavibes/california (1).jpg"
 import steelandsoul from "./images/steelandsoul/steelandsoul (1).jpg"
 import monster from "./images/monster/monster (1).jpg"
 import axismundi from "./images/axismundi/axismundi (1).jpg"
+
+import salina from "./images/salinajpg/salina (1).jpg"
+import fenomeni from "./images/fenomeni/fenomeni (2).jpg"
+
+import jazz from "./images/jazz/jazz (7).jpg"
+import pattern99 from "./images/Pattern99/pattern99 (1).jpg"
+import thereisalight from "./images/thereisalightJPG/thereisalight (1).jpg"
+
+
 function Gallery() {
 
     const artworks = [
@@ -40,13 +49,28 @@ function Gallery() {
             src: occhio1,
             title: 'L’OCCHIO DI ŚAKTI',
             size: '20x20 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
 
         },
+        {
+            src: pattern99,
+            title: 'PATTERN99: RADIAL TEXTURE STUDY',
+            size: '90x60 cm',
+            status: 'Venduto',
+
+        },
+
         {
             src: pinkfloyd,
             title: 'TH3 D4RK S1D3 0F TH3 M00N',
             size: '40x50 cm',
+            status: 'Venduto',
+
+        },
+        {
+            src: salina ,
+            title: 'FIORITURA SALINA',
+            size: '55x75 cm',
             status: 'Venduto',
 
         },
@@ -78,6 +102,16 @@ function Gallery() {
             status: 'Venduto',
 
         },
+
+        {
+            src: jazz,
+            title: 'JAZZ AL CREPUSCOLO',
+            size: '75x55 cm',
+            status: 'Acquistabile',
+
+        },
+
+
         {
             src: splendere,
             title: 'SPLENDERE AL TRAMONTO',
@@ -113,6 +147,13 @@ function Gallery() {
 
         },
         {
+            src: fenomeni,
+            title: 'FORME, FLUSSI, FENOMENI',
+            size: '20x20 cm',
+            status: 'Venduto',
+
+        },
+        {
             src: nevermind1,
             title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
             size: '50x70 cm',
@@ -128,7 +169,7 @@ function Gallery() {
             src: pianoquin,
             title: 'PIANO QUINQUENNALE',
             size: '78x58 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
 
         },
 
@@ -142,7 +183,7 @@ function Gallery() {
             src: rpm,
             title: '33 RPM',
             size: '50x20 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
 
         },
         {
@@ -177,7 +218,7 @@ function Gallery() {
             src: altrove,
             title: 'ALTROVE',
             size: '20x20 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
         },
         {
             src: origine,
@@ -191,7 +232,7 @@ function Gallery() {
             src: california,
             title: 'C4L1F0RN14 V1B3S',
             size: '40x30 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
 
         },
         {
@@ -213,7 +254,7 @@ function Gallery() {
             src: ventiquattrok,
             title: '24K',
             size: '30x24 cm',
-            status: 'Acquistabile',
+            status: 'Venduto',
 
         },
 
@@ -231,13 +272,6 @@ function Gallery() {
             status: 'Venduto',
 
         },
-        {
-            src: onirico1,
-            title: 'TEATRO ONIRICO IN TRE FASI',
-            size: '80x60 cm',
-            status: 'Acquistabile',
-
-        },
 
         {
             src: monster,
@@ -248,6 +282,13 @@ function Gallery() {
         },
         {
             src: mosaico,
+            title: 'MOSAICO LIQUIDO',
+            size: '60x30 cm',
+            status: 'Acquistabile',
+
+        },
+        {
+            src: thereisalight,
             title: 'MOSAICO LIQUIDO',
             size: '60x30 cm',
             status: 'Acquistabile',

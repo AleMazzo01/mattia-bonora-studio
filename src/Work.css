@@ -165,3 +165,66 @@
         font-size: 0.95rem;
     }
 }
+
+/* --------- DISPOSIZIONE IMMAGINE SU DESKTOP --------- */
+@media (min-width: 1024px) {
+
+    /* Contenitore generale centrato */
+    .opera-detail-container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Contenitore del carosello più piccolo */
+    .carousel-container {
+        width: 70%;      /* non più full width */
+        margin: 0 auto;  /* centrato */
+        max-height: 550px;
+    }
+
+    .carousel-track {
+        height: 100%;
+    }
+
+    /* L'immagine non si taglia, sta intera dentro */
+    .carousel-image {
+        width: 100%;
+        height: 550px;
+        object-fit: contain;  /* MOSTRA L’OPERA INTERA */
+        background-color: #f0f0f0; /* migliora la presentazione */
+        border-radius: 12px;
+    }
+
+    /* Pulsanti più discreti */
+    .nav-button {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        transition: opacity 0.2s ease;
+
+    }
+
+    .nav-button:hover {
+        opacity: 1;
+    }
+
+    /* Testo più leggibile e distanziato dall'immagine */
+    .opera-info {
+        margin-top: 2rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .opera-title {
+        font-size: 2.5rem;
+    }
+
+    .opera-description {
+        font-size: 1.2rem;
+    }
+
+    .opera-detail {
+        font-size: 1.1rem;
+    }
+}

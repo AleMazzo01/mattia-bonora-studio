@@ -249,6 +249,38 @@ import axismundi5 from "./images/axismundi/axismundi (5).jpg"
 import axismundi6 from "./images/axismundi/axismundi (6).jpg"
 import axismundi7 from "./images/axismundi/axismundi (7).jpg"
 
+import salina1 from "./images/salinajpg/salina (1).jpg"
+import salina2 from "./images/salinajpg/salina (2).jpg"
+import salina3 from "./images/salinajpg/salina (3).jpg"
+import salina4 from "./images/salinajpg/salina (4).jpg"
+import salina5 from "./images/salinajpg/salina (5).jpg"
+import salina6 from "./images/salinajpg/salina (6).jpg"
+import salina7 from "./images/salinajpg/salina (7).jpg"
+
+import fenomeni1 from "./images/fenomeni/fenomeni (2).jpg"
+import fenomeni2 from "./images/fenomeni/fenomeni (3).jpg"
+import fenomeni3 from "./images/fenomeni/fenomeni (4).jpg"
+import fenomeni4 from "./images/fenomeni/fenomeni (5).jpg"
+import fenomeni5 from "./images/fenomeni/fenomeni (1).jpg"
+import fenomeni6 from "./images/fenomeni/fenomeni (6).jpg"
+import fenomeni7 from "./images/fenomeni/fenomeni (7).jpg"
+
+
+import jazz1 from "./images/jazz/jazz (7).jpg"
+import jazz2 from "./images/jazz/jazz (1).jpg"
+import jazz3 from "./images/jazz/jazz (2).jpg"
+import jazz4 from "./images/jazz/jazz (3).jpg"
+import jazz5 from "./images/jazz/jazz (4).jpg"
+import jazz6 from "./images/jazz/jazz (5).jpg"
+import jazz7 from "./images/jazz/jazz (6).jpg"
+
+import pattern991 from "./images/Pattern99/pattern99 (1).jpg"
+import pattern992 from "./images/Pattern99/pattern99 (2).jpg"
+import pattern993 from "./images/Pattern99/pattern99 (3).jpg"
+import pattern994 from "./images/Pattern99/pattern99 (4).jpg"
+import pattern995 from "./images/Pattern99/pattern99 (5).jpg"
+import pattern996 from "./images/Pattern99/pattern99 (7).jpg"
+import pattern997 from "./images/Pattern99/pattern99 (6).jpg"
 
 
 export const artworks = [
@@ -266,6 +298,23 @@ export const artworks = [
             "I cerchi concentrici che si irradiano dal centro non sono solo forme ornamentali: vogliono evocare una certa ciclicità " +
             "e continuità, il respiro dell’universo, la tensione tra ordine e caos.",
     },
+
+
+    {
+        src: [pattern991, pattern992, pattern993, pattern994, pattern995, pattern996, pattern997],
+        title: 'Pattern99: radial texture study',
+        size: '90x60 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Dicembre 2025",
+        disponibilita: "Venduto",
+        tecnica: "acrilico, spray, pasta testurizzata e foglia d’oro",
+        descrizione: "Questo piccolo trittico nasce in un pomeriggio estivo, figlio di un momento di creatività. Essi rappresentano i primi esperimenti con l’olio al silicone.\n" +
+            "Non vi è stata una particolare ricerca concettuale dietro, ma pura curiosità, in quanto mi stavo approcciando ad una nuova forma e tecnica.\n" +
+            "Dunque, questo trittico non sente il bisogno di colpire per l’aspetto emotivo, ma punta al colpo d’occhio e all’armonia che è riuscita a crearsi tra loro, seppur essendo così differenti nelle geometrie e nei colori.\n",
+    },
+
+
+
     {
         src: [pinkfloyd2, pinkfloyd1, pinkfloyd3, pinkfloyd4, pinkfloyd5, pinkfloyd6, pinkfloyd7],
         title: 'TH3 D4RK S1D3 0F TH3 M00N',
@@ -280,6 +329,24 @@ export const artworks = [
             "Lo sfondo nero non è piatto: è stato realizzato tramite una pasta materica e testurizzata, per evocare fedelmente la superficie lunare, omaggiando il simbolismo spaziale e cosmico tanto caro alla band. Lo spazio diventa così terreno fertile per l’introspezione, per la rottura dei limiti, per il viaggio psichedelico.\n" +
             "Questa tela vuole favorire un'intima riflessione sul dualismo tra struttura e caos, tra visibile e invisibile, tra luce e oscurità: un viaggio visivo, proprio come lo è stato quello sonoro creato dai Pink Floyd.\n",
     },
+
+
+
+    {
+        src: [salina1, salina2, salina3, salina4, salina5, salina6, salina7],
+        title: 'Fioritura salina',
+        size: '55x75 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Dicembre 2025",
+        disponibilita: "Venduto",
+        tecnica: "acrilico e effetto dutch pour su tela",
+        descrizione: "La tela nasce dal tentativo di far dialogare due mondi solo apparentemente distanti.\n" +
+            "Da un lato il fiore, osservato non nella sua forma esterna, ma nella sua intimità: una visione microscopica fatta di celle, pieni e vuoti, dove la vita si organizza in strutture fluide e imprevedibili.\n" +
+            "Dall’altro il mare, evocato non come paesaggio ma come sensazione: una brezza leggera, una corrente che attraversa lo spazio senza appesantire, lasciando tracce di movimento e respiro.\n" +
+            "Le forme cellulari diventano così correnti, e le correnti assumono un ritmo organico, quasi vitale. Il confine tra vegetale e marino si dissolve, suggerendo un’origine comune, un linguaggio naturale condiviso.\n",
+    },
+
+
     {
         src: [donot, donot2, donot3, donot4, donot5, donot6, donot7],
         title: 'DO NOT CONFORM',
@@ -340,6 +407,27 @@ export const artworks = [
             "In alto ci sono due soli: uno nasce, l’altro muore. Non è un gesto drammatico, ma un passaggio necessario. Una parte va lasciata andare affinché l’altra possa prendere forma.\n" +
             "Questa tela quindi è il racconto di un cambiamento necessario e della scelta – delicata ma radicale – di seguire ciò che ci fa sentire davvero vivi.\n",
     },
+
+
+
+    {
+        src: [jazz1, jazz2, jazz3, jazz4, jazz5, jazz6, jazz7],
+        title: 'Jazz al crepuscolo',
+        size: '75x55 cm',
+        supporto: "acrilico e effetto puntinato su tela",
+        realizzazione: "Novembre 2025",
+        disponibilita: "Acquistabile",
+        tecnica: "Acrilico e effetto puntinato su tela",
+        descrizione: "Questo dipinto nasce da un momento semplice, quasi quotidiano: l’istante in cui il sole si abbassa e il mondo si scalda di un’ultima luce.\n" +
+            "L’atmosfera è quella di un lounge bar al tramonto, quando la giornata si ritira e un pianoforte comincia a riempire l’aria con note morbide, quasi sospese.\n" +
+            "I colori si inseguono come farebbero le vibrazioni di un brano lento: dal giallo più caldo al viola che annuncia la sera. Tutto è tranquillo, ordinato, ma pieno di quella dolcezza che arriva solo quando la luce cambia davvero.\n" +
+            "La tastiera, minimale e silenziosa, non è solo un dettaglio: è il punto in cui la scena diventa uno stato d’animo. Un invito a fermarsi, a respirare, a lasciarsi cullare da un ritmo che non corre, ma accompagna.\n" +
+            "È un quadro che non vuole raccontare una storia precisa, ma un momento:\n" +
+            "quello in cui il giorno svanisce e la musica diventa il modo più semplice per sentirsi presenti.\n",
+    },
+
+
+
     {
         src: [splendere1, splendere2, splendere3, splendere4, splendere5, splendere6, splendere7],
         title: 'Splendere al tramonto',
@@ -410,6 +498,28 @@ export const artworks = [
             "Lo sfondo bianco, colmo di slogan raccolti nelle piazze e sulle piattaforme digitali, rappresenta il grido di chi continua a opporsi, di chi non accetta il silenzio complice. La bandiera palestinese, destrutturata, simboleggia come Israele abbia sempre tentato di cancellare e sopraffare la Palestina fin dalla sua nascita. Ma nonostante la violenza e la volontà di annientamento, l’identità e l’anima palestinese restano vive, infrante ma indistruttibili.\n" +
             "Questa tela è quindi un atto d’accusa, una condanna senza mezzi termini verso Israele e i crimini che sta compiendo, e al tempo stesso un invito a schierarsi, a non distogliere lo sguardo, a continuare a sostenere la resistenza palestinese fino a quando giustizia non verrà fatta.\n",
     },
+
+
+
+    {
+        src: [fenomeni1, fenomeni2, fenomeni3, fenomeni4, fenomeni5, fenomeni6, fenomeni7],
+        title: 'Forme, Flussi, Fenomeni',
+        size: '20x20',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Agosto 2025",
+        disponibilita: "Venduto",
+        tecnica: "acrilico e effetto pouring su tela",
+
+        descrizione: "Facendo questa commissione mi sono posto come obiettivo l’esplorazione della superficie della tela come campo di interferenze concentriche, costruite attraverso una pasta materica modellata in sequenze radiali.\n" +
+            "La struttura del rilievo genera una trama di micro-rotazioni che varia a seconda dell’incidenza della luce, rendendo la superficie dinamica e mai identica a sé stessa.\n" +
+            "L’applicazione di 99 foglie d’oro funge da elemento misurabile e deliberato: non un simbolo, ma un parametro tecnico che definisce la densità e la continuità della finitura. \n" +
+            "La scelta del bordo nero crea un margine netto, che isola il campo testurizzato e lo presenta come un oggetto di osservazione.\n" +
+            "Il quadro non nasce da un intento narrativo, ma da una ricerca formale: studiare a ripetizione, la variazione e il comportamento della luce su una superficie radiale.\n" +
+            "In questo senso, il lavoro si colloca come una “analisi visiva” più che come un’immagine, con una presenza forte ma priva di sovrastrutture simboliche.\n",
+    },
+
+
+
     {
         src: [nevermind1, nevermind2, nevermind3, nevermind4, nevermind5, nevermind6, nevermind7],
         title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
@@ -654,24 +764,6 @@ export const artworks = [
             "“Axis Mundi Argenteo” è dunque una rivisitazione in chiave moderna dell’ albero cosmico; un segno di continuità con i miti universali ma, al tempo stesso, un invito a riconoscere che la diversità è radice di equilibrio.\n",
     },
 
-    {
-        src: [onirico1, onirico2, onirico3, onirico4, onirico5, onirico6, onirico7, onirico8, onirico9, onirico10],
-        title: 'Teatro onirico in tre fasi',
-        size: '80x60 cm',
-
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Maggio 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "Acrilico e pasta testurizzata su tela",
-
-
-        descrizione: "Teatro onirico in tre fasi” è una composizione che punta ad esplorare quanto più di ignoto e fantasioso si cela nella notte: il sogno.\n" +
-            "Ogni qual volta che sogno entro in un mondo parallelo senza barriere e confini, seppur scandito in atti precisi, come avviene nel teatro: un'esposizione (e azione crescente), un climax e un'azione decrescente (con la risoluzione).\n" +
-            "Qui la fluidità dei colori incontra la rigidità delle forme geometriche, come se l\n" +
-            "Atto I – Dimensione verde e gialla (il preludio teatrale): la porta del sogno si apre in tonalità vivide ma inquiete e – come luci di scena ancora soffuse – illuminano un palco ancora vuoto. Questo è un momento di equilibrio precario, poco prima che inizi il viaggio.\n" +
-            "Atto II – Dimensione rossa e rosa (la vertigine centrale): in questa tela il viaggio conosce il suo climax e lo attraversa, pervaso da emozioni e immagini distorte, in continuo mutamento. È l’atto della crisi, del cambiamento.\n" +
-            "Atto III – Dimensione blu e azzurra (la chiusura del sipario): arrivati alla fine, il sogno sfuma lentamente in colori freddi. Il sipario cala su un paesaggio che ha conosciuto il caos e ora ricerca la quiete. Il finale resta sospeso ma compiuto e così, il sogno lascia spazio al reale.\n",
-    },
 
 
     {
