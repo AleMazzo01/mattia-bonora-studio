@@ -13,7 +13,6 @@ import pianoquin from "./images/pianoQuin/pianoQuin (1).jpg"
 import alba from "./images/albajpg/alba (1).jpg"
 import ctrl1 from "./images/CTRL/CTRL (7).jpg";
 import mareaRosa from "./images/marearosaJPG/rosa (1).jpg"
-import onirico1 from "./images/oniricojpg/onorico1.jpg";
 import naturaViva from "./images/naturaVivaJPG/naturaViva (1).jpg"
 import nevermind1 from "./images/nevermindJPG/nevermind (1).jpg";
 import pinkfloyd from "./images/pinkfloyjpg/pinkfloyd (2).jpg";
@@ -39,7 +38,6 @@ import fenomeni from "./images/fenomeni/fenomeni (2).jpg"
 
 import jazz from "./images/jazz/jazz (7).jpg"
 import pattern99 from "./images/Pattern99/pattern99 (1).jpg"
-import thereisalight from "./images/thereisalightJPG/thereisalight (1).jpg"
 
 
 function Gallery() {
@@ -282,13 +280,6 @@ function Gallery() {
         },
         {
             src: mosaico,
-            title: 'MOSAICO LIQUIDO',
-            size: '60x30 cm',
-            status: 'Acquistabile',
-
-        },
-        {
-            src: thereisalight,
             title: 'MOSAICO LIQUIDO',
             size: '60x30 cm',
             status: 'Acquistabile',
