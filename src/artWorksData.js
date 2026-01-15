@@ -81,16 +81,7 @@ import rosa3 from "./images/marearosaJPG/rosa (3).jpg";
 import rosa4 from "./images/marearosaJPG/rosa (4).jpg";
 import rosa5 from "./images/marearosaJPG/rosa (5).jpg";
 import rosa6 from "./images/marearosaJPG/rosa (6).jpg";
-import onirico1 from "./images/oniricojpg/onorico1.jpg";
-import onirico2 from "./images/oniricojpg/onirico (1).jpg";
-import onirico3 from "./images/oniricojpg/onirico (2).jpg";
-import onirico4 from "./images/oniricojpg/onirico (3).jpg";
-import onirico5 from "./images/oniricojpg/onirico (4).jpg";
-import onirico6 from "./images/oniricojpg/onirico (5).jpg";
-import onirico7 from "./images/oniricojpg/onirico (6).jpg";
-import onirico8 from "./images/oniricojpg/onirico (7).jpg";
-import onirico9 from "./images/oniricojpg/onirico (8).jpg";
-import onirico10 from "./images/oniricojpg/onirico (9).jpg";
+
 
 import naturaViva1 from "./images/naturaVivaJPG/naturaViva (1).jpg";
 import naturaViva2 from "./images/naturaVivaJPG/naturaViva (2).jpg";
