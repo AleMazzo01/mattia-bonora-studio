@@ -39,6 +39,7 @@ import fenomeni from "./images/fenomeni/fenomeni (2).jpg"
 import jazz from "./images/jazz/jazz (7).jpg"
 import pattern99 from "./images/Pattern99/pattern99 (1).jpg"
 
+import { useLocation } from 'react-router-dom';
 
 function Gallery() {
 
@@ -48,14 +49,14 @@ function Gallery() {
             title: 'L’OCCHIO DI ŚAKTI',
             size: '20x20 cm',
             status: 'Venduto',
-
+            anno: 2025,
         },
         {
             src: pattern99,
             title: 'PATTERN99: RADIAL TEXTURE STUDY',
             size: '90x60 cm',
             status: 'Venduto',
-
+            anno: 2025,
         },
 
         {
@@ -63,13 +64,14 @@ function Gallery() {
             title: 'TH3 D4RK S1D3 0F TH3 M00N',
             size: '40x50 cm',
             status: 'Venduto',
-
+            anno: 2025,
         },
         {
             src: salina ,
             title: 'FIORITURA SALINA',
             size: '55x75 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -77,6 +79,7 @@ function Gallery() {
             title: 'DO NOT CONFORM',
             size: '75x55 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -84,6 +87,7 @@ function Gallery() {
             title: 'Ἑλένη',
             size: '78x58 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -91,6 +95,7 @@ function Gallery() {
             title: 'BRUTALISMO 3.0',
             size: '58x78 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -98,6 +103,7 @@ function Gallery() {
             title: 'MARE D’INVERNO (L’EPILOGO)',
             size: '78x58 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
 
@@ -106,6 +112,7 @@ function Gallery() {
             title: 'JAZZ AL CREPUSCOLO',
             size: '75x55 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
 
@@ -115,12 +122,15 @@ function Gallery() {
             title: 'SPLENDERE AL TRAMONTO',
             size: '60x30 cm',
             status: 'Venduto',
+            anno: 2025,
+
         },
         {
             src: alba,
             title: 'ALBA LISERGICA',
             size: '50x40 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -128,6 +138,7 @@ function Gallery() {
             title: 'I VICOLI DI UNA VECCHIA GRANADA',
             size: '78x58 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -135,6 +146,7 @@ function Gallery() {
             title: 'MAREA ROSA',
             size: '24x18 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -142,6 +154,7 @@ function Gallery() {
             title: 'SUMUD',
             size: '80x60 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -149,6 +162,7 @@ function Gallery() {
             title: 'FORME, FLUSSI, FENOMENI',
             size: '20x20 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -156,18 +170,23 @@ function Gallery() {
             title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
             size: '50x70 cm',
             status: 'Acquistabile',
+            anno: 2025,
+
         },
         {
             src: quattro_elementi,
             title: 'ETERE',
             size: '50x50 cm',
             status: 'Venduto',
+            anno: 2025,
+
         },
         {
             src: pianoquin,
             title: 'PIANO QUINQUENNALE',
             size: '78x58 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
 
@@ -176,12 +195,15 @@ function Gallery() {
             title: 'ABISSO BLU',
             size: '30x24 cm',
             status: 'Acquistabile',
+            anno: 2025,
+
         },
         {
             src: rpm,
             title: '33 RPM',
             size: '50x20 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -189,12 +211,15 @@ function Gallery() {
             title: 'RIO ESPERANZA',
             size: '78x58 cm',
             status: 'Venduto',
+            anno: 2025,
+
         },
         {
             src: formazionelavica,
             title: 'FORMAZIONE LAVICA - 01',
             size: '50x50 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
 
@@ -203,6 +228,7 @@ function Gallery() {
             title: 'NGC 4972 – NEBULOSA KAELIS',
             size: '30x30',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -210,6 +236,7 @@ function Gallery() {
             title: 'CTRL+ALT+?',
             size: '29x24 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -217,12 +244,15 @@ function Gallery() {
             title: 'ALTROVE',
             size: '20x20 cm',
             status: 'Venduto',
+            anno: 2025,
+
         },
         {
             src: origine,
             title: 'ORIGINE',
             size: '40x30 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
 
@@ -231,6 +261,7 @@ function Gallery() {
             title: 'C4L1F0RN14 V1B3S',
             size: '40x30 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -238,6 +269,7 @@ function Gallery() {
             title: 'STEEL AND SOUL',
             size: '58x78 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
 
@@ -246,6 +278,7 @@ function Gallery() {
             title: 'NATURA VIVA',
             size: '29x24',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
         {
@@ -253,6 +286,7 @@ function Gallery() {
             title: '24K',
             size: '30x24 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
 
@@ -261,6 +295,8 @@ function Gallery() {
             title: 'BABELE VERDE',
             size: '78x58 cm',
             status: 'Venduto',
+            anno: 2025,
+
         },
 
         {
@@ -268,6 +304,7 @@ function Gallery() {
             title: 'AXIS MUNDI ARGENTEO',
             size: '30x24 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
 
@@ -276,6 +313,7 @@ function Gallery() {
             title: 'MONSTER CORE',
             size: '78x58 cm',
             status: 'Venduto',
+            anno: 2025,
 
         },
         {
@@ -283,10 +321,20 @@ function Gallery() {
             title: 'MOSAICO LIQUIDO',
             size: '60x30 cm',
             status: 'Acquistabile',
+            anno: 2025,
 
         },
 
     ];
+
+    const location = useLocation();
+
+    const queryParams = new URLSearchParams(location.search);
+    const year = queryParams.get("year");
+
+    const filteredArtworks = year
+    ? artworks.filter(art => art.anno === Number(year))
+    : artworks;
 
     // Variants per il container che gestisce lo stagger
     const containerVariants = {
@@ -330,7 +378,7 @@ function Gallery() {
                     animate="visible"
                 >
 
-                    {artworks.map((art, index) => (
+                    {filteredArtworks.map((art, index) => (
                         <Link to={`/opera/${index}`} key={index}>
                             <motion.div className="artwork" variants={artworkVariants}>
                                 <div className="artwork-wrapper">
