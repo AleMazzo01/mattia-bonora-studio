@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 function Work() {
     const { id } = useParams();
-    const opera = artworks[parseInt(id)];
+const opera = artworks.find(art => art.id === id);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const email = 'mattiabonora.studio@gmail.com';
 

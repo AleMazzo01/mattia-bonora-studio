@@ -24,7 +24,6 @@ import brut from "./images/brutalismo3.0jpg/brutalismo3 (2).jpg";
 import palestina from "./images/SUMUD_jpg/palestina (1).jpg";
 import mare from "./images/MARE D’INVERNO (L’EPILOGO)/maredinverno (1).jpg";
 import ventiquattrok from "./images/24k/24k (1).jpg";
-import formazionelavica from "./images/fomrazionelavica/formazione (1).jpg"
 import mosaico from "./images/mosaicoliquido/mosaico (1).jpg"
 import donot from "./images/donotconform/donotconform (1).jpg"
 import origine from "./images/Origine/origine (1).jpg"
@@ -39,12 +38,21 @@ import fenomeni from "./images/fenomeni/fenomeni (2).jpg"
 import jazz from "./images/jazz/jazz (7).jpg"
 import pattern99 from "./images/Pattern99/pattern99 (1).jpg"
 
+import nirvana1 from "./images/nirvana/nirvana1.jpg";
+import patternArgento from "./images/pattern175/patternArg (1).jpg";
+
+import topologyArgento from "./images/emergedTop2/emArgento (1).jpg";
+import emergedTop from "./images/emergedTopology/emerged (6).jpg";
+import centoottanta from "./images/180/180 (3).jpg";
+
 import { useLocation } from 'react-router-dom';
+
 
 function Gallery() {
 
     const artworks = [
         {
+            id: "sakti",
             src: occhio1,
             title: 'L’OCCHIO DI ŚAKTI',
             size: '20x20 cm',
@@ -52,6 +60,7 @@ function Gallery() {
             anno: 2025,
         },
         {
+            id: "PATTERN99: RADIAL TEXTURE STUDY",
             src: pattern99,
             title: 'PATTERN99: RADIAL TEXTURE STUDY',
             size: '90x60 cm',
@@ -60,6 +69,7 @@ function Gallery() {
         },
 
         {
+            id: "TH3 D4RK S1D3 0F TH3 M00N",
             src: pinkfloyd,
             title: 'TH3 D4RK S1D3 0F TH3 M00N',
             size: '40x50 cm',
@@ -67,6 +77,7 @@ function Gallery() {
             anno: 2025,
         },
         {
+            id:"salina",
             src: salina ,
             title: 'FIORITURA SALINA',
             size: '55x75 cm',
@@ -75,6 +86,7 @@ function Gallery() {
 
         },
         {
+            id:"donot",
             src: donot,
             title: 'DO NOT CONFORM',
             size: '75x55 cm',
@@ -83,6 +95,7 @@ function Gallery() {
 
         },
         {
+            id:"elena",
             src: elena,
             title: 'Ἑλένη',
             size: '78x58 cm',
@@ -91,6 +104,7 @@ function Gallery() {
 
         },
         {
+            id:"brutalismo",
             src: brut,
             title: 'BRUTALISMO 3.0',
             size: '58x78 cm',
@@ -99,6 +113,7 @@ function Gallery() {
 
         },
         {
+            id:"MAREDINVERNO",
             src: mare,
             title: 'MARE D’INVERNO (L’EPILOGO)',
             size: '78x58 cm',
@@ -108,6 +123,7 @@ function Gallery() {
         },
 
         {
+            id:"jazz",
             src: jazz,
             title: 'JAZZ AL CREPUSCOLO',
             size: '75x55 cm',
@@ -118,6 +134,7 @@ function Gallery() {
 
 
         {
+            id:"splendere",
             src: splendere,
             title: 'SPLENDERE AL TRAMONTO',
             size: '60x30 cm',
@@ -126,6 +143,7 @@ function Gallery() {
 
         },
         {
+            id:"alba",
             src: alba,
             title: 'ALBA LISERGICA',
             size: '50x40 cm',
@@ -134,6 +152,7 @@ function Gallery() {
 
         },
         {
+            id:"granada",
             src: granada,
             title: 'I VICOLI DI UNA VECCHIA GRANADA',
             size: '78x58 cm',
@@ -142,6 +161,7 @@ function Gallery() {
 
         },
         {
+            id:"mareaRosa",
             src: mareaRosa,
             title: 'MAREA ROSA',
             size: '24x18 cm',
@@ -150,6 +170,7 @@ function Gallery() {
 
         },
         {
+            id:"SUMUD",
             src: palestina,
             title: 'SUMUD',
             size: '80x60 cm',
@@ -158,6 +179,7 @@ function Gallery() {
 
         },
         {
+            id:"FORME-FLUSSI-FENOMENI",
             src: fenomeni,
             title: 'FORME, FLUSSI, FENOMENI',
             size: '20x20 cm',
@@ -166,6 +188,7 @@ function Gallery() {
 
         },
         {
+            id:"nevermind-the-bollocks",
             src: nevermind1,
             title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
             size: '50x70 cm',
@@ -174,6 +197,7 @@ function Gallery() {
 
         },
         {
+            id:"ETERE",
             src: quattro_elementi,
             title: 'ETERE',
             size: '50x50 cm',
@@ -182,6 +206,8 @@ function Gallery() {
 
         },
         {
+
+            id:"PIANO-QUINQUENNALE",
             src: pianoquin,
             title: 'PIANO QUINQUENNALE',
             size: '78x58 cm',
@@ -191,6 +217,7 @@ function Gallery() {
         },
 
         {
+            id:"ABISSO-BLU",
             src: colatablu,
             title: 'ABISSO BLU',
             size: '30x24 cm',
@@ -199,6 +226,7 @@ function Gallery() {
 
         },
         {
+            id:"33-RPM",
             src: rpm,
             title: '33 RPM',
             size: '50x20 cm',
@@ -207,6 +235,7 @@ function Gallery() {
 
         },
         {
+            id:"RIO",
             src: rio1,
             title: 'RIO ESPERANZA',
             size: '78x58 cm',
@@ -214,16 +243,10 @@ function Gallery() {
             anno: 2025,
 
         },
-        {
-            src: formazionelavica,
-            title: 'FORMAZIONE LAVICA - 01',
-            size: '50x50 cm',
-            status: 'Acquistabile',
-            anno: 2025,
-
-        },
+        
 
         {
+            id:"nebulosa",
             src: nebulosa,
             title: 'NGC 4972 – NEBULOSA KAELIS',
             size: '30x30',
@@ -232,6 +255,7 @@ function Gallery() {
 
         },
         {
+            id:"ctrl",
             src: ctrl1,
             title: 'CTRL+ALT+?',
             size: '29x24 cm',
@@ -240,6 +264,7 @@ function Gallery() {
 
         },
         {
+            id:"altrove",
             src: altrove,
             title: 'ALTROVE',
             size: '20x20 cm',
@@ -248,6 +273,7 @@ function Gallery() {
 
         },
         {
+            id:"ORIGINE",
             src: origine,
             title: 'ORIGINE',
             size: '40x30 cm',
@@ -257,6 +283,7 @@ function Gallery() {
         },
 
         {
+            id:"california",
             src: california,
             title: 'C4L1F0RN14 V1B3S',
             size: '40x30 cm',
@@ -265,6 +292,7 @@ function Gallery() {
 
         },
         {
+            id:"steelandsoul",
             src: steelandsoul,
             title: 'STEEL AND SOUL',
             size: '58x78 cm',
@@ -274,6 +302,7 @@ function Gallery() {
         },
 
         {
+            id:"NATURA-VIVA",
             src: naturaViva,
             title: 'NATURA VIVA',
             size: '29x24',
@@ -282,6 +311,7 @@ function Gallery() {
 
         },
         {
+            id:"24K",
             src: ventiquattrok,
             title: '24K',
             size: '30x24 cm',
@@ -291,6 +321,7 @@ function Gallery() {
         },
 
         {
+            id:"BABELE VERDE",
             src: babele,
             title: 'BABELE VERDE',
             size: '78x58 cm',
@@ -300,6 +331,7 @@ function Gallery() {
         },
 
         {
+            id:"AXIS-MUNDI-ARGENTEO",
             src: axismundi,
             title: 'AXIS MUNDI ARGENTEO',
             size: '30x24 cm',
@@ -309,6 +341,7 @@ function Gallery() {
         },
 
         {
+            id:"MONSTER",
             src: monster,
             title: 'MONSTER CORE',
             size: '78x58 cm',
@@ -317,6 +350,7 @@ function Gallery() {
 
         },
         {
+            id:"MOSAICO-LIQUIDO",
             src: mosaico,
             title: 'MOSAICO LIQUIDO',
             size: '60x30 cm',
@@ -324,6 +358,57 @@ function Gallery() {
             anno: 2025,
 
         },
+
+        {
+            id: "GEEKED SMILE",
+            src: nirvana1,
+            title: 'GEEKED SMILE',
+            size: '60x30 cm',
+            status: 'Acquistabile',
+            anno: 2026,
+
+        },
+         {
+            id: "PATTERN 175",
+            src: patternArgento,
+            title: 'PATTERN 175: RADIAL TEXTURE STUDY',
+            size: '60x30 cm',
+            status: 'Venduto',
+            anno: 2026,
+
+        },
+
+        {
+            id: "EMERGENT TOPOLOGY",
+            src: topologyArgento,
+            title: 'STF - 01: EMERGENT TOPOLOGY',
+            size: '90x60 cm',
+            status: 'Venduto',
+            anno: 2026,
+
+        },
+
+        {
+            id: "EMERGENT TOPOLOGY2",
+            src: emergedTop,
+            title: 'STF - 02: EMERGENT TOPOLOGY',
+            size: '90x60 cm',
+            status: 'Vnduto',
+            anno: 2026,
+        },
+
+        {
+            id: "180",
+            src: centoottanta,
+            title: '180',
+            size: '60x30 cm',
+            status: 'Acquistabile',
+            anno: 2026,
+
+        },
+
+
+
 
     ];
 
@@ -379,7 +464,7 @@ function Gallery() {
                 >
 
                     {filteredArtworks.map((art, index) => (
-                        <Link to={`/opera/${index}`} key={index}>
+                        <Link to={`/opera/${art.id}`} key={art.id}>                            
                             <motion.div className="artwork" variants={artworkVariants}>
                                 <div className="artwork-wrapper">
                                     <img src={art.src} alt={art.title} className="artwork-image" loading="lazy" />

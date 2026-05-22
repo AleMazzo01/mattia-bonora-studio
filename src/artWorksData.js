@@ -176,13 +176,6 @@ import ventiquattrok5 from "./images/24k/24k (5).jpg";
 import ventiquattrok6 from "./images/24k/24k (6).jpg";
 import ventiquattrok7 from "./images/24k/24k (7).jpg";
 
-import formazionelavica1 from "./images/fomrazionelavica/formazione (1).jpg"
-import formazionelavica2 from "./images/fomrazionelavica/formazione (2).jpg"
-import formazionelavica3 from "./images/fomrazionelavica/formazione (3).jpg"
-import formazionelavica4 from "./images/fomrazionelavica/formazione (4).jpg"
-import formazionelavica5 from "./images/fomrazionelavica/formazione (5).jpg"
-import formazionelavica6 from "./images/fomrazionelavica/formazione (6).jpg"
-import formazionelavica7 from "./images/fomrazionelavica/formazione (7).jpg"
 
 import mosaico1 from "./images/mosaicoliquido/mosaico (1).jpg"
 import mosaico2 from "./images/mosaicoliquido/mosaico (2).jpg"
@@ -273,9 +266,49 @@ import pattern995 from "./images/Pattern99/pattern99 (5).jpg"
 import pattern996 from "./images/Pattern99/pattern99 (7).jpg"
 import pattern997 from "./images/Pattern99/pattern99 (6).jpg"
 
+import nirvana1 from "./images/nirvana/nirvana1.jpg"
+import nirvana2 from "./images/nirvana/nirvana (2).jpg"
+import nirvana3 from "./images/nirvana/nirvana (3).jpg"
+import nirvana4 from "./images/nirvana/nirvana (4).jpg"
+import nirvana5 from "./images/nirvana/nirvana (5).jpg"
+import nirvana6 from "./images/nirvana/nirvana (6).jpg"
+
+import patternArgento1 from "./images/pattern175/patternArg (1).jpg";
+import patternArgento2 from "./images/pattern175/patternArg (2).jpg";
+import patternArgento3 from "./images/pattern175/patternArg (3).jpg";
+import patternArgento4 from "./images/pattern175/patternArg (4).jpg";
+import patternArgento5 from "./images/pattern175/patternArg (5).jpg";
+import patternArgento6 from "./images/pattern175/patternArg (6).jpg";
+
+
+import topologyArgento1 from "./images/emergedTop2/emArgento (1).jpg";
+import topologyArgento2 from "./images/emergedTop2/emArgento (2).jpg";
+import topologyArgento3 from "./images/emergedTop2/emArgento (3).jpg";
+import topologyArgento4 from "./images/emergedTop2/emArgento (4).jpg";
+import topologyArgento5 from "./images/emergedTop2/emArgento (5).jpg";
+import topologyArgento6 from "./images/emergedTop2/emArgento (6).jpg";
+
+import emergedTop1 from "./images/emergedTopology/emerged (6).jpg";
+import emergedTop2 from "./images/emergedTopology/emerged (1).jpg";
+import emergedTop3 from "./images/emergedTopology/emerged (2).jpg";
+import emergedTop4 from "./images/emergedTopology/emerged (3).jpg";
+import emergedTop5 from "./images/emergedTopology/emerged (4).jpg";
+import emergedTop6 from "./images/emergedTopology/emerged (5).jpg";
+import emergedTop7 from "./images/emergedTopology/emerged (7).jpg";
+
+
+import centoottanta1 from "./images/180/180 (1).jpg";
+import centoottanta2 from "./images/180/180 (2).jpg";
+import centoottanta3 from "./images/180/180 (3).jpg";
+import centoottanta4 from "./images/180/180 (4).jpg";
+import centoottanta5 from "./images/180/180 (5).jpg";
+import centoottanta6 from "./images/180/180 (6).jpg";
+
+
 
 export const artworks = [
     {
+        id: "sakti",
         src: [occhio1, occhio2, occhio3, occhio4, occhio5, occhio6],
         title: 'L’occhio di Śakti',
         size: '20x20 cm',
@@ -292,6 +325,7 @@ export const artworks = [
 
 
     {
+        id: "PATTERN99: RADIAL TEXTURE STUDY",
         src: [pattern991, pattern992, pattern993, pattern994, pattern995, pattern996, pattern997],
         title: 'Pattern99: radial texture study',
         size: '90x60 cm',
@@ -307,6 +341,7 @@ export const artworks = [
 
 
     {
+        id: "TH3 D4RK S1D3 0F TH3 M00N",
         src: [pinkfloyd2, pinkfloyd1, pinkfloyd3, pinkfloyd4, pinkfloyd5, pinkfloyd6, pinkfloyd7],
         title: 'TH3 D4RK S1D3 0F TH3 M00N',
         size: '40x50 cm',
@@ -324,6 +359,7 @@ export const artworks = [
 
 
     {
+        id:"salina",
         src: [salina1, salina2, salina3, salina4, salina5, salina6, salina7],
         title: 'Fioritura salina',
         size: '55x75 cm',
@@ -339,6 +375,7 @@ export const artworks = [
 
 
     {
+        id:"donot",
         src: [donot, donot2, donot3, donot4, donot5, donot6, donot7],
         title: 'DO NOT CONFORM',
         size: '75x55 cm',
@@ -354,6 +391,7 @@ export const artworks = [
             "“DO NOT CONFORM” significa proprio questo: proteggi ciò che ti rende unico. Mantieni la tua forma. Resta vivo.\n",
     },
     {
+        id:"elena",
         src: [elena1, elena2, elena3, elena4, elena5, elena6, elena7],
         title: 'Ἑλένη',
         size: '78x58 cm',
@@ -371,6 +409,7 @@ export const artworks = [
     },
 
     {
+        id:"brutalismo",
         src: [brutal1, brutal2, brutal3, brutal4, brutal5, brutal6, brutal7],
         title: 'Brutalismo 3.0',
         size: '58x78 cm',
@@ -384,6 +423,7 @@ export const artworks = [
             "Ne emerge un lavoro che non celebra superficialmente il brutalismo in sé, ma la sua capacità di riscrittura: un’estetica nata dalla distruzione, rigida e solida nella memoria, ma divenuta con il quadro fluida, emotiva e inquieta.\n",
     },
     {
+        id:"MAREDINVERNO",
         src: [mare, mare2, mare3, mare4, mare5, mare6, mare7],
         title: 'Mare d’inverno (l’epilogo)',
         size: '78x58 cm',
@@ -402,6 +442,7 @@ export const artworks = [
 
 
     {
+        id:"jazz",
         src: [jazz1, jazz2, jazz3, jazz4, jazz5, jazz6, jazz7],
         title: 'Jazz al crepuscolo',
         size: '75x55 cm',
@@ -420,6 +461,7 @@ export const artworks = [
 
 
     {
+        id:"splendere",
         src: [splendere1, splendere2, splendere3, splendere4, splendere5, splendere6, splendere7],
         title: 'Splendere al tramonto',
         size: '50x50 cm',
@@ -432,6 +474,7 @@ export const artworks = [
             "“Splendere al tramonto” vuole restituire questa fragile e intima ambivalenza: l’intensità di un bagliore che appare precoce e forte, ma che al tempo stesso, porta con sé la consapevolezza di quanto possa consumare rapidamente chi non lo sente davvero suo.\n",
     },
     {
+        id:"alba",
         src: [alba1, alba2, alba3, alba4, alba5, alba6, alba7],
         title: 'Alba Lisergica',
         size: '50x40 cm',
@@ -449,6 +492,7 @@ export const artworks = [
             "Il quadro è il simbolo di un momento irripetibile: la fusione tra il battito della techno, la sostanza nel sangue e la luce che arriva, lenta, a ricordarti che sei ancora vivo. O forse no.\n",
     },
     {
+        id:"granada",
         src: [granada2, granada1, granada3, granada4, granada5, granada6, granada7],
         title: 'I vicoli di una vecchia Granada',
         size: '78x58 cm',
@@ -461,6 +505,7 @@ export const artworks = [
             "Le linee che attraversano la tela non dividono, ma uniscono. Sono vene di luce che scorrono su un fondo granata profondo — la memoria della terra, del sangue, della storia — e lo trasformano in energia. La tela è dunque un invito alla coralità, alla danza condivisa, alla consapevolezza che la bellezza risiede nell’insieme, nel movimento comune che genera splendore.\n",
     },
     {
+        id:"mareaRosa",
         src: [rosa1, rosa2, rosa3, rosa4, rosa5, rosa6],
         title: 'Marea rosa',
         size: '24x18',
@@ -474,6 +519,7 @@ export const artworks = [
             "Realizzata con tecnica fluida su tela, \"Marea rosa\"  invita l’osservatore a perdersi nel ritmo lento e sensoriale di un paesaggio che non ha confini netti, ma solo vibrazioni.",
     },
     {
+        id:"SUMUD",
         src: [palestina, palestina2, palestina3, palestina4, palestina5, palestina6, palestina7],
         title: 'SUMUD',
         size: '80x60 cm',
@@ -490,9 +536,8 @@ export const artworks = [
             "Questa tela è quindi un atto d’accusa, una condanna senza mezzi termini verso Israele e i crimini che sta compiendo, e al tempo stesso un invito a schierarsi, a non distogliere lo sguardo, a continuare a sostenere la resistenza palestinese fino a quando giustizia non verrà fatta.\n",
     },
 
-
-
     {
+        id:"FORME-FLUSSI-FENOMENI",
         src: [fenomeni1, fenomeni2, fenomeni3, fenomeni4, fenomeni5, fenomeni6, fenomeni7],
         title: 'Forme, Flussi, Fenomeni',
         size: '20x20',
@@ -512,6 +557,7 @@ export const artworks = [
 
 
     {
+        id:"nevermind-the-bollocks",
         src: [nevermind1, nevermind2, nevermind3, nevermind4, nevermind5, nevermind6, nevermind7],
         title: 'NEVER MIND THE BOLLOCKS (OMAGGIO)',
         size: '50x70 cm',
@@ -528,6 +574,7 @@ export const artworks = [
             "Un tributo alla nobile sporcizia della cultura punk, al diritto di urlare, disobbedire e reinventare un mondo in cui non ci si riconosce.\n",
     },
     {
+        id:"ETERE",
         src: [etere1, etere2, etere3, etere4, etere5, etere6, etere7],
         title: 'ETERE',
         size: '50x50 cm',
@@ -539,6 +586,7 @@ export const artworks = [
             "I filosofi dell’antichità credevano che l’etere (il quinto elemento) fosse la sostanza che permeasse l’intero universo; nella tela non è visibile, bensì presupposto: è lo spazio tra le forme, il vuoto che tiene tutto insieme.\n",
     },
     {
+        id:"PIANO-QUINQUENNALE",
         src: [pianoQuin1, pianoQuin2, pianoQuin3, pianoQuin4, pianoQuin5, pianoQuin6, pianoQuin7],
         title: 'Piano Quinquennale',
         size: '78x58 cm',
@@ -552,6 +600,7 @@ export const artworks = [
 
     },
     {
+        id:"ABISSO-BLU",
         src: [abisso1, abisso2, abisso3, abisso4, abisso5, abisso6, abisso7],
         title: 'Abisso blu',
         size: '30x24 cm',
@@ -567,6 +616,7 @@ export const artworks = [
             "Il dipinto è un invito concreto a guardare oltre, dove il reale e il tangibile si dissolvono, lasciando spazio all’immaginazione.\n",
     },
     {
+        id:"33-RPM",
         src: [rpm1, rpm2, rpm3, rpm4, rpm5, rpm6, rpm7],
         title: '33 RPM',
         size: '50x20 cm',
@@ -583,6 +633,7 @@ export const artworks = [
 
     },
     {
+        id:"RIO",
         src: [rio1, rio2, rio3, rio4, rio5, rio6, rio7],
         title: 'Rio Esperanza',
         size: '78x58 cm',
@@ -595,20 +646,9 @@ export const artworks = [
             "In una terra dove spesso convivono meraviglie e difficoltà, il fiume è vita, è resistenza, è speranza che continua ad agitarsi anche quando tutto sembra fermo.\n" +
             "Il quadro è dedicato a chi, nonostante le avversità, continua a sognare e sperare; invita ad un panta rei costante, a lasciarsi cullare dal fiume e non esserne solo più preda.\n",
     },
+  
     {
-        src: [formazionelavica1, formazionelavica2, formazionelavica3, formazionelavica4, formazionelavica5, formazionelavica6, formazionelavica7],
-        title: 'Formazione lavica - 01',
-        size: '50x50 cm',
-        supporto: "Tela su telaio in legno",
-        realizzazione: "Ottobre 2025",
-        disponibilita: "Acquistabile",
-        tecnica: "acrilico, pasta testurizzata e spray su tela",
-        descrizione: "Questo quadro nasce da un processo di stratificazione di materia e colore, dove la pasta strutturale e gli spray acrilici generano una superficie densa e compatta.\n" +
-            "Le variazioni di rosso, nero e bruno costruiscono una trama irregolare che richiama la solidificazione della lava e il momento in cui la materia si organizza in forma.\n" +
-            "Il risultato è una pittura che indaga la fisicità del materiale e il suo comportamento, più che l’immagine in sé. La cornice bianca isola il nucleo scuro, creando un equilibrio visivo tra peso e ordine.\n" +
-            "“Formazione lavica 01” rappresenta quindi la nascita della forma come fenomeno naturale e fisico, dove la pittura diventa strumento di osservazione del processo, non solo del risultato.",
-    },
-    {
+        id:"nebulosa",
         src: [nebulosa1, nebulosa2, nebulosa3, nebulosa4, nebulosa5, nebulosa6, nebulosa7],
         title: 'NGC 4972 – Nebulosa Kaelis',
         size: '',
@@ -625,6 +665,7 @@ export const artworks = [
             "\"",
     },
     {
+        id:"ctrl",
         src: [ctrl1, ctrl7, ctrl2, ctrl3, ctrl4, ctrl5, ctrl6],
         title: 'CTRL+ALT+?',
         size: '29x24 cm',
@@ -645,6 +686,7 @@ export const artworks = [
             "Questo trittico si pone come un viaggio nella percezione instabile, un tentativo di sincronizzarsi con il caos. Nel disturbo, il colore trova la sua voce; nella frattura, nasce l’unità.\n",
     },
     {
+        id:"altrove",
         src: [altrove1, altrove3, altrove4, altrove5, altrove6, altrove7, altrove8, altrove2, altrove10,altrove9],
         title: 'Altrove',
         size: '20x20 cm',
@@ -661,6 +703,7 @@ export const artworks = [
             "(rappresentata dalle colate bianche e nere).",
     },
     {
+        id:"ORIGINE",
         src: [origine1, origine2, origine3,origine4, origine5, origine6, origine7],
         title: 'Origine',
         size: '40x30 cm',
@@ -673,6 +716,7 @@ export const artworks = [
             "“Origine” è quindi il racconto visivo di una nascita universale: dal caos alla forma, dall’invisibile al tangibile, dal nulla alla possibilità. Un invito a riflettere sulle forze che ci precedono, che ci hanno generato e che continuano a muovere l’esistenza nel suo eterno fluire.\n",
     },
     {
+        id:"california",
         src: [california1, california2, california3, california4, california5, california6, california7],
         title: 'C4L1F0RN14 V1B3S',
         size: '40x30 cm',
@@ -686,6 +730,7 @@ export const artworks = [
     },
 
     {
+        id:"steelandsoul",
         src: [steelandsoul1, steelandsoul2, steelandsoul3, steelandsoul4, steelandsoul5, steelandsoul6, steelandsoul7],
         title: 'Steel and Soul',
         size: '58x78 cm',
@@ -701,6 +746,7 @@ export const artworks = [
             "“Steel and Soul” racconta proprio questo: la forza di restare fedeli a se stessi, anche quando la strada ti consuma — perché in fondo, è lì che l’anima trova davvero la sua forma.\n",
     },
     {
+        id:"NATURA-VIVA",
         src: [naturaViva1, naturaViva2, naturaViva3, naturaViva4, naturaViva6, naturaViva7, naturaViva5],
         title: 'Natura viva',
         size: '29x24',
@@ -716,6 +762,7 @@ export const artworks = [
     },
 
     {
+        id:"24K",
         src: [ventiquattrok, ventiquattrok2, ventiquattrok3, ventiquattrok4, ventiquattrok5, ventiquattrok6, ventiquattrok7],
         title: '24K',
         size: '30x24 cm',
@@ -730,6 +777,7 @@ export const artworks = [
 
 
     {
+        id:"BABELE VERDE",
         src: [babele1, babele2, babele3, babele4, babele5, babele6, babele7],
         title: 'Babele verde',
         size: '78x58 cm',
@@ -743,6 +791,7 @@ export const artworks = [
             "ma finisce per generare disordine, incomunicabilità e frattura con il mondo naturale.",
     },
     {
+        id:"AXIS-MUNDI-ARGENTEO",
         src: [axismundi1, axismundi2, axismundi3, axismundi4, axismundi5, axismundi6, axismundi7],
         title: 'Axis Mundi Argenteo',
         size: '30x24 cm',
@@ -758,6 +807,7 @@ export const artworks = [
 
 
     {
+        id:"MONSTER",
         src: [monster1, monster2, monster3, monster4, monster5, monster6, monster7],
         title: 'Monster Core',
         size: '78x58 cm',
@@ -768,6 +818,7 @@ export const artworks = [
         descrizione: "Questa commissione nasce dalla passione del cliente per la famosa bevanda. È un puro tributo alla caffeina, alla “tamarraggine” e al famoso artiglio verde. Niente concettualismi o chissà quale ricerca dietro, solo la Monster, nella sua forma più diretta ed incisiva possibile. ",
     },
     {
+        id:"MOSAICO-LIQUIDO",
         src: [mosaico1, mosaico2, mosaico3, mosaico4, mosaico5, mosaico6, mosaico7],
         title: 'Mosaico liquido',
         size: '60x30 cm',
@@ -782,4 +833,92 @@ export const artworks = [
     },
 
 
+    {
+        id: "GEEKED SMILE",
+        src: [nirvana1, nirvana2,nirvana3,nirvana4,nirvana5, nirvana6],
+        title: 'Geeked smile',
+        size: '60x30 cm',
+        supporto: "mini telaio in legno",
+        realizzazione: "Marzo 2026",
+        disponibilita: "Acquistabile",
+        tecnica: "acrilico, spray e marker",
+        descrizione: `Questo piccolo lavoro nasce come un tributo ai Nirvana, una delle band che più hanno segnato l’immaginario musicale e culturale degli anni ’90.
+L’idea non era quella di realizzare un omaggio solenne o nostalgico, ma qualcosa di più spontaneo e leggero, quasi per gioco. L’obiettivo era di catturare quello spirito irriverente, diretto e un po’ sfrontato che ha sempre caratterizzato l’attitudine della band.
+La composizione è costruita attraverso ripetizioni e contrasti visivi: una struttura ritmica fatta di moduli e pattern che lentamente costruiscono l’immagine, fino a far emergere il sorriso iconico reinterpretato in chiave più pop e grafica.
+Un piccolo esercizio visivo che prova a mettere insieme energia grunge, ritmo visivo e cultura pop.
+`,
+    },
+
+    
+    {
+       
+        id: "PATTERN 175",
+        src: [patternArgento1, patternArgento2, patternArgento2, patternArgento3, patternArgento4, patternArgento5, patternArgento6],
+        title: 'Pattern 175: Radial Texture Study',
+        size: '90x60 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2026",
+        disponibilita: "Venduto",
+        tecnica: "acrilico, spray, foglia d’argento e pasta testurizzata",
+        descrizione: `Il quadro prosegue l’esplorazione della superficie iniziata nel precedente lavoro di qualche mese fa. La tela viene interpretata come campo strutturato di interferenze concentriche, sviluppato attraverso gesti radiali in pasta materica. 
+La ripetizione del movimento circolare genera un sistema sì controllato, ma non uniforme, in cui ogni segmento varia leggermente sia per densità che per direzione. Questo produce una superficie capace di reagire alla luce in modo variabile e non prevedibile, restituendo una vibrazione più fredda e metallica rispetto alla sua controparte dorata. 
+L’applicazione a mano di 175 foglie d’argento introduce un parametro misurabile, definendo la continuità visiva e il comportamento riflettente dell’opera. 
+Il bordo nero funziona come elemento di delimitazione, isolando il campo testurizzato e rafforzandone la presenza come oggetto di osservazione. 
+Contestualmente al lavoro gemello precedente, la tela non nasce da un intento narrativo e personale, ma da una ricerca formale: indagare la ripetizione e la variazione attraverso l’interazione tra materiale, luce e struttura radiale. 
+`,
+    },
+
+    {
+       
+        id: "EMERGENT TOPOLOGY",
+        src: [topologyArgento1, topologyArgento2, topologyArgento3, topologyArgento4, topologyArgento5, topologyArgento6],
+        title: 'STF - 01: Emergent Topology',
+        size: '60x30 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2026",
+        disponibilita: "Venduto",
+        tecnica: "acrilico e effetto puntinato",
+        descrizione: `Questo lavoro nasce come una commissione, a partire da un mio precedente dipinto, “I vicoli di una vecchia Granada”. Non rappresenta una ripresa diretta dello stesso, ma una trasposizione: un tentativo simultaneo di trattenere e far emergere una struttura, lasciando però che il processo la trasformi.
+Attraverso una ripetizione quasi alienante del gesto e un controllo solo parziale del segno, la superficie si è costruita in modo progressivo, seguendo logiche più vicine alla topologia che alla rappresentazione. Non vi è alcun disegno o bozza preparatoria, solo una crescita: accumulo, deviazione, ritorno.
+Da questa dinamica emerge una traccia sottile, quasi involontaria — una mappa. Non geografica né tantomeno reale. Piuttosto una città possibile, instabile, onirica, che prende forma senza mai fissarsi davvero.
+Un sistema che si organizza nel momento stesso in cui prende vita.`,
+    },
+
+    {
+       
+        id: "EMERGENT TOPOLOGY2",
+        src: [emergedTop1, emergedTop2, emergedTop3, emergedTop4, emergedTop5, emergedTop6, emergedTop7],
+        title: 'STF - 02: Emergent Topology',
+        size: '60x30 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Aprile 2026",
+        disponibilita: "Venduto",
+        tecnica: "acrilico e effetto puntinato",
+        descrizione: `Secondo lavoro nato all’interno della serie “Structure Field (STF)”, realizzato come controparte del precedente lavoro in oro.
+Se nella prima versione la struttura sembrava espandersi in modo organico, fino quasi a respirare di più, qui il segno cambia direzione: tende a chiudersi e comprimersi, generando una rete più fredda e fitta. 
+Attraverso la ripetizione quasi alienante del gesto e l’accumulo progressivo della materia, la superficie ha iniziato lentamente a suggerire una traccia urbana involontaria: una cartografia instabile e immaginaria, quasi onirica. 
+In questo modo non è nata una città reale, ma il residuo visivo di un movimento continuo da parte di chi la abita.
+
+`,
+    },
+
+     {
+       
+        id: "180",
+        src: [centoottanta3, centoottanta1, centoottanta2, centoottanta4, centoottanta5, centoottanta6],
+        title: '180°',
+        size: '50x50 cm',
+        supporto: "Tela su telaio in legno",
+        realizzazione: "Febbraio 2026",
+        disponibilita: "Acquistabile",
+        tecnica: " acrilico, spray e pasta",
+        descrizione: `La tela nasce da una semplice domanda: che succede se realizzo un quadro appendibile in ambedue i versi?
+        Ruotandolo di 180 gradi, cambia volto. Il colore si sposta, il peso visivo si ribalta e la sensazione percepita risulta differente. Eppure l’opera è sempre la medesima. Non esiste quindi un lato giusto e uno sbagliato: entrambe le direzioni sono valide.
+        Il lavoro intende esplorare il concetto di dualismo e sulla possibilità di scelta. Basta un gesto minimo e “banale” – capovolgerlo – per cambiare totalmente prospettiva. Quello che prima sembrava “sopra” diventa “sotto”, ciò che appariva dominante si trasforma.
+        La profondità della tela sta nel mettere in discussione l’idea di errore: nonostante si possa esser convinti che solo una direzione sia valida, si può scoprire che non c’è mai una scelta giusta univoca e che quindi, può andare bene anche l’alternativa.
+        In “180°” quindi non esiste una versione giusta e una sbagliata: qualsiasi è corretta e va bene così in fondo.`,
+    },
+
+
 ];
+
